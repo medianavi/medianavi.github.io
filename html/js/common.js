@@ -27,9 +27,12 @@
   */
 
   /* mobile 환경에서 메뉴 토글 */
-  menuToggleBtn.addEventListener('click', e => {
+  const gnbToggle = () => {
     gnb.classList.toggle('show');
     header.classList.toggle('gnb_show');
+  }
+  menuToggleBtn.addEventListener('click', e => {
+    gnbToggle();
   })
   /* end of mobile 환경에서 메뉴 토글 */
 
@@ -45,4 +48,43 @@
     })
   })
   /* end of form label의 숨김 처리 */
+
+  /* 스크롤 스무딩 */
+  const makeNavLinksSmooth = () => {
+    const navLinks = document.querySelectorAll('.gnb-link');
+
+    for (let n in navLinks) {
+      if (navLinks.hasOwnProperty(n)) {
+        navLinks[n].addEventListener('click', e => {
+          e.preventDefault();
+          document.querySelector(navLinks[n].hash).scrollIntoView({
+            behavior: "smooth"
+          });
+          if (window.visualViewport.width <= 1024) { gnbToggle(); }
+        });
+      }
+    }
+  }
+  /* end of 스크롤 스무딩 */
+
+  /* 스크롤 스파이 */
+  const spyScrolling = () => {
+    const sections = document.querySelectorAll('.sections');
+
+    window.onscroll = () => {
+      const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+
+      for (let s in sections)
+        if (sections.hasOwnProperty(s) && sections[s].offsetTop <= scrollPos + header.offsetHeight) {
+          const id = sections[s].id;
+          document.querySelector('.active').classList.remove('active');
+          document.querySelector(`a[href*=${id}]`).classList.add('active');
+        } 
+    }
+  }
+  /* end of 스크롤 스파이 */
+
+  makeNavLinksSmooth();
+  spyScrolling();
+
 })()

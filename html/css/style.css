@@ -93,7 +93,7 @@ header {
     transition: all 0.3s ease-in-out;
   }
   .gnb.show {
-    height: 250px;
+    height: 315px;
     transition: all 0.3s ease-in-out;
   }
     .gnb > ul {
@@ -109,10 +109,13 @@ header {
       font-weight: 900;
       line-height: 0.7em;
     }
-    .gnb a {
+    .gnb-link {
       display: block;
       text-decoration: none;
       color: var(--color-text);
+    }
+    .gnb-link.active {
+      color: var(--color-key);
     }
   header.scroll_intro {
     background-color: transparent;
@@ -123,14 +126,17 @@ header {
       fill: #fff;
     }
   header.gnb_show {
-    border-bottom: calc(100vh - 250px) solid var(--color-key);
+    border-bottom: calc(100vh - 315px) solid var(--color-key);
     transition: border-bottom 0.3s ease-in-out;
   }
   header.scroll_intro.gnb_show  {
     background-color: #000;
   }
-    header.scroll_intro .gnb a {
+    header.scroll_intro .gnb-link {
       color: #fff;
+    }
+    header.scroll_intro .gnb-link.active {
+      color: var(--color-key);
     }
 section {
   margin: var(--base-margin) 0;
@@ -318,12 +324,7 @@ footer {
       line-height: 30px;
       font-size: var(--font-size-default);
     }
-  .row {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-rows: 5fr;
-    grid-template-columns: repeat(5, 1fr);
-  }
+
   .section-title:not(.no-sticky) {
     margin-top: 0;
     position: sticky;
@@ -360,6 +361,12 @@ footer {
     .intro .headcopy {
       top: 42%;
     }
+  .row {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-rows: 5fr;
+    grid-template-columns: repeat(5, 1fr);
+  }
   .section-title:not(.no-sticky) {
     top: 120px;
   }
@@ -372,7 +379,7 @@ footer {
       padding: 138px 100px;
     }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   :root {
     --base-margin: 60px;
   }
@@ -398,7 +405,7 @@ footer {
     margin-left: 50px;
   }
   .container {
-    width: 1740px;
+    width: 1390px;
     margin: 0 auto;
   }
   .container-fluid {
@@ -435,4 +442,11 @@ footer {
   .section-title:not(.no-sticky) {
     top: 180px;
   }
+}
+@media (min-width: 1920px) {
+  .container {
+    width: 1740px;
+    margin: 0 auto;
+  }
+
 }
