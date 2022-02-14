@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="http://medianavi.kr/">
+  <meta property="og:url" content="http://medianavi.kr/">
+  <meta property="og:title" content="MediaNavi 미디어나비">
+  <meta name="description" content="변화를 위한, 더 나은 목표를 위한 기술조력자">
+  <meta property="og:description" content="변화를 위한, 더 나은 목표를 위한 기술조력자">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MediaNavi 미디어나비">
+  <meta property="og:locale" content="ko-KR">
+  <link href="img/common/fav.png" rel="shortcut icon" type="image/png">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/common.js" defer></script>
-  <title>Document</title>
+  <title>MediaNavi 미디어나비</title>
 </head>
 <body>
   <header>
@@ -70,24 +79,20 @@
             <p>CEO</p>
           </li
           ><li class="member-item">
-            <h2>Keaton<br>키튼</h2>
-            <p>CEO</p>
+            <h2>Justa<br>저스타</h2>
+            <p>A.I. 자연어 처리</p>
           </li
           ><li class="member-item">
-            <h2>Keaton<br>키튼</h2>
-            <p>CEO</p>
+            <h2>Elly<br>엘리</h2>
+            <p>데이터 분석</p>
           </li
           ><li class="member-item">
-            <h2>Keaton<br>키튼</h2>
-            <p>CEO</p>
+            <h2>Rio<br>리오</h2>
+            <p>UI/UX 디자인/엔지니어링</p>
           </li
           ><li class="member-item">
-            <h2>Keaton<br>키튼</h2>
-            <p>CEO</p>
-          </li
-          ><li class="member-item">
-            <h2>Keaton<br>키튼</h2>
-            <p>CEO</p>
+            <h2>Funny<br>퍼니</h2>
+            <p>엔지니어링</p>
           </li>
         </ul>
       </div>
@@ -96,18 +101,18 @@
       <div class="container">
         <h1 class="section-title">Contacts</h1>
         <div class="row">
-          <p class="lead">미디어나비에는 변화를 원하는 이들이 있습니다. 이들에게 도움을 줄 수 있는 플레이그라운드이자 네트워크가 되는 것이 미디어나비의 목표입니다. 문제해결 조력자. 미디어나비에는 정해진 룰이 없습니다. 변화를 위한 룰을 만들어 갈 미디어나비와 함께 해주세요.</p>
-          <form action="" method="post" class="contact-form">
+          <p class="lead">함께 해결하고 싶은 문제에 대해 "문제해결 조력자" 미디어나비에게 알려주세요. 변화를 위해 함께 고민합니다.</p>
+          <form action="https://script.google.com/macros/s/AKfycbwnSD7BqTBiuLaPemV19hg8phzP2amvTHnQpJ6hE-GTGdnlTWkqfoQaU11YlJRYYdPl/exec" method="post" class="gform contact-form">
             <div class="form-group">
-              <input type="text" class="form-field" name="formTitle" id="formTitle">
+              <input type="text" class="form-field" name="formTitle" id="formTitle" required>
               <label class="form-label" for="formTitle">제목</label>
             </div>
             <div class="form-group">
-              <input type="text" class="form-field" name="formName" id="formName">
+              <input type="text" class="form-field" name="formName" id="formName" required>
               <label class="form-label" for="formName">이름</label>
             </div>
             <div class="form-group">
-              <input type="email" class="form-field" name="formEmail" id="formEmail">
+              <input type="email" class="form-field" name="formEmail" id="formEmail" required>
               <label class="form-label" for="formEmail">회신받을 이메일</label>
             </div>
             <div class="form-group">
@@ -115,10 +120,14 @@
               <label class="form-label" for="formPhone">전화번호(선택사항)</label>
             </div>
             <div class="form-group">
-              <textarea name="formContent" id="formContent" class="form-field" rows="6"></textarea>
+              <textarea name="formContent" id="formContent" class="form-field" rows="6" required></textarea>
               <label class="form-label" for="formContent">문의 내용</label>
             </div>
-            <input type="submit" class="btn" value="보내기">
+            <!-- <input type="submit" class="btn" value="보내기"> -->
+            <button class="btn">보내기</button>
+            <div class="thankyou_message" style="display:none;">
+              <p class="lead">연락주셔서 감사합니다! 확인 후 회신 드리겠습니다.</p>
+            </div>
           </form>
           <dl class="contact-info">
             <dt class="contact-icon__address">주소</dt>
@@ -135,5 +144,6 @@
   <footer>
     <p class="copyright">© MediaNavi</p>
   </footer>
+  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 </html>
