@@ -376,20 +376,32 @@ footer {
   .row {
     display: grid;
     grid-gap: 15px;
-    grid-template-rows: 5fr;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 4fr;
+    grid-template-columns: repeat(4, 1fr);
   }
   .section-title:not(.no-sticky) {
     top: 120px;
   }
+  .lead {
+    grid-column: 2/5;
+  }
+  .col-1-title {
+    grid-column: 2/3;
+  }
+  .col-2-text {
+    grid-column: 3/5
+  }
   .member-list {
-    margin: calc(var(--base-margin) * 2) -25px;
+    margin: calc(var(--base-margin) * 2) 0;
   }
     .member-item {
       width: 384px;
       height: 384px;
       padding: 138px 100px;
     }
+  .contact-form {
+    grid-column: 2/4;
+  }
 }
 @media (min-width: 1440px) {
   :root {
@@ -428,6 +440,8 @@ footer {
   }
   .row {
     grid-gap: 50px;
+    grid-template-rows: 5fr;
+    grid-template-columns: repeat(5, 1fr);
   }
   .section-title {
     font-size: 84px;
