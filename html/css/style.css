@@ -302,8 +302,10 @@ main.main {
     margin-bottom: 0.3em;
     text-indent: -9999px;
     background-color: var(--color-text);
-    -webkit-mask-size: cover;
-    mask-size: cover;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
   }
     .contact-icon__address {
       /* background-image: url(../img/icon/building.svg); */
