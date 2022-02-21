@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  color: var(--color-text);
   background-color: var(--color-base);
 }
 .container {
@@ -233,6 +234,7 @@ main.main {
     border-bottom-style: solid;
     border-bottom-color: transparent;
     transition: border-bottom-color 0.2s ease-in-out;
+    color: var(--color-text);
   }
   .form-group input:not(input[type=submit]):focus-visible, 
   .form-group textarea:focus-visible {
@@ -247,7 +249,8 @@ main.main {
     font-size: 18px;
     /* opacity: 1; */
     transition: all 0.2s ease-in-out;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--color-text);
+    opacity: 0.5;
   }
     .form-group input:not(input[type=submit]):focus-visible + label, 
     .form-group textarea:focus-visible + label,
@@ -286,21 +289,36 @@ main.main {
   font-size: 18px;
 }
   .contact-info dd {
-    margin: 0 0 1em 0 ;
+    margin: 0 0 1em 0;
+  }
+  .contact-info a {
+    color: var(--color-text);
+  }
+  .contact-info a:visited {
+    color: var(--color-text);
   }
   dt[class^=contact-icon] {
     background-repeat: no-repeat;
     margin-bottom: 0.3em;
     text-indent: -9999px;
+    background-color: var(--color-text);
+    -webkit-mask-size: cover;
+    mask-size: cover;
   }
     .contact-icon__address {
-      background-image: url(../img/icon/building.svg);
+      /* background-image: url(../img/icon/building.svg); */
+      -webkit-mask-image: url(../img/icon/building.svg);
+      mask-image: url(../img/icon/building.svg);
     }
     .contact-icon__email {
-      background-image: url(../img/icon/envelope.svg);
+      /* background-image: url(../img/icon/envelope.svg); */
+      -webkit-mask-image: url(../img/icon/envelope.svg);
+      mask-image: url(../img/icon/envelope.svg);
     }
     .contact-icon__github {
-      background-image: url(../img/icon/github.svg);
+      /* background-image: url(../img/icon/github.svg); */
+      -webkit-mask-image: url(../img/icon/github.svg);
+      mask-image: url(../img/icon/github.svg);
     }
 footer {
   margin: var(--base-margin) 0;
@@ -474,5 +492,16 @@ footer {
     width: 1740px;
     margin: 0 auto;
   }
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-base: #1E1C22;
+    --color-text: #eee;
+    --color-key: #1289ff;
+  }
+  .form-group input:not(input[type=submit]), 
+  .form-group textarea {
+    background-color: rgba(255,255,255,0.05);
+  }
 }
