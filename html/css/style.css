@@ -145,6 +145,9 @@ section {
 section.intro {
   margin: 0;
 }
+.container-fluid {
+  overflow-x: hidden;
+}
 
 /* Contents */
 main.main {
@@ -461,7 +464,7 @@ footer {
   }
   .container-fluid {
     width: 100%;
-    overflow-x: clip;
+    overflow-x: hidden;
   }
   .container-fluid .member-list {
     margin: calc(var(--base-margin) * 4) 0;
