@@ -191,6 +191,7 @@ main.main {
   margin: calc(var(--base-margin) * 2) 0;
   padding: 0;
   white-space: nowrap;
+  font-size: 0;
   /* overflow-x: auto; */
 }
   .member-list a {
