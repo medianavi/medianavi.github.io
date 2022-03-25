@@ -154,7 +154,7 @@ main.main {
   background-color: #000;
   background-image: url(../img/logo_3d.png);
   background-position: -35% 67%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: 120%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -191,11 +191,12 @@ main.main {
   margin: calc(var(--base-margin) * 2) 0;
   padding: 0;
   white-space: nowrap;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
   .member-list a {
     color: var(--color-text);
     text-decoration: none;
+    padding: 83px 65px;
   }
   .member-item {
     display: inline-flex;
@@ -206,7 +207,6 @@ main.main {
     height: 256px;
     border: 1px solid var(--color-key);
     border-radius: 50%;
-    padding: 83px 65px;
   }
   .member-item h2, .member-item p {
     font-size: var(--font-size-default);
@@ -421,6 +421,8 @@ footer {
     .member-item {
       width: 384px;
       height: 384px;
+    }
+    .member-list a {
       padding: 138px 100px;
     }
   .contact-form {
@@ -458,6 +460,7 @@ footer {
   }
   .container-fluid {
     width: 100%;
+    overflow-x: clip;
   }
   .container-fluid .member-list {
     margin: calc(var(--base-margin) * 4) 0;

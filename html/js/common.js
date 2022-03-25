@@ -87,4 +87,23 @@
   makeNavLinksSmooth();
   spyScrolling();
 
+  new Splide('.splide', {
+    type: 'loop',
+    perPage: 3,
+    width: '100%',
+    gap: 0,
+    arrows: false,
+    pagination: false,
+    drag: 'free',
+    breakpoints: {
+      1440: {
+        fixedWidth: '384px',
+        fixedHeight: '384px',
+      },
+      1336: {
+        fixedWidth: '256px',
+        fixedHeight: '256px',
+      },
+    }
+  }).mount();
 })()
