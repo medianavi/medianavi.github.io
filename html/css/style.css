@@ -213,6 +213,7 @@ main.main {
     text-decoration: none;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    cursor: pointer;
   }
   .member-item:hover .member-item-inner {
     transform: rotateX(180deg);
@@ -374,6 +375,68 @@ footer {
     letter-spacing: 0.2em;
   }
 
+/* Modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 101; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  .modal__content {
+    position: relative;
+    background-color: var(--color-base);
+    color: var(--color-text);
+    margin: auto;
+    width: 90%;
+    padding: var(--container-padding);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  .modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .modal__body {
+    padding-bottom: 1em;
+  }
+  .modal__btn-close {
+    border: none;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    background-color: var(--color-text);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(../img/icon/close.svg);
+    mask-image: url(../img/icon/close.svg);
+  }
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
 @media (min-width: 1024px) {
   header {
     border: none;
@@ -414,6 +477,14 @@ footer {
     top: 37%;
   }
 }
+
+.list-style-none {
+  padding: 0;
+}
+  .list-style-none li {
+    list-style: none;
+    line-height: 1.66667em;
+  }
 @media (min-width: 1366px) {
   :root {
     --font-size-default: 18px;
