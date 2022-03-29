@@ -223,6 +223,7 @@ main.main {
     height: 100%;
     border: 1px solid var(--color-key);
     border-radius: 50%;
+    color: var(--color-base);
   }
   .member-item-back {
     padding: 65px 65px;
