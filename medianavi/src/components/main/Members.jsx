@@ -43,7 +43,7 @@ export default function Members() {
           <a className="member-item-inner" href="https://youtu.be/Pj6563CAnKs" target="_blank" rel="noreferrer">
             <div className="member-item-front">
               <h2>Justa<br />저스타</h2>
-              <p>A.I. 자연어 처리 앞</p>
+              <p>A.I. 자연어 처리</p>
             </div>
             <div className="member-item-back">
               <p>인공지능으로 인간 지능이 확장되고 인간 생활이 윤택해지도록 고민합니다.</p>
