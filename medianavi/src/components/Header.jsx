@@ -1,28 +1,44 @@
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Header() {
   const headerEl = useRef();
+  const [headerHeight, setHeaderHeight] = useState(0);
   const [moToggleBtn, setMoToggleBtn] = useState(false);
   const [headerBgIsIntro, setHeaderBgIsIntro] = useState(false);
   const [lastScrollPos, setLastScrollPos] = useState(0);
+  const naviEl = [
+    {
+      'menuName': 'Intro',
+      'menuHref': 'intro',
+    },
+    {
+      'menuName': 'About',
+      'menuHref': 'about',
+    },
+    {
+      'menuName': 'Members',
+      'menuHref': 'members',
+    },
+    {
+      'menuName': 'Contact',
+      'menuHref': 'contactus',
+    }
+  ]
 
   /* 스크롤 위치를 확인하고 header의 svg, border 색상을 변경 */
-
   const changeHeaderBg = () => {
     setLastScrollPos(window.scrollY + headerEl.current.offsetHeight); // header 높이를 더해서 섹션 겹침 부분부터 색상 변경이 발생하도록 처리
     if (window.innerHeight <= lastScrollPos) {
-      // headerEl.current.classList.remove('scroll_intro');
       setHeaderBgIsIntro(false);
     } else {
-      // headerEl.current.classList.add('scroll_intro');
       setHeaderBgIsIntro(true);
     }
   }
   // 페이지 로드시 최초 1회 색상 변경
   useEffect(() => {
     if (window.scrollY < window.innerHeight) {
-      // headerEl.current.classList.add('scroll_intro');
       setHeaderBgIsIntro(true);
     }
   }, [])
@@ -41,23 +57,11 @@ function Header() {
     setMoToggleBtn(!moToggleBtn);
   }
   /* end of mobile 환경에서 메뉴 토글 */
-  const scrollSmooth = (event) => {
-    const targetSection = event.target.hash;
-    console.log(targetSection);
-  }
-
-  // useEffect(() => {
-  //   setHeaderClass(
-  //     Object.entries({
-  //       'scroll_intro': headerBgIsIntro,
-  //       'gnb_show': moToggleBtn,
-  //     })
-  //     .filter(([key, value]) => value)
-  //     .map(([key, value]) => key)
-  //     .join(' ')
-  //   )
-  // }, [moToggleBtn, lastScrollPos])
-
+  /* Get Header's Height */
+  useEffect(() => {
+    setHeaderHeight(headerEl.current.offsetHeight);
+  }, [])
+  /* end of Get Header's Height */
   return (
     <>
       <header ref={headerEl} className={
@@ -81,10 +85,11 @@ function Header() {
           </button>
           <nav className={"gnb" + (moToggleBtn ? "show" : "") }>
             <ul>
-              <li><a className="gnb-a active" href="#intro" onClick={scrollSmooth}>Intro</a></li>
-              <li><a className="gnb-a" href="#about">About</a></li>
-              <li><a className="gnb-a" href="#members">Members</a></li>
-              <li><a className="gnb-a" href="#contactus">Contact</a></li>
+              {naviEl.map(li => (
+                <li key={li.menuName}>
+                  <ScrollLink activeClass="active" className="gnb-a" to={li.menuHref} spy={true} smooth={true}  offset={li.menuName === 'Intro' ? 0 : -(headerHeight)}>{li.menuName}</ScrollLink>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>

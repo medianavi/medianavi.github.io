@@ -109,13 +109,14 @@ header {
       letter-spacing: 0.18em;
       font-weight: 900;
       line-height: 0.7em;
+      cursor: pointer;
     }
     .gnb-link {
       display: block;
       text-decoration: none;
       color: var(--color-text);
     }
-    .gnb-link.active {
+    .gnb-link.active, .gnb > ul li a.active {
       color: var(--color-key);
     }
   header.scroll_intro {
