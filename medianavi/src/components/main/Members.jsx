@@ -57,7 +57,7 @@ export default function Members() {
               <p>데이터 분석</p>
             </div>
             <div className="member-item-back">
-              <p>인공지능으로 인간 지능이 확장되고 인간 생활이 윤택해지도록 고민합니다.</p>
+              <p>빅데이터 분석을 통한 새로운 가치 창조.</p>
             </div>
           </span>
         </SplideSlide>
