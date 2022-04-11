@@ -5,7 +5,6 @@ import Intro from '../components/main/Intro';
 import About from '../components/main/About';
 import Members from '../components/main/Members';
 import Footer from '../components/Footer';
-import Modal from '../components/Modal';
 
 export default function Main() {
   return (
@@ -18,7 +17,6 @@ export default function Main() {
         <Contact />
       </main>
       <Footer />
-      <Modal />
     </>
   );
 }
