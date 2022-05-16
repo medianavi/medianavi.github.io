@@ -134,10 +134,10 @@ header {
   header.scroll_intro.gnb_show  {
     background-color: #000;
   }
-    header.scroll_intro .gnb-link {
+    header.scroll_intro .gnb-a {
       color: #fff;
     }
-    header.scroll_intro .gnb-link.active {
+    header.scroll_intro .gnb-a.active {
       color: var(--color-key);
     }
 section {
@@ -227,9 +227,6 @@ main.main {
     border-radius: 50%;
     color: var(--color-base);
   }
-  .member-item-back {
-    padding: 65px 65px;
-  }
   .member-item-front, .member-item-back {
     position: absolute;
     -webkit-backface-visibility: hidden; /* Safari */
@@ -242,10 +239,56 @@ main.main {
   .member-item-back {
     transform: rotateX(180deg);
     background-color: var(--color-key);
+    padding: 65px 65px;
   }
     .member-item-back p {
       white-space: normal;
       margin-top: 0;
+    }
+  .member-item-back::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-base);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: bottom;
+    mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+    .member-item.keaton .member-item-back::before {
+      -webkit-mask-image: url(../img/member_01.svg);
+      mask-image: url(../img/member_01.svg);
+    }
+
+    .member-item.justa .member-item-back::before {
+      -webkit-mask-image: url(../img/member_02.svg);
+      mask-image: url(../img/member_02.svg);
+    }
+
+    .member-item.elly .member-item-back::before {
+      -webkit-mask-image: url(../img/member_03.svg);
+      mask-image: url(../img/member_03.svg);
+    }
+
+    .member-item.rio .member-item-back::before {
+      -webkit-mask-image: url(../img/member_04.svg);
+      mask-image: url(../img/member_04.svg);
+    }
+
+    .member-item.funny .member-item-back::before {
+      -webkit-mask-image: url(../img/member_05.svg);
+      mask-image: url(../img/member_05.svg);
+    }
+
+    .member-item.anna .member-item-back::before {
+      -webkit-mask-image: url(../img/member_06.svg);
+      mask-image: url(../img/member_06.svg);
     }
   .member-item h2, .member-item p {
     font-size: var(--font-size-default);

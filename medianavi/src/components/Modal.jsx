@@ -10,12 +10,16 @@ export default function Modal(props) {
             content: "㈜미디어나비 대표"
           },
           {
+            date: "2015 ~ 2020",
+            content: "㈜슬로워크 개발이사 역임"
+          },
+          {
             date: "2011 ~ 2012",
             content: "오케이트리 대표이사 역임"
           },
           {
             date: "2008 ~ 2010",
-            content: "㈜세가지소원 대표이사 역임"
+            content: "㈜세가지소원 개발이사 역임"
           },
           {
             date: "2005 ~ 2007",

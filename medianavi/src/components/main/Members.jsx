@@ -35,7 +35,7 @@ export default function Members() {
             }
           }
         >
-          <SplideSlide className="member-item" onClick={callModal} who="keaton">
+          <SplideSlide className="member-item keaton" onClick={callModal}>
             <div className="member-item-inner">
               <div className="member-item-front">
                 <h2>Keaton<br />키튼</h2>
@@ -46,7 +46,7 @@ export default function Members() {
               </div>
             </div>
           </SplideSlide>
-          <SplideSlide className="member-item">
+          <SplideSlide className="member-item justa">
             <a className="member-item-inner" href="https://youtu.be/Pj6563CAnKs" target="_blank" rel="noreferrer">
               <div className="member-item-front">
                 <h2>Justa<br />저스타</h2>
@@ -57,7 +57,7 @@ export default function Members() {
               </div>
             </a>
           </SplideSlide>
-          <SplideSlide className="member-item">
+          <SplideSlide className="member-item elly">
             <span className="member-item-inner">
               <div className="member-item-front">
                 <h2>Elly<br />엘리</h2>
@@ -68,7 +68,7 @@ export default function Members() {
               </div>
             </span>
           </SplideSlide>
-          <SplideSlide className="member-item">
+          <SplideSlide className="member-item rio">
             <span className="member-item-inner">
               <div className="member-item-front">
                 <h2>Rio<br />리오</h2>
@@ -79,7 +79,7 @@ export default function Members() {
               </div>
             </span>
           </SplideSlide>
-          <SplideSlide className="member-item">
+          <SplideSlide className="member-item funny">
             <span className="member-item-inner">
               <div className="member-item-front">
                 <h2>Funny<br />퍼니</h2>
@@ -90,7 +90,7 @@ export default function Members() {
               </div>
             </span>
           </SplideSlide>
-          <SplideSlide className="member-item">
+          <SplideSlide className="member-item anna">
             <span className="member-item-inner">
               <div className="member-item-front">
                 <h2>Anna<br />안나</h2>
