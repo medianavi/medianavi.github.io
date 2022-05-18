@@ -37,10 +37,6 @@ function Works() {
       date: "2020.06 ~ 2020.08",
       content: "서울마리나, 웹페이지 리뉴얼 및 유지 보수"
     },
-    {
-      date: "2019.07 ~ 2019.10",
-      content: "임팩트 스테이션, 페이버릿미 - 취미 여가 큐레이션 플랫폼 개발"
-    },
   ]
   return (
     <section className="sections works" id="works">
