@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@splidejs/react-splide": "^0.6.20",
-    "@splidejs/splide": "^3.6.12",
+    "@splidejs/react-splide": "^0.7.5",
+    "@splidejs/splide": "^4.0.2",
+    "@splidejs/splide-extension-auto-scroll": "^0.4.2",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",

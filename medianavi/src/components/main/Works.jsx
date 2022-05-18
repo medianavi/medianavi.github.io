@@ -45,14 +45,14 @@ function Works() {
       </div>
       <div className="container">
         <ul className="row works-rep">
-          {worksReps.map((item) => {
+          {worksReps.map((item, index) => {
             return (
-              <li className="col works-rep--item">
+              <li key={index} className="col works-rep--item">
                 <div className="works-rep--thumbnail" style={{backgroundImage: `url(${item.thumbnail})`}}></div>
                 <h5>{item.name}</h5>
                 <ul className="works-rep-item--content">
                 {item.content.map((content) => {
-                  return <li>{content}</li>
+                  return <li key={content}>{content}</li>
                 })}
                 </ul>
               </li>
@@ -71,7 +71,7 @@ function Works() {
           <tbody>
             {worksHistory.map((item, index) => {
               return (
-                <tr>
+                <tr key={index}>
                   <td>{item.date}</td>
                   <td>{item.content}</td>
                 </tr>
