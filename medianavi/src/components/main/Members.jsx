@@ -15,7 +15,6 @@ export default function Members() {
     pagination: false,
     drag: 'free',
     autoScroll: {
-      pauseOnHover: false,
       pauseOnFocus: false,
       rewind: false,
       speed: 1,
@@ -27,8 +26,10 @@ export default function Members() {
       },
     },
   };
-  function callModal(event) {
-    setIsModalCalled(true);
+  function callModal(splide, slide) {
+    if (slide.index === 0) {
+      setIsModalCalled(true);
+    };
   }
   return (
     <>
@@ -37,15 +38,15 @@ export default function Members() {
         <div className="container">
           <h1 className="section-title no-sticky">Members</h1>
         </div>
-        <Splide className="container-fluid" extensions={{AutoScroll}} options={splideOptions} >
-          <SplideSlide className="member-item keaton" onClick={callModal}>
+        <Splide className="container-fluid" extensions={{AutoScroll}} options={splideOptions} onClick={callModal}>
+          <SplideSlide className="member-item keaton">
             <div className="member-item-inner">
               <div className="member-item-front">
                 <h2>Keaton<br />키튼</h2>
                 <p>CEO</p>
               </div>
               <div className="member-item-back">
-                <p>인공지능으로 인간 지능이 확장되고 인간 생활이 윤택해지도록 고민합니다.</p>
+                <p>하고 싶은 일과 잘 하는 일의 균형을 잡아가며 개인의 성과가 따라오는 기업문화를 추구합니다.</p>
               </div>
             </div>
           </SplideSlide>
@@ -53,7 +54,7 @@ export default function Members() {
             <a className="member-item-inner" href="https://youtu.be/Pj6563CAnKs" target="_blank" rel="noreferrer">
               <div className="member-item-front">
                 <h2>Justa<br />저스타</h2>
-                <p>A.I. 자연어 처리</p>
+                <p>인공지능 개발</p>
               </div>
               <div className="member-item-back">
                 <p>인공지능으로 인간 지능이 확장되고 인간 생활이 윤택해지도록 고민합니다.</p>
@@ -75,7 +76,7 @@ export default function Members() {
             <span className="member-item-inner">
               <div className="member-item-front">
                 <h2>Rio<br />리오</h2>
-                <p>UI/UX 디자인/개발</p>
+                <p>UI/UX 개발</p>
               </div>
               <div className="member-item-back">
                 <p>가장 효율적이고 인간 친화적인 사용자 경험을 추구합니다.</p>

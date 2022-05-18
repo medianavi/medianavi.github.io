@@ -262,6 +262,9 @@ main.main {
   font-size: 0;
   /* overflow-x: auto; */
 }
+  .sections.members .splide__sr {
+    display: none;
+  }
   .member-item {
     display: inline-flex;
     flex-direction: column;
@@ -313,6 +316,7 @@ main.main {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
     /* background-color: var(--color-base); */
     background-color: var(--color-key);
     /* opacity: 0.5; */
