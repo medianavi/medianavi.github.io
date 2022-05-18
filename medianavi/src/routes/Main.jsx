@@ -5,6 +5,7 @@ import Intro from '../components/main/Intro';
 import About from '../components/main/About';
 import Members from '../components/main/Members';
 import Footer from '../components/Footer';
+import Works from '../components/main/Works';
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
       <main className="main">
         <Intro />
         <About />
+        <Works />
         <Members />
         <Contact />
       </main>

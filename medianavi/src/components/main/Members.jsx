@@ -4,6 +4,22 @@ import Modal from '../Modal';
 
 export default function Members() {
   const [isModalCalled, setIsModalCalled] = useState(false);
+  const splideOptions = {
+                          type: 'loop',
+                          width: '100%',
+                          gap: 0,
+                          fixedWidth: '384px',
+                          fixedHeight: '384px',
+                          arrows: false,
+                          pagination: false,
+                          drag: 'free',
+                          breakpoints: {
+                            1336: {
+                              fixedWidth: '256px',
+                              fixedHeight: '256px',
+                            },
+                          },
+                        };
   function callModal(event) {
     setIsModalCalled(true);
   }
@@ -14,27 +30,7 @@ export default function Members() {
         <div className="container">
           <h1 className="section-title no-sticky">Members</h1>
         </div>
-        <Splide
-          className="container-fluid"
-          options={
-            {
-              type: 'loop',
-              width: '100%',
-              gap: 0,
-              fixedWidth: '384px',
-              fixedHeight: '384px',
-              arrows: false,
-              pagination: false,
-              drag: 'free',
-              breakpoints: {
-                1336: {
-                  fixedWidth: '256px',
-                  fixedHeight: '256px',
-                },
-              },
-            }
-          }
-        >
+        <Splide className="container-fluid" options={splideOptions}>
           <SplideSlide className="member-item keaton" onClick={callModal}>
             <div className="member-item-inner">
               <div className="member-item-front">

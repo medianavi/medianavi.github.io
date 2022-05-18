@@ -18,6 +18,10 @@ function Header() {
       'menuHref': 'about',
     },
     {
+      'menuName': 'Works',
+      'menuHref': 'works',
+    },
+    {
       'menuName': 'Members',
       'menuHref': 'members',
     },
