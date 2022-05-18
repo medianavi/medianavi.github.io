@@ -687,9 +687,9 @@ footer {
     width: 100%;
     overflow-x: hidden;
   }
-  .container-fluid .member-list, .container-fluid .splide__track .splide__list {
-    margin: calc(var(--base-margin) * 4) 0;
-  }
+  /* .container-fluid .member-list, .container-fluid .splide__track .splide__list {
+    margin: calc(var(--base-margin) * 2) 0;
+  } */
   .row {
     grid-gap: 50px;
     grid-template-rows: 5fr;
