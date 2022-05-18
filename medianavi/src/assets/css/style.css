@@ -650,6 +650,9 @@ footer {
   .contact-form {
     grid-column: 2/4;
   }
+  .sections.works {
+    font-size: var(--font-size-default);
+  }
 }
 @media (min-width: 1440px) {
   :root {
