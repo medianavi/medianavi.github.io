@@ -11,7 +11,7 @@ export default function Modal(props) {
           },
           {
             date: "2015 ~ 2020",
-            content: "㈜슬로워크 개발이사 역임"
+            content: "유에프오팩토리, ㈜슬로워크 디지털 사업부 대표 역임"
           },
           {
             date: "2011 ~ 2012",
