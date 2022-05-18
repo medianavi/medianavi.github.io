@@ -69,8 +69,8 @@ function Header() {
   return (
     <>
       <header ref={headerEl} className={
-        (headerBgIsIntro ? "scroll_intro" : "")
-        + (moToggleBtn ? "gnb_show" : "")
+        (headerBgIsIntro ? " scroll_intro" : "")
+        + (moToggleBtn ? " gnb_show" : "")
       }>
         <div className="container">
           <Link to="#" className="logo" aria-label="미디어나비">
@@ -87,7 +87,7 @@ function Header() {
               <rect className="svg_menu_frame" width="123" height="90" />
             </svg>
           </button>
-          <nav className={"gnb" + (moToggleBtn ? "show" : "") }>
+          <nav className={"gnb" + (moToggleBtn ? " show" : "") }>
             <ul>
               {naviEl.map(li => (
                 <li key={li.menuName}>

@@ -98,7 +98,7 @@ header {
     transition: all 0.3s ease-in-out;
   }
   .gnb.show {
-    height: 315px;
+    height: 380px;
     transition: all 0.3s ease-in-out;
   }
     .gnb > ul {
@@ -132,7 +132,7 @@ header {
       fill: #fff;
     }
   header.gnb_show {
-    border-bottom: calc(100vh - 315px) solid var(--color-key);
+    border-bottom: calc(100vh - 380px) solid var(--color-key);
     transition: border-bottom 0.3s ease-in-out;
   }
   header.scroll_intro.gnb_show  {
