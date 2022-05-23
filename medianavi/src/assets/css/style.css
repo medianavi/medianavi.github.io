@@ -540,6 +540,10 @@ footer {
     -webkit-mask-image: url(../img/icon/close.svg);
     mask-image: url(../img/icon/close.svg);
   }
+  .modal__body .history-date {
+    display: block;
+    margin-top: 0.5em;
+  }
   /* Add Animation */
   @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
@@ -592,6 +596,11 @@ footer {
   }
   .works-history th:first-child {
     width: 20%;
+  }
+  .modal__body .history-date {
+    width: 155px;
+    display: inline-block;
+    margin-top: 0;
   }
 }
 

@@ -41,7 +41,7 @@ export default function Modal(props) {
           },
           {
             date: "2021.07 ~ 2021.12",
-            content: "한국언론진흥재단, 언론사를 위한 언어정보자원 개발"
+            content: "한국언론진흥재단, 언론사를 위한 언어정보자원 개발 총괄 PM"
           },
           {
             date: "2020.09 ~ 2020.12",
@@ -53,35 +53,35 @@ export default function Modal(props) {
           },
           {
             date: "2019.07 ~ 2019.10",
-            content: "임팩트 스테이션, 페이버릿미 – 취미 여가 큐레이션 플랫폼 개발"
+            content: "임팩트 스테이션, 페이버릿미 - 취미 여가 큐레이션 플랫폼 개발"
           },
           {
             date: "2019.01 ~ 2019.12",
-            content: "서울시, 서울시 민주주의 서울 유지 보수"
+            content: "서울시, 서울시 민주주의 서울 유지 보수 PM"
           },
           {
             date: "2018.10 ~ 2019.09",
-            content: "SK행복나눔재단, SK 프로보노 개편 및 유지 보수"
+            content: "SK행복나눔재단, SK 프로보노 개편 및 유지 보수 개발 PL"
           },
           {
             date: "2018.12 ~ 2019.06",
-            content: "조선일보 미디어연구소, 형태소 분석기 개선 연구용역"
+            content: "조선일보 미디어연구소, 형태소 분석기 개선 연구용역 PM"
           },
           {
             date: "2018.08 ~ 2019.04",
-            content: "한국언론진흥재단, 뉴스트러스트 알고리즘 고도화 개발"
+            content: "한국언론진흥재단, 뉴스트러스트 알고리즘 고도화 개발 PM"
           },
           {
             date: "2018.06 ~ 2018.12",
-            content: "삼성전자, 삼성닷컴 안전보건 페이지 콘텐츠 개발"
+            content: "삼성전자, 삼성닷컴 안전보건 페이지 콘텐츠 개발 PM"
           },
           {
             date: "2017.07 ~ 2018.03",
-            content: "한국언론진흥재단, 뉴스트러스트 알고리즘 고도화 및 API 개발"
+            content: "한국언론진흥재단, 뉴스트러스트 알고리즘 고도화 및 API 개발 PM"
           },
           {
             date: "2016.07 ~ 2017.03",
-            content: "한국언론진흥재단, 뉴스트러스트 계량요인 알고리즘 개발"
+            content: "한국언론진흥재단, 뉴스트러스트 계량요인 알고리즘 개발 PL"
           },
           {
             date: "2016.06 ~ 2017.01",
@@ -89,11 +89,11 @@ export default function Modal(props) {
           },
           {
             date: "2016.06 ~ 2016.08",
-            content: "인체조직기증지원본부, 세일즈포스 서약자 관리 시스템 개발"
+            content: "인체조직기증지원본부, 세일즈포스 서약자 관리 시스템 개발 PM"
           },
           {
             date: "2016.07 ~ 2016.08",
-            content: "서울시, playseoulbrand 사이트 개발"
+            content: "서울시, playseoulbrand 사이트 개발 PM"
           },
           {
             date: "2016.02 ~ 2016.04",
@@ -101,11 +101,11 @@ export default function Modal(props) {
           },
           {
             date: "2015.05 ~ 2015.08",
-            content: "나인후르츠, LG생활건강, 누벨다이어트 앱 서비스 개발"
+            content: "나인후르츠, LG생활건강, 누벨다이어트 앱 서비스 개발 PM"
           },
           {
             date: "2015.02 ~ 2017.05",
-            content: "미즈메디, 난임클리닉 앱 서비스 개발"
+            content: "미즈메디, 난임클리닉 앱 서비스 개발 PM"
           },
           {
             date: "2015.03 ~ 2015.09",
@@ -113,43 +113,43 @@ export default function Modal(props) {
           },
           {
             date: "2014.04 ~ 2017.03",
-            content: "한국콘텐츠진흥원, 스케치기반 웹툰 저작도구 개발 R&D 지원사업"
+            content: "한국콘텐츠진흥원, 스케치기반 웹툰 저작도구 개발 R&D 지원사업 PM"
           },
           {
             date: "2013.06 ~ 2014.03",
-            content: "노코드, 모바일 웹툰 서비스 카툰컵 서비스 개발"
+            content: "노코드, 모바일 웹툰 서비스 카툰컵 서비스 서버 개발/PM"
           },
           {
             date: "2012.08 ~ 2012.11",
-            content: "CCR, 포트리스 2 레드 모바일 안드로이드 버전 개발"
+            content: "CCR, 포트리스 2 레드 모바일 안드로이드 버전 서버 개발"
           },
           {
             date: "2012.06 ~ 2013.06",
-            content: "CH 게임즈, CCR, RF Online Mobile 서버 개발 및 운영 지원"
+            content: "CH 게임즈, CCR, RF Online Mobile 서버 개발 및 운영 지원/PM"
           },
           {
             date: "2011.01 ~ 2011.03",
-            content: "MOIBA, 공공정보 DB 활용 어플리케이션 개발"
+            content: "MOIBA, 공공정보 DB 활용 어플리케이션 개발/PM"
           },
           {
             date: "2010.11 ~ 2011.01",
-            content: "인프라웨어, SKT, 청소년 Care 솔루션 관리서버 개발"
+            content: "인프라웨어, SKT, 청소년 Care 솔루션 관리서버 개발 PM"
           },
           {
             date: "2010.04 ~ 2010.11",
-            content: "NIPA, HTML5 웹 에디터 개발"
+            content: "NIPA, HTML5 웹 에디터 개발 PM"
           },
           {
             date: "2010.05 ~ 2010.08",
-            content: "인프라웨어, 북큐브, 이북 아이폰 어플 UI 개발"
+            content: "인프라웨어, 북큐브, 이북 아이폰 어플 UI 개발 PM"
           },
           {
             date: "2009.07 ~ 2010.06",
-            content: "인프라웨어, SKT, AirDisk 서비스 개발"
+            content: "인프라웨어, SKT, AirDisk 서비스 개발 PM"
           },
           {
             date: "2009.01 ~ 2009.06",
-            content: "인프라웨어, SKT, PMD 브라우저 UI 개발"
+            content: "인프라웨어, SKT, PMD 브라우저 UI 개발 PM"
           },
           {
             date: "2008.11 ~ 2009.06",
@@ -169,7 +169,7 @@ export default function Modal(props) {
           },
           {
             date: "2000.03 ~ 2003.03",
-            content: "소만사, 비업무사이트 차단 솔루션 웹키퍼 개발"
+            content: "소만사, 비업무사이트 차단 솔루션 웹키퍼 개발 팀장"
           },
           {
             date: "1999.11 ~ 1999.12",
@@ -199,13 +199,13 @@ export default function Modal(props) {
               <h4>약력</h4>
               <ul className="list-style-none">
                 {dataMembers.keaton.history.map((item, index) => {
-                  return <li key={index}>{item.date} {item.content}</li>;
+                  return <li key={index}><span className="history-date">{item.date}</span> {item.content}</li>;
                 })}
               </ul>
               <h4>참여 프로젝트</h4>
               <ul className="list-style-none">
                 {dataMembers.keaton.project.map((item, index) => {
-                  return <li key={index}>{item.date} {item.content}</li>;
+                  return <li key={index}><span className="history-date">{item.date}</span> {item.content}</li>;
                 })}
               </ul>
             </div>
