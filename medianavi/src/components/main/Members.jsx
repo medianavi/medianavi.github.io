@@ -46,7 +46,7 @@ export default function Members() {
                 <p>CEO</p>
               </div>
               <div className="member-item-back">
-                <p>하고 싶은 일과 잘 하는 일의 균형을 잡아가며 개인의 성과가 따라오는 기업문화를 추구합니다.</p>
+                <p>새로운 기술에 대한 호기심을 잃지 않는 개발자.</p>
               </div>
             </div>
           </SplideSlide>

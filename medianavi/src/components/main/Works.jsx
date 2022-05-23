@@ -22,6 +22,10 @@ function Works() {
   ];
   const worksHistory = [
     {
+      date: "2022.02 ~ 2022.12", 
+      content: "한국언론진흥재단, 2022년 뉴스알고 유지보수 개발"
+    },
+    {
       date: "2021.02 ~ 현재",
       content: "토이스미스, 백엔드 서버 개발 및 운영 컨설팅"
     },
