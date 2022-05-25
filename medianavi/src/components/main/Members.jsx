@@ -9,25 +9,29 @@ export default function Members() {
     type: 'loop',
     width: '100%',
     gap: 0,
-    fixedWidth: '384px',
-    fixedHeight: '384px',
+    focus: 'center',
+    fixedWidth: '256px',
+    fixedHeight: '256px',
     arrows: false,
     pagination: false,
     drag: 'free',
+    cloneStatus: false,
+    updateOnMove: false,
     autoScroll: {
       pauseOnFocus: false,
       rewind: false,
       speed: 1,
     },
+    mediaQuery: 'min',
     breakpoints: {
       1336: {
-        fixedWidth: '256px',
-        fixedHeight: '256px',
+        fixedWidth: '384px',
+        fixedHeight: '384px',
       },
     },
   };
   function callModal(splide, slide) {
-    if (slide.index === 0) {
+    if (slide.slide.className.includes("keaton")) {
       setIsModalCalled(true);
     };
   }
