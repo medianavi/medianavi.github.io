@@ -1,28 +1,33 @@
-import React from 'react'
+import { useState } from "react";
+import Modal from '../Modal';
 
 function Works() {
+  const [isModalCalled, setIsModalCalled] = useState(false);
   const worksReps = [
     {
       name: '한국언론진흥재단',
       content: ['언론사를 위한 언어정보자원 개발',
                 '뉴스알고 개발 및 유지보수'],
       thumbnail: './img/works/works-rep1.png',
+      detail: '디테일한거',
     },
     {
       name: '토이스미스',
       content: ['백엔드 서버 개발',
                 '운영 컨설팅'],
       thumbnail: './img/works/works-rep2.png',
+      detail: '디테일한거',
     },
     {
       name: '서울마리나',
       content: ['웹사이트 리뉴얼 및 유지보수'],
       thumbnail: './img/works/works-rep3.png',
+      detail: '디테일한거',
     },
   ];
   const worksHistory = [
     {
-      date: "2022.02 ~ 2022.12", 
+      date: "2022.02 ~ 현재", 
       content: "한국언론진흥재단, 2022년 뉴스알고 유지보수 개발"
     },
     {
@@ -38,11 +43,17 @@ function Works() {
       content: "폰노이만, 올실버 프로토타입 앱 개발"
     },
     {
-      date: "2020.06 ~ 2020.08",
+      date: "2020.06 ~ 2022.08",
       content: "서울마리나, 웹페이지 리뉴얼 및 유지 보수"
     },
-  ]
+  ];
+  function callModal(item) {
+    console.log(item);
+    setIsModalCalled(true);
+  }
   return (
+    <>
+    <Modal callModal={isModalCalled} setIsModalCalled={setIsModalCalled} modalData={worksReps}/>
     <section className="sections works" id="works">
       <div className="container">
         <h1 className="section-title no-sticky">Works</h1>
@@ -51,7 +62,7 @@ function Works() {
         <ul className="row works-rep">
           {worksReps.map((item, index) => {
             return (
-              <li key={index} className="col works-rep--item">
+              <li key={index} className="col works-rep--item" onClick={callModal}>
                 <div className="works-rep--thumbnail" style={{backgroundImage: `url(${item.thumbnail})`}}></div>
                 <h5>{item.name}</h5>
                 <ul className="works-rep-item--content">
@@ -88,6 +99,7 @@ function Works() {
         </div> */}
       </div>
     </section>
+    </>
   )
 }
 
