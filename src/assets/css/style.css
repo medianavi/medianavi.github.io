@@ -563,7 +563,6 @@ footer {
       display: flex;
       justify-items: center;
       justify-content: space-between;
-      align-items: center;
     }
   .menu-toggle {
     display: none;
