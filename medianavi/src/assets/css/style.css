@@ -115,6 +115,14 @@ header {
       line-height: 0.7em;
       cursor: pointer;
     }
+      .gnb > ul li a {
+        color: var(--color-text);
+        text-decoration: none;
+      }
+        .gnb>ul li a:visited, .gnb>ul li a:hover {
+          color: var(--color-text);
+          text-decoration: none;
+        }
     .gnb-link {
       display: block;
       text-decoration: none;

@@ -28,7 +28,7 @@ function Header() {
     {
       'menuName': 'Contact',
       'menuHref': 'contactus',
-    }
+    },
   ]
 
   /* 스크롤 위치를 확인하고 header의 svg, border 색상을 변경 */
@@ -94,6 +94,9 @@ function Header() {
                   <ScrollLink activeClass="active" className="gnb-a" to={li.menuHref} spy={true} smooth={true}  offset={li.menuName === 'Intro' ? 0 : -(headerHeight)}>{li.menuName}</ScrollLink>
                 </li>
               ))}
+              <li>
+                <a className="gnb-a" href="https://blog.medianavi.kr/">Blog</a>
+              </li>
             </ul>
           </nav>
         </div>
