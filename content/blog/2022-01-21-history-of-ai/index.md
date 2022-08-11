@@ -94,14 +94,14 @@ NLP에서 단어의 다음에 올 단어를 예측하여 문장을 완성하는 
 * 아래 사진은 각 레이어 마다 적용되는 방법을 시각화 한 예시이다.
 
 ![원본 사진: 잔디 위에 앉은 개 사진](./image04.jpg)
-![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image05.jpg)
-![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image06.jpg "이미지출처 : https://www.analyticsvidhya.com/blog/2020/11/tutorial-how-to-visualize-feature-maps-directly-from-cnn-layers/")
+![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image05.png)
+![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image06.png "이미지출처 : https://www.analyticsvidhya.com/blog/2020/11/tutorial-how-to-visualize-feature-maps-directly-from-cnn-layers/")
 
 ### 3.2. 순환신경망 RNN(Recurrent Neural Network)
 
 입력층에서 출력층으로만 향하는 기존의 방식들은 문장에서 앞의 단어가 영향을 미치는 구조일 경우 반영이 되지 않는다.
 
-![RNN](./image07.jpg)
+![RNN](./image07.png)
 
 이를 보완하기 위해 결과값을 출력층으로만 보내지 않고 다음 단어의 입력층에도 전달하여 다음 단어가 이전 단어의 정보를 같이 판단할 수 있게 만드는 구조들이 고안되었는데, 그중 가장 유명해진 방법이 이 RNN이다.
 
@@ -144,7 +144,7 @@ RNN+Attention 구조에서 RNN 덕분에 이전 단어의 정보를 참고하지
 
 RNN을 제거한 후, 각 단어 임베딩과 각 단어의 순서를 알기위해 positional embedding을 추가하여 단어별 순차연산이 아닌 문장을 한번에 연산하게 만들었는데, 이는 대량 병렬연산을 가능하게 해주어 학습속도의 향상을 가져왔다.
 
-![Transformer 과정](./image12.jpg)
+![Transformer 과정](./image12.gif)
 
 ## 4. BERT의 등장
 
@@ -404,8 +404,7 @@ GLIDE(Guided Language-to-Image Diffusion for Generation and Editing)는 유도 �
 ### 13.3. kpfBERT의 활용
 
 1. 뉴스 본문 요약 <https://github.com/KPFBERT/kpfbertsum>
-    * 뉴스 본문의 중요문장을 찾아서 3문장으로 제시하는 모델이다.
-본문의 3줄요약은 모바일 시대에 적절한 정보전달 방법이다. 다만 BERT가 생성형 모델이 아니라 본문내용을 요약해서 문장을 생성하는 태스크는 완성도가 많이 떨어진다. 대신 문장 분석력을 사용하여 전체 문장 중 가장 중요도가 높은 문장 3개를 추천하는 방식으로 본문내용을 요약표현하는 활용법이다.
+    * 뉴스 본문의 중요문장을 찾아서 3문장으로 제시하는 모델이다. 본문의 3줄요약은 모바일 시대에 적절한 정보전달 방법이다. 다만 BERT가 생성형 모델이 아니라 본문내용을 요약해서 문장을 생성하는 태스크는 완성도가 많이 떨어진다. 대신 문장 분석력을 사용하여 전체 문장 중 가장 중요도가 높은 문장 3개를 추천하는 방식으로 본문내용을 요약표현하는 활용법이다.
 2. kpf-SBERT <https://github.com/KPFBERT/kpfSBERT>
     * Sentence BERT를 제작하는 방법에 대한 소스코드이다. 단어별 임베딩이 아닌 문장 전체를 하나의 동일한 크기의 임베딩 벡터로 변환한다. 이것은 문장간의 비교를 BERT대비 엄청나게 빠르고 효율적으로 연산할 수 있다. 문장의 의미적 유사도를 쉽게 수치로 비교할 수 있고, 미세하게 다른표현이지만 중복되는 문장 또는 기사를 찾아내어 중복제거 등의 태스크에 활용할 수 있다.
 3. kpf-SBERT를 이용한 뉴스 클러스터링 <https://github.com/KPFBERT/kpfSBERT_Clustering>
