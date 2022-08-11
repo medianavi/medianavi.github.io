@@ -357,6 +357,17 @@ a:focus {
   align-items: center;
 }
 
+.blog-post {
+  img {
+    max-width: 100%;  
+  }
+  table {
+    th, td {
+      border: 1px solid #777;
+    }
+  }
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

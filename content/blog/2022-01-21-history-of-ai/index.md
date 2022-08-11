@@ -6,7 +6,8 @@ postauthor: "Justa"
 ---
 
 ## 0. 들어가기 앞서 - 인공지능의 발전사
-![인간형 로봇이 복잡한 수식을 보고 고민하는 모습](./image01.jpg "이미지출처 : https://post.naver.com/viewer/postView.nhn?volumeNo=27021892&memberNo=43011790")
+![인간형 로봇이 복잡한 수식을 보고 고민하는 모습](./image01.jpg)
+이미지출처 : <https://post.naver.com/viewer/postView.nhn?volumeNo=27021892&memberNo=43011790>
 
 * 1950년대 영국수학자 앨런 튜링의 계산기계와 지능이라는 논문으로 시작
   * 존 폰 노이만이 현대 컴퓨터 구조의 표준을 고안
@@ -31,7 +32,8 @@ postauthor: "Justa"
   * CNN(이미지인식), RNN(음성/문자인식), GAN(모델간 대립으로 성능개선), 추론(Reasoning), 전이학습(Transfer learning)
 
 ## 1. 자연어 처리 (NLP) 란
-![Natural Language Processing (NLP) For Artificial Intelligence)](./image02.jpg "이미지출처 : https://thinkpalm.com/blogs/natural-language-processing-nlp-artificial-intelligence/")
+![Natural Language Processing (NLP) For Artificial Intelligence)](./image02.jpg)
+이미지출처 : <https://thinkpalm.com/blogs/natural-language-processing-nlp-artificial-intelligence/>
 
 자연어 처리(Natural Language Processing)를 말하기 위해서 먼저 자연어란 무엇인가.
 
@@ -84,7 +86,8 @@ NLP에서 단어의 다음에 올 단어를 예측하여 문장을 완성하는 
 
 ### 3.1. 합성곱신경망 CNN(Convolutional Neural Network)
 
-![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image03.jpg "이미지출처 : https://medium.com/@ajay.pratap/how-to-build-dog-breed-classifier-with-cnn-model-using-tensorflow-1c4759fcf601")
+![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image03.jpg)
+이미지출처 : <https://medium.com/@ajay.pratap/how-to-build-dog-breed-classifier-with-cnn-model-using-tensorflow-1c4759fcf601>
 
 * 이미지 처리 분야에서 강력한 모델인 합성곱처리방식을 NLP분야에 적용하였다.
 * 문장을 벡터의 행렬형태로 표현하여 합성곱으로 연산하는 방법이다.
@@ -95,7 +98,8 @@ NLP에서 단어의 다음에 올 단어를 예측하여 문장을 완성하는 
 
 ![원본 사진: 잔디 위에 앉은 개 사진](./image04.jpg)
 ![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image05.png)
-![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image06.png "이미지출처 : https://www.analyticsvidhya.com/blog/2020/11/tutorial-how-to-visualize-feature-maps-directly-from-cnn-layers/")
+![How to build CNN model for Dog Breed Classifier with TensorFlow)](./image06.png)
+이미지출처 : <https://www.analyticsvidhya.com/blog/2020/11/tutorial-how-to-visualize-feature-maps-directly-from-cnn-layers/>
 
 ### 3.2. 순환신경망 RNN(Recurrent Neural Network)
 
@@ -148,7 +152,8 @@ RNN을 제거한 후, 각 단어 임베딩과 각 단어의 순서를 알기위�
 
 ## 4. BERT의 등장
 
-![Google AI + NLP BERT](./image13.jpg "이미지출처 : http://www.aitimes.kr/news/articleView.html?idxno=15036")
+![Google AI + NLP BERT](./image13.jpg)
+이미지출처 : <http://www.aitimes.kr/news/articleView.html?idxno=15036>
 
 BERT(Bidirectional Encoder Representations from Transformers). 구글에서 2018년 발표한 BERT는 그 당시 압도적인 퍼포먼스로 단번에 NLP와 인공지능의 대표주자가 되었다.
 
@@ -185,8 +190,95 @@ BERT는 출시당시는 상당히 거대한 모델이어서 학습하는데 구�
 
 ## 5. BERT의 구조
 
-<table class="c81">
-<tbody><tr class="c24"><td class="c45" colspan="1" rowspan="1"><p class="c2"><span class="c28">입력</span></p></td><td class="c73" colspan="1" rowspan="1"><p class="c2 c29"><span class="c10"></span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">나</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">는</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">생각</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">한다</span></p></td><td class="c63" colspan="1" rowspan="1"><p class="c2"><span class="c10">.</span></p></td><td class="c63" colspan="1" rowspan="1"><p class="c2"><span class="c10">고로</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">나</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">는</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">존재</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">한다</span></p></td><td class="c59" colspan="1" rowspan="1"><p class="c2"><span class="c10">.</span></p></td></tr><tr class="c24"><td class="c79" colspan="1" rowspan="1"><p class="c2"><span class="c28">토큰</span></p></td><td class="c92" colspan="1" rowspan="1"><p class="c2"><span class="c10">(CLS)</span></p></td><td class="c42" colspan="1" rowspan="1"><p class="c2"><span class="c10">103</span></p></td><td class="c42" colspan="1" rowspan="1"><p class="c2"><span class="c10">95</span></p></td><td class="c42" colspan="1" rowspan="1"><p class="c2"><span class="c10">227</span></p></td><td class="c42" colspan="1" rowspan="1"><p class="c2"><span class="c10">16</span></p></td><td class="c65" colspan="1" rowspan="1"><p class="c2"><span class="c10">(SEP)</span></p></td><td class="c65" colspan="1" rowspan="1"><p class="c2"><span class="c10">837</span></p></td><td class="c32" colspan="1" rowspan="1"><p class="c2"><span class="c10">103</span></p></td><td class="c32" colspan="1" rowspan="1"><p class="c2"><span class="c10">95</span></p></td><td class="c32" colspan="1" rowspan="1"><p class="c2"><span class="c10">1015</span></p></td><td class="c32" colspan="1" rowspan="1"><p class="c2"><span class="c10">16</span></p></td><td class="c75" colspan="1" rowspan="1"><p class="c2"><span class="c10">(SEP)</span></p></td></tr><tr class="c24"><td class="c78" colspan="1" rowspan="1"><p class="c2"><span class="c28">세그먼트</span></p></td><td class="c56" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c38" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c38" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c38" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c38" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c39" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c39" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td><td class="c41" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td><td class="c41" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td><td class="c41" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td><td class="c41" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td><td class="c89" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td></tr><tr class="c24"><td class="c55" colspan="1" rowspan="1"><p class="c2"><span class="c28">포지션</span></p></td><td class="c23" colspan="1" rowspan="1"><p class="c2"><span class="c10">0</span></p></td><td class="c61" colspan="1" rowspan="1"><p class="c2"><span class="c10">1</span></p></td><td class="c61" colspan="1" rowspan="1"><p class="c2"><span class="c10">2</span></p></td><td class="c61" colspan="1" rowspan="1"><p class="c2"><span class="c10">3</span></p></td><td class="c61" colspan="1" rowspan="1"><p class="c2"><span class="c10">4</span></p></td><td class="c40" colspan="1" rowspan="1"><p class="c2"><span class="c10">5</span></p></td><td class="c40" colspan="1" rowspan="1"><p class="c2"><span class="c10">6</span></p></td><td class="c66" colspan="1" rowspan="1"><p class="c2"><span class="c10">7</span></p></td><td class="c66" colspan="1" rowspan="1"><p class="c2"><span class="c10">8</span></p></td><td class="c66" colspan="1" rowspan="1"><p class="c2"><span class="c10">9</span></p></td><td class="c66" colspan="1" rowspan="1"><p class="c2"><span class="c10">10</span></p></td><td class="c82" colspan="1" rowspan="1"><p class="c2"><span class="c10">11</span></p></td></tr><tr class="c85"><td class="c45" colspan="1" rowspan="1"><p class="c2"><span class="c28">BERT</span></p></td><td class="c90" colspan="12" rowspan="1"><p class="c2"><span class="c10">base : 12 hidden layer, 768 hidden size, 12 multi-head -&gt; 110M(1억1천만) 파라미터</span></p><p class="c2"><span class="c10">large : 24 hidden layer, 1024 hidden size, 16 multi-head -&gt; 340M(3억4천만) 파라미터</span></p></td></tr><tr class="c24"><td class="c45" colspan="1" rowspan="1"><p class="c2"><span class="c28">출력</span></p></td><td class="c73" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₁</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₂</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₃</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₄</span></p></td><td class="c58" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₅</span></p></td><td class="c63" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₆</span></p></td><td class="c63" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₇</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₈</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₉</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₁₀</span></p></td><td class="c27" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₁₁</span></p></td><td class="c59" colspan="1" rowspan="1"><p class="c2"><span class="c10">O₁₂</span></p></td></tr></tbody><caption>BERT의 문장 입력시 변환되는 3가지 벡터의 예시이다. 실제 데이터와 차이가 있을 수 있다.</caption></table>
+<div style="overflow-x:auto;">
+<table>
+  <tbody>
+    <tr>
+      <th scope="row">입력</th>
+      <th scope="col"></th>
+      <th scope="col">나</th>
+      <th scope="col">는</th>
+      <th scope="col">생각</th>
+      <th scope="col">한다</th>
+      <th scope="col">.</th>
+      <th scope="col">고로</th>
+      <th scope="col">나</th>
+      <th scope="col">는</th>
+      <th scope="col">존재</th>
+      <th scope="col">한다</th>
+      <th scope="col">.</th>
+    </tr>
+    <tr>
+      <th scope="row">토큰</th>
+      <td>(CLS)</td>
+      <td>103</td>
+      <td>95</td>
+      <td>227</td>
+      <td>16</td>
+      <td>(SEP)</td>
+      <td>837</td>
+      <td>103</td>
+      <td>95</td>
+      <td>1015</td>
+      <td>16</td>
+      <td>(SEP)</td>
+    </tr>
+    <tr>
+      <th scope="row">세그먼트</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">포지션</th>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th scope="row">BERT</th>
+      <td colspan="12">
+        base : 12 hidden layer, 768 hidden size, 12 multi-head -&gt; 110M(1억1천만) 파라미터<br/>
+        large : 24 hidden layer, 1024 hidden size, 16 multi-head -&gt; 340M(3억4천만) 파라미터
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">출력</th>
+      <td>O₁</td>
+      <td>O₂</td>
+      <td>O₃</td>
+      <td>O₄</td>
+      <td>O₅</td>
+      <td>O₆</td>
+      <td>O₇</td>
+      <td>O₈</td>
+      <td>O₉</td>
+      <td>O₁₀</td>
+      <td>O₁₁</td>
+      <td>O₁₂</td>
+    </tr>
+  </tbody>
+  <caption>BERT의 문장 입력시 변환되는 3가지 벡터의 예시이다. 실제 데이터와 차이가 있을 수 있다.</caption>
+</table>
+</div>
 
 * 문장을 토큰화 해서 전체 문장벡터를 만든다. 문장 시작은 (CLS), 문장끝은 (SEP)이라는 특수한 토큰을 표시한다. 이외에도 몇가지 특수토큰이 존재한다.
 * 문장별로 구분하는 Segment Embeddings을 만든다. 첫번째 문장 0, 두번째 문장 1
@@ -197,7 +289,8 @@ BERT는 출시당시는 상당히 거대한 모델이어서 학습하는데 구�
 
 ## 6. BERT의 학습
 
-![BERT의 학습](./image15.png "이미지출처 : https://arxiv.org/abs/1810.04805")
+![BERT의 학습](./image15.png)
+이미지출처 : <https://arxiv.org/abs/1810.04805>
 
 * 입력에 대하여 15%내의 토큰을 masking하여 모델이 내부 양방향 연산을 통하여 적절한 단어(토큰)을 예측하여 문장을 완성한다. 실제 단어와 비교하여 학습.
 * 또한, 두 문장일 경우 뒤 문장이 앞 문장의 연결문장인지 여부를 판단하여 학습.
@@ -211,7 +304,8 @@ BERT는 출시당시는 상당히 거대한 모델이어서 학습하는데 구�
 
 ## 7. BERT의 활용
 
-![BERT의 활용](./image16.png "이미지출처 : https://arxiv.org/abs/1810.04805")
+![BERT의 활용](./image16.png)
+이미지출처 : <https://arxiv.org/abs/1810.04805>
 
 * 기본적으로 두 문장의 연관성파악이나 단일문장의 분류문제, 태깅문제, 질문과 답 문제 등에 적용가능
 * BERT 모델(레이어) 위에 추가적인 레이어를 올려서 다른 새로운 태스크 에도 적용해 볼 수 있다
@@ -262,7 +356,8 @@ BERT에서 학습의 효율성에 기반하여 새로운 pre-training 방식을 
 
 오리지날 BERT가 샘플 한 문장당 최대 15%의 단어만 masking하여 학습하므로 데이터셋에 대한 학습률이 15%였던 MLM방식과 다르게, RTD를 이용함으로써 샘플 한 문장을 부분적으로 단어가 바뀐 여러문장으로 생성이 가능하므로, 원본 문장의 전체 단어 모두를 각각 바꿀 수 있기 때문에 한문장의 모든 단어를 100% 사용 가능하게 된다. 이는 준비된 데이터셋의 크기대비 훈련효율을 향상시킨다.
 
-![ELECTRA](./image18.png "이미지출처 : https://littlefoxdiary.tistory.com/41")
+![ELECTRA](./image18.png)
+이미지출처 : <https://littlefoxdiary.tistory.com/41>
 
 ## 9. BERT를 이용한 서비스
 
@@ -278,8 +373,10 @@ BERT는 뛰어난 성능에도 불구하고 실제 서비스에 적용하기에 
 기존 시스템을 BERT로 변경하며 텍스트분류에서 10%이상의 성능향상을 달성
 하지만 하루 10억건이 넘는 데이터를 latency 20ms 이하로 처리해야 하는데 BERT는 너무 느렸다. BERT 기본모델의 latency 측정치 330ms. 이에 3~4가지의 튜닝을 거쳐서 GPU없이 latency 10ms를 달성한 방법을 공개하였다.
 
-![How We Scaled Bert To Serve 1+ Billion Daily Requests on CPUs](./image19.png "이미지출처 : https://medium.com/@quocnle/how-we-scaled-bert-to-serve-1-billion-daily-requests-on-cpus-d99be090db26")
+![How We Scaled Bert To Serve 1+ Billion Daily Requests on CPUs](./image19.png)
 (그래프설명: 각각 BERT-base, DistilBERT, +가변형 입력, +가중치 양자화)
+
+이미지출처 : <https://medium.com/@quocnle/how-we-scaled-bert-to-serve-1-billion-daily-requests-on-cpus-d99be090db26>
 
 1. CPU / GPU 학습은 병렬연산이 필수적이지만, 실 서비스에 적용하는 것은 각각의 단일 문장의 요청에 대한 처리 이므로 CPU모델을 성능기준으로 잡았다. 여기서는 Tesla V100 GPU와 동급 가격인 36코어 Xeon CPU를 사용하였다.
 2. DistilBERT 기술을 이용하여 모델을 작게 만들어 속도를 2배 향상시켰다.
@@ -288,7 +385,8 @@ BERT는 뛰어난 성능에도 불구하고 실제 서비스에 적용하기에 
 5. 그외 입력 데이터의 caching 기법 등으로 추가적인 성능 향상이 있지만, 위 1~4의 과정 만으로 약 30배의 성능 향상을 이루어, 수평적인 CPU 확장만으로 하루 10억개의 테스크 처리가 가능하였다.
 
 ## 10. BERT의 사촌들 : GPT, XLNet, T5
-![After BERT & ELECTRA 언어모델 비교 및 선정](./image20.png "이미지출처: https://mysterico.tistory.com/8")
+![After BERT & ELECTRA 언어모델 비교 및 선정](./image20.png)
+이미지출처: <https://mysterico.tistory.com/8>
 
 ### 10.1. GPT (Generative Pre-trained Transformer)
 OpenAI라는 단체에서 Transformer 구조에서 인코더는 무시하고 디코더 부분만 집중하여 문장생성모델을 만들었는데, 이것이 GPT이다. 대량의 문서를 학습하여 어떤 단어가 주어졌을 때 다음에 올 확률이 가장 높은 단어를 제시하여 순차적으로 문장을 만들어 나간다.
@@ -299,7 +397,8 @@ GPT는 학습데이터가 많을수록 상당한 성능 향상을 발견하여 �
 
 참고로 OPEN-AI에서 GPT-1이 먼저 나오고 Google에서 더 성능좋은 BERT를 내 놓았고, OPEN-AI에서 GPT-2, 3로 업그레이드 하면서 서로 성능경쟁으로 발전하는 관계이다.
 
-![How GPT3 Works - Visualizations and Animations](./image22.gif "이미지출처: http://jalammar.github.io/how-gpt3-works-visualizations-animations/")
+![How GPT3 Works - Visualizations and Animations](./image22.gif)
+이미지출처: <http://jalammar.github.io/how-gpt3-works-visualizations-animations/>
 
 ### 10.2. XLNet
 BERT가 각 masking단어별로 독립적이라고 가정하여 생기는 단어간의 위치에 대한 연관성이 무시되는 문제와 fine-tuning시의 masking기법이 쓰이지 않음으로 부조화에 의한 성능저하를 극복하고자 나온 방식이다.
@@ -316,7 +415,8 @@ Permutation Language Model
 pre-training에서 masking을 쓰지않고 단어를 뒤섞어서 순차적으로 예측하는 방식을 여러번 반복하여 학습하는 Permutation Language Model이다. 이는 이후 fine-tuning시에도 기법의 부조화가 없어서 성능향상이 된다. 다만, 실제 작동은 단어를 뒤섞지 않고 Transformer의 self-attention을 활용하여 attention-mask로 구현된다.
 
 ### 10.3. T5 (Text-to-Text Transfer Transformer)
-![구글 새로운 자연어처리 AI ‘T5’ 성능은?](./image23.png "이미지출처: https://m.news.zum.com/articles/58361658")
+![구글 새로운 자연어처리 AI ‘T5’ 성능은?](./image23.png)
+이미지출처: <https://m.news.zum.com/articles/58361658>
 
 BERT가 분류나 입력 범위만 출력할 수 있는것에 반해 모든 입력과 출력을 문자열로 하고, 각각의 태스크 역시 입력 문자열에 포함하여 재구성한 모델이다.
 
@@ -348,7 +448,8 @@ GPT3는 약 300B(3,000억)개의 데이터셋으로 사전 학습을 실행하�
 
 텍스트에 국한되어있던 NLP가 다른 채널, 영역들과 합쳐지며 확장하고 있다. 학습 데이터로든 출력 결과물이든 텍스트만으로는 완전히 이해할 수 없는 언어라는 분야의 추가 정보를 위해 이미지, 사운드, 영상등의 여러 정보의 통합은 필연적일 것이다.
 
-![COCO 2015 Image Captioning Task](./image25.png "이미지출처: https://cocodataset.org/#captions-2015")
+![COCO 2015 Image Captioning Task](./image25.png)
+이미지출처: <https://cocodataset.org/#captions-2015>
 
 ### 12.1. Image to Text
 seq2seq의 기계번역 모델에서 번역하고자 하는 문장을 인코더에 번역된 문장이 디코더에 나오게 된다. 여기서 만약 입력되는 인코더에 문장이 아니라 이미지가 들어간다면? 이런 아이디어로 연결한 것이 이미지를 보고 설명문장을 생성하는 모델이다.
@@ -365,12 +466,15 @@ OpenAI에서 만든 이미지 생성 모델 : DALL-E
 
 GPT를 만든 OpenAI에서 GPT의 생성기능을 이미지에 적용하여 이미지 생성 모델을 만들었다. 사용된 파라미터는 12B(120억)개이다
 
-![토큰화 되어있는 이미지의 모습](./image27.png  "이미지출처: https://jiho-ml.com/weekly-nlp-40/")
-![다음 픽셀 토큰 예측](./image28.png "이미지출처: https://jiho-ml.com/weekly-nlp-40/")
+![토큰화 되어있는 이미지의 모습](./image27.png)
+이미지출처: <https://jiho-ml.com/weekly-nlp-40/>
+![다음 픽셀 토큰 예측](./image28.png)
+이미지출처: <https://jiho-ml.com/weekly-nlp-40/>
 
 사진 설명 문장과 이미지 픽셀을 1차원화 한 벡터의 시작부분까지 입력으로 넣어주면, 이후 픽셀들을 하나씩 생성하여 주고, 결과를 2차원화 하면 생성된 이미지를 볼 수 있다.
 
-![DALL-E의 생성결과 예](./image29.png "DALL-E의 생성결과 예")
+![DALL-E의 생성결과 예](./image29.png)
+DALL-E의 생성결과 예
 
 OpenAI에서 만든 두번째 이미지 생성 모델 : GLIDE
 
@@ -380,8 +484,9 @@ GLIDE(Guided Language-to-Image Diffusion for Generation and Editing)는 유도 �
 
 아래 이미지는 GLIDE의 실행 결과물 예제이다.
 
-![GLIDE의 실행 결과물 예제](./image30.png "GLIDE의 실행 결과물 예제")
-![GLIDE의 실행 결과물 예제](./image31.png "GLIDE의 실행 결과물 예제")
+![GLIDE의 실행 결과물 예제](./image30.png)
+![GLIDE의 실행 결과물 예제](./image31.png)
+GLIDE의 실행 결과물 예제
 
 ## 13. kpfBERT (언론진흥재단 BERT)
 
@@ -396,9 +501,182 @@ GLIDE(Guided Language-to-Image Diffusion for Generation and Editing)는 유도 �
 ### 13.2. kpfBERT의 성능비교
 
 5가지 BERT의 일반적인 태스크에 대한 비교 평가값. 동일한 하드웨어, 파이프라인을 통한 각 모델별 실측값이다.
-
-<table class="c69"><tbody><tr class="c31"><td class="c20" colspan="1" rowspan="1"><p class="c13"><span class="c1">구분</span></p></td><td class="c44 c68" colspan="1" rowspan="1"><p class="c13"><span class="c1">NSMC</span></p></td><td class="c9 c68" colspan="1" rowspan="1"><p class="c13"><span class="c1">KLUE-NLI</span></p></td><td class="c43 c68" colspan="1" rowspan="1"><p class="c13"><span class="c1">KLUE-STS</span></p></td><td class="c43 c68" colspan="1" rowspan="1"><p class="c13"><span class="c1">KorQuAD v1</span></p></td><td class="c43 c68" colspan="1" rowspan="1"><p class="c13"><span class="c1">KLUE MRC</span></p></td></tr><tr class="c83"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c1">데이터 특징 및 규격</span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c2"><span class="c1">영화 리뷰 감정 분석</span></p><p class="c2"><span class="c1">학습: 150,000 문장 </span></p><p class="c2"><span class="c1">평가: 50,000 문장</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c2"><span class="c1">자연어 추론</span></p><p class="c2"><span class="c1">학습: 24,998 문장</span></p><p class="c2"><span class="c1">평가: 3,000 문장 (dev셋)</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c2"><span class="c1">문장의 의미적 유사도 측정</span></p><p class="c2"><span class="c1">학습: 11,668 문장</span></p><p class="c2"><span class="c1">평가: 519 문장 (dev셋)</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c2"><span class="c1">기계독해</span></p><p class="c2"><span class="c1">학습: 60,406 건 </span></p><p class="c2"><span class="c1">평가: 5,774 건 (dev셋)</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c2"><span class="c1">기계 독해</span></p><p class="c2"><span class="c1">학습: 17,554 건</span></p><p class="c2"><span class="c1">평가: 5,841 건 (dev셋)</span></p></td></tr><tr class="c31"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c1">평가방법</span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c13"><span class="c1">accuracy</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c13"><span class="c1">accuracy</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">Pearson Correlation</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">Exact Match / F1</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">Exact Match / Rouge W</span></p></td></tr><tr class="c31"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c28">KPF BERT</span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c13"><span class="c28">91.29%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c13"><span class="c28">87.67%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c28">92.95%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c28">86.42% / 94.95%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c28">69.51% / 75.84%</span></p></td></tr><tr class="c31"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c1">KLUE BERT</span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c13"><span class="c1">90.62%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c13"><span class="c1">81.33%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">91.14%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">83.84% / 93.23%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c72"><span class="c1">61.91% / 68.38%</span></p></td></tr><tr class="c31"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c1">KorBERT(ETRI)</span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c13"><span class="c1">90.46%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c13"><span class="c1">80.56%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">89.52%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c49 c77">20.11%</span><span class="c1">&nbsp;/ 82.00%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c77 c49">30.56%</span><span class="c1">&nbsp;/ 58.59%</span></p></td></tr><tr class="c31"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c1">KoBERT(SKT)</span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c13"><span class="c1">89.92%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c13"><span class="c1">79.53%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">86.17%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c77 c49">16.85%</span><span class="c1">&nbsp;/ 71.36%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c77 c49">28.56%</span><span class="c1">&nbsp;/ 42.06%</span></p></td></tr><tr class="c36"><td class="c35" colspan="1" rowspan="1"><p class="c13"><span class="c1">BERT base multilingual </span></p></td><td class="c44" colspan="1" rowspan="1"><p class="c13"><span class="c1">87.33%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c13"><span class="c1">73.30%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c72"><span class="c26">85.66%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">69.10% / 90.02%</span></p></td><td class="c43" colspan="1" rowspan="1"><p class="c13"><span class="c1">44.58% / 55.92%</span></p></td></tr></tbody></table>
-
+<div style="overflow-x:auto;">
+<table>
+  <thead>
+    <tr>
+      <th scope="col">
+        구분
+      </th>
+      <th scope="col">
+        NSMC
+      </th>
+      <th scope="col">
+        KLUE-NLI
+      </th>
+      <th scope="col">
+        KLUE-STS
+      </th>
+      <th scope="col">
+        KorQuAD v1
+      </th>
+      <th scope="col">
+        KLUE MRC
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">데이터 특징 및 규격</th>
+      <td>
+        영화 리뷰 감정 분석<br/>
+        학습: 150,000 문장<br />
+        평가: 50,000 문장
+      </td>
+      <td>
+        자연어 추론<br />
+        학습: 24,998 문장<br />
+        평가: 3,000 문장 (dev셋)
+      </td>
+      <td>
+        문장의 의미적 유사도 측정<br />
+        학습: 11,668 문장<br />
+        평가: 519 문장 (dev셋)
+      </td>
+      <td>
+        기계독해<br />
+        학습: 60,406 건<br />
+        평가: 5,774 건 (dev셋)
+      </td>
+      <td>
+        기계 독해<br />
+        학습: 17,554 건<br />
+        평가: 5,841 건 (dev셋)
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        평가방법
+      </th>
+      <td>
+        accuracy
+      </td>
+      <td>
+        accuracy
+      </td>
+      <td>
+        Pearson Correlation
+      </td>
+      <td>
+        Exact Match / F1
+      </td>
+      <td>
+        Exact Match / Rouge W
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        KPF BERT
+      </th>
+      <td>
+        91.29%
+      </td>
+      <td>
+        87.67%
+      </td>
+      <td>
+        92.95%
+      </td>
+      <td>
+        86.42% / 94.95%
+      </td>
+      <td>
+        69.51% / 75.84%
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        KLUE BERT
+      </th>
+      <td>
+        90.62%
+      </td>
+      <td>
+        81.33%
+      </td>
+      <td>
+        91.14%
+      </td>
+      <td>
+        83.84% / 93.23%
+      </td>
+      <td>
+        61.91% / 68.38%
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        KorBERT(ETRI)
+      </th>
+      <td>
+        90.46%
+      </td>
+      <td>
+        80.56%
+      </td>
+      <td>
+        89.52%
+      </td>
+      <td>
+        20.11%&nbsp;/ 82.00%
+      </td>
+      <td>
+        30.56%&nbsp;/ 58.59%
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        KoBERT(SKT)
+      </th>
+      <td>
+        89.92%
+      </td>
+      <td>
+        79.53%
+      </td>
+      <td>
+        86.17%
+      </td>
+      <td>
+        16.85%&nbsp;/ 71.36%
+      </td>
+      <td>
+        28.56%&nbsp;/ 42.06%
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">
+        BERT base multilingual
+      </th>
+      <td>
+        87.33%
+      </td>
+      <td>
+        73.30%
+      </td>
+      <td>
+        85.66%
+      </td>
+      <td>
+        69.10% / 90.02%
+      </td>
+      <td>
+        44.58% / 55.92%
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 다른 한글BERT에 비해 성능이 우수하게 나오는 것은 RoBERTa, ELECTRA등의 기술들이 적극적으로 반영되었고, 다량의 양질의 학습데이터에 의한 결과로 예상된다.
 
 ### 13.3. kpfBERT의 활용
