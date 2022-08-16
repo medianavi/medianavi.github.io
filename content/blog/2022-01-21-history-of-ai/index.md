@@ -1,6 +1,7 @@
 ---
 title: 인공지능의 역사에서 BERT 이해하기
 date: "2022-01-21T22:40:32.169Z"
+category: "blog"
 description: 미디어나비의 CTO인 Justa가 BERT와 인공지능의 역사에 대해 설명합니다.
 postauthor: "Justa"
 ---

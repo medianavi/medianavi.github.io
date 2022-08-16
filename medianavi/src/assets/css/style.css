@@ -115,14 +115,6 @@ header {
       line-height: 0.7em;
       cursor: pointer;
     }
-      .gnb > ul li a {
-        color: var(--color-text);
-        text-decoration: none;
-      }
-        .gnb>ul li a:visited, .gnb>ul li a:hover {
-          color: var(--color-text);
-          text-decoration: none;
-        }
     .gnb-link {
       display: block;
       text-decoration: none;
@@ -143,15 +135,23 @@ header {
     border-bottom: calc(100vh - 380px) solid var(--color-key);
     transition: border-bottom 0.3s ease-in-out;
   }
+  header .gnb-a, header .gnb-a:hover, header .gnb-a:visited {
+    text-decoration: none;
+    color: var(--color-text);
+  }
   header.scroll_intro.gnb_show  {
     background-color: #000;
   }
     header.scroll_intro .gnb-a {
       color: #fff;
     }
+      header.scroll_intro .gnb-a:hover, header.scroll_intro .gnb-a:visited {
+        color: #fff;
+      }
     header.scroll_intro .gnb-a.active {
       color: var(--color-key);
     }
+
 section {
   margin: var(--base-margin) 0;
 }

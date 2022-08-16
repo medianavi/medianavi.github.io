@@ -26,6 +26,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
+          // if(post.frontmatter.category === "works") return
           const title = post.frontmatter.title || post.fields.slug
 
           return (
@@ -76,16 +77,17 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(filter: {frontmatter: {category: {eq: "blog"}}}, sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
         fields {
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "YYYY.MM.DD.")
           title
           description
+          category
         }
       }
     }

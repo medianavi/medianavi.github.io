@@ -95,7 +95,7 @@ function Header() {
                 </li>
               ))}
               <li>
-                <a className="gnb-a" href="https://blog.medianavi.kr/">Blog</a>
+                <a className="gnb-a" href="https://blog.medianavi.kr/" target="_blank" rel="noreferrer">Blog</a>
               </li>
             </ul>
           </nav>

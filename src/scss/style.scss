@@ -257,7 +257,30 @@ a:focus {
 }
 
 .global-header {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: var(--spacing-12);
+}
+.header--menu {
+  display: flex;
+  margin-bottom: 0;
+  li {
+    font-size: var(--fontSize-2);
+    list-style: none;
+    margin-left: 2rem;
+    line-height: var(--base-margin);
+    color: var(--color-text);
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  a {
+    color: var(--color-text);
+    text-decoration: none;
+    &.active {
+      color: var(--color-key);
+    }
+  }
 }
 
 .main-heading {
@@ -337,7 +360,7 @@ a:focus {
   margin-left: var(--spacing-2);
   line-height: var(--base-margin);
   color: var(--color-key);
-  letter-spacing: .18em;
+  letter-spacing: .18rem;
   text-transform: uppercase;
 }
 .svg_logo {

@@ -1,8 +1,6 @@
-import { useState } from "react";
-import Modal from '../Modal';
+import React from "react";
 
 function Works() {
-  const [isModalCalled, setIsModalCalled] = useState(false);
   const worksReps = [
     {
       name: '한국언론진흥재단',
@@ -47,13 +45,8 @@ function Works() {
       content: "서울마리나, 웹페이지 리뉴얼 및 유지 보수"
     },
   ];
-  function callModal(item) {
-    console.log(item);
-    setIsModalCalled(true);
-  }
   return (
     <>
-    <Modal callModal={isModalCalled} setIsModalCalled={setIsModalCalled} modalData={worksReps}/>
     <section className="sections works" id="works">
       <div className="container">
         <h1 className="section-title no-sticky">Works</h1>
@@ -62,7 +55,7 @@ function Works() {
         <ul className="row works-rep">
           {worksReps.map((item, index) => {
             return (
-              <li key={index} className="col works-rep--item" onClick={callModal}>
+              <li key={index} className="col works-rep--item">
                 <div className="works-rep--thumbnail" style={{backgroundImage: `url(${item.thumbnail})`}}></div>
                 <h5>{item.name}</h5>
                 <ul className="works-rep-item--content">
