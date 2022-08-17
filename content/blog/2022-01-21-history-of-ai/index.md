@@ -6,6 +6,10 @@ description: 미디어나비의 CTO인 Justa가 BERT와 인공지능의 역사�
 postauthor: "Justa"
 ---
 
+<div class="responsive-iframe">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Pj6563CAnKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## 0. 들어가기 앞서 - 인공지능의 발전사
 ![인간형 로봇이 복잡한 수식을 보고 고민하는 모습](./image01.jpg)
 이미지출처 : <https://post.naver.com/viewer/postView.nhn?volumeNo=27021892&memberNo=43011790>
