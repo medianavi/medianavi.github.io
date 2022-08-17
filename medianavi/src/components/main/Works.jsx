@@ -7,20 +7,20 @@ function Works() {
       content: ['언론사를 위한 언어정보자원 개발',
                 '뉴스알고 개발 및 유지보수'],
       thumbnail: './img/works/works-rep1.png',
-      detail: '디테일한거',
+      detail: 'https://blog.medianavi.kr/kpf',
     },
     {
       name: '토이스미스',
       content: ['백엔드 서버 개발',
                 '운영 컨설팅'],
       thumbnail: './img/works/works-rep2.png',
-      detail: '디테일한거',
+      detail: 'https://blog.medianavi.kr/toysmyth',
     },
     {
       name: '서울마리나',
       content: ['웹사이트 리뉴얼 및 유지보수'],
       thumbnail: './img/works/works-rep3.png',
-      detail: '디테일한거',
+      detail: 'https://blog.medianavi.kr/seoulmarina',
     },
   ];
   const worksHistory = [
@@ -56,13 +56,15 @@ function Works() {
           {worksReps.map((item, index) => {
             return (
               <li key={index} className="col works-rep--item">
-                <div className="works-rep--thumbnail" style={{backgroundImage: `url(${item.thumbnail})`}}></div>
-                <h5>{item.name}</h5>
-                <ul className="works-rep-item--content">
-                {item.content.map((content) => {
-                  return <li key={content}>{content}</li>
-                })}
-                </ul>
+                <a href={item.detail} rel="noreferrer" target="_blank">
+                  <div className="works-rep--thumbnail" style={{backgroundImage: `url(${item.thumbnail})`}}></div>
+                  <h5>{item.name}</h5>
+                  <ul className="works-rep-item--content">
+                  {item.content.map((content) => {
+                    return <li key={content}>{content}</li>
+                  })}
+                  </ul>
+                </a>
               </li>
             )
           })}

@@ -238,7 +238,7 @@ export default function Members() {
             </div>
           </SplideSlide>
           <SplideSlide className="member-item justa">
-            <a className="member-item-inner" href="https://youtu.be/Pj6563CAnKs" target="_blank" rel="noreferrer">
+            <div className="member-item-inner">
               <div className="member-item-front">
                 <h2>Justa<br />저스타</h2>
                 <p>CTO</p>
@@ -246,7 +246,7 @@ export default function Members() {
               <div className="member-item-back">
                 <p>인공지능으로 인간 지능이 확장되고 인간 생활이 윤택해지도록 고민합니다.</p>
               </div>
-            </a>
+            </div>
           </SplideSlide>
           <SplideSlide className="member-item elly">
             <span className="member-item-inner">
