@@ -6,6 +6,7 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
+    <>
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">
         <Link to="/" className="header--logo">
@@ -25,6 +26,7 @@ const Layout = ({ location, title, children }) => {
         <p className="copyright">© MediaNavi</p>
       </footer>
     </div>
+    </>
   )
 }
 
