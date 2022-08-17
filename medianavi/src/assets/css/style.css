@@ -214,9 +214,13 @@ main.main {
     list-style: none;
     border-bottom: 6px solid var(--color-key);
   }
-  .works-rep--item h5 {
-    margin: 1.8em 0;
-  }
+    .works-rep--item a {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+    .works-rep--item h5 {
+      margin: 1.8em 0;
+    }
   .works-rep--thumbnail {
     background-repeat: no-repeat;
     background-position: 50% 50%;
