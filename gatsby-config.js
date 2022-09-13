@@ -5,6 +5,13 @@ module.exports = {
     siteUrl: `https://blog.medianavi.kr/`,
   },
   plugins: [
+    {
+        resolve: `gatsby-plugin-gtag`,
+        options: {
+            trackingId: `G-144HB93NR5`,
+            head: true,
+        },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
