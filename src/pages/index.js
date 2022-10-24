@@ -42,7 +42,7 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>{post.frontmatter.date} / {post.frontmatter.postauthor}</small>
                 </header>
                 <section>
                   <p
@@ -87,6 +87,7 @@ export const pageQuery = graphql`
           date(formatString: "YYYY.MM.DD.")
           title
           description
+          postauthor
           category
         }
       }
