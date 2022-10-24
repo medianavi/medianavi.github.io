@@ -1,6 +1,15 @@
 /* Import */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
+:lang(ko) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    word-break: keep-all;
+  }
+}
+
 /* CSS Custom Properties Definitions */
 :root {
   --maxWidth-none: "none";
@@ -231,6 +240,10 @@ table {
 
 table thead tr th {
   border-bottom: 1px solid var(--color-accent);
+}
+
+figcaption {
+  font-size: 0.9em;
 }
 
 /* Link */
