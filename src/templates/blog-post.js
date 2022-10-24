@@ -95,6 +95,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        category
         date(formatString: "YYYY.MM.DD.")
         description
         postauthor
