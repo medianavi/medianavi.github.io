@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink, Events } from "react-scroll";
 
 function Header() {
   const headerEl = useRef();
@@ -61,6 +61,13 @@ function Header() {
     setMoToggleBtn(!moToggleBtn);
   }
   /* end of mobile 환경에서 메뉴 토글 */
+
+  /* mobile 환경에서 Scroll 이동이 시작될 때 메뉴 토글 */
+  Events.scrollEvent.register('begin', function(to, element) {
+    setMoToggleBtn(false);
+  });
+  /* end of mobile 환경에서 Scroll 시작될 때 메뉴 토글 */
+
   /* Get Header's Height */
   useEffect(() => {
     setHeaderHeight(headerEl.current.offsetHeight);
@@ -91,7 +98,7 @@ function Header() {
             <ul>
               {naviEl.map(li => (
                 <li key={li.menuName}>
-                  <ScrollLink activeClass="active" className="gnb-a" to={li.menuHref} spy={true} smooth={true}  offset={li.menuName === 'Intro' ? 0 : -(headerHeight)}>{li.menuName}</ScrollLink>
+                  <ScrollLink activeClass="active" className="gnb-a" to={li.menuHref} spy={true} smooth={true} offset={li.menuName === 'Intro' ? 0 : -(headerHeight)}>{li.menuName}</ScrollLink>
                 </li>
               ))}
               <li>
