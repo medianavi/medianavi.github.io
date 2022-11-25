@@ -19,15 +19,15 @@ WWW, World Wide Web. 1989년 12월 개발이 시작되고 1990년 12월 웹 서�
 1994년부터 2044년까지 해당 기간으로 기본 개념은 디렉터리 검색이다. 구글, 네이버, 다음과 같은 포털에서 자료검색하면, 각 포털이 보유한 정보에 따라 많은 자료를 찾아볼 수 있는 편리함이 생겼다.
 원하는 자료를 검색하려면 검색 키워드나 카테고리에 연관된 자료들이 나와야 하는데, 웹 1.0 시대는 바로 이 검색 서비스의 탄생에 해당된다. 대표적인 예로 1990년대 인기있던 Yahoo를 들 수 있다.
 
-- 웹 1.0의 기술적 요소 :
-    1) 정적 페이지
-    2) 프레임셋의 이용
-    3) HTML의 확장
-    4) 온라인 방명록
-    5) GIF 단추
-- 전화접속 기반 : 천리안, 나우누리, 하이텔 등 평균 50k 대
-- 대표사례 : 인터넷 익스플로러, 다음, 네이버, 구글 등 검색 포털
-- 핵심기술 : HTML, Active X
+* 웹 1.0의 기술적 요소 :
+    1. 정적 페이지
+    2. 프레임셋의 이용
+    3. HTML의 확장
+    4. 온라인 방명록
+    5. GIF 단추
+* 전화접속 기반 : 천리안, 나우누리, 하이텔 등 평균 50k 대
+* 대표사례 : 인터넷 익스플로러, 다음, 네이버, 구글 등 검색 포털
+* 핵심기술 : HTML, Active X
 
 ### 2. Web 2.0, 웹 2.0, 양방향 소통 중심
 
@@ -222,40 +222,40 @@ WWW, World Wide Web. 1989년 12월 개발이 시작되고 1990년 12월 웹 서�
 
 ## 참고문헌
 
-- SAMSUNG SDS 기술 블로그  
-<https://www.samsungsds.com/kr/insights/web3.html>
-- LG CNS 기술전략팀 블로그  
-<https://www.lgcns.com/blog/cns-tech/30838/>  
-<https://www.lgcns.com/blog/cns-tech/30783/>
-- Arweave explained: the elephant in the room of Web3.0  
-<https://www.foresightventures.com/focusdetail-16.html>
-- How to use ArDrive for free  
-<https://ardrive.io/how-to-use-ardrive-for-free/>
-- 컨센시스 블로그 - 이더리움 인프라 기반에서 왜 인퓨라가 비밀무기인 것인가?  
-<https://consensys.net/blog/news/why-infura-is-the-secret-weapon-of-ethereum-infrastructure/>
-- 라이브피어 깃허브  
-<https://github.com/livepeer/wiki/blob/master/STREAMFLOW.md>
-- 음악산업 혁신의 시작? 바로 웹 3.0에서 시작!  
-<https://www.lgcns.com/blog/it-trend/34218/>
-- 인프런, 웹 3.0, 그것이 궁금하다!  
-<https://www.inflearn.com/pages/infmation-55-20221101?utm_source=mailchimp&utm_medium=email&utm_campaign=traffic_infmation_web3&utm_content=20221101>
-- 미러, 텍스트 콘텐츠를 NFT로…  
-<https://www.sbiz.news/news/articleView.html?idxno=21068>
-- "스타벅스 오딧세이" 이해를 위한 핵심 키워드 7가지!  
-<https://engine.roa.ai/articles/172690>
-- 레벨스, 팬덤 위한 디지털 콜렉터블 플랫폼 '모먼티카' 출시  
-<https://www.metroseoul.co.kr/article/20221021500106>
-- 두나무와 하이브의 레벨스, '모먼티카' 드롭 공식 오픈...첫 아티스트는 '엔하이픈'  
-<https://www.techm.kr/news/articleView.html?idxno=102830>
-- 지금 꼭 알아야 할 개념, 웹 3.0  
-<https://contents.premium.naver.com/3mit/wony/contents/220612204532349ym>
-- 테라 후유증에도 VC 공격 투자…웹 3.0에 뭉칫돈  
-<https://decenter.kr/NewsView/2677EL3JTY>
-- 웹 3.0이 가져올 미래 변화는  
-<https://magazine.hankyung.com/money/article/202202143142c>
-- 블록체인 업계가 공 들인 'NFT' 마켓 속속 출시  
-<https://zdnet.co.kr/view/?no=20221025153224>
-- 클레이튼 "카카오 서비스 연계 모색"…'카카오레버리지TF' 설립  
-<https://www.yna.co.kr/view/AKR20221108103600017>
-- 블록체인 게임 생태계 완성해 가는 넷마블, 하반기 NFT 서비스 내놓는다  
-<https://www.techm.kr/news/articleView.html?idxno=99059>
+* SAMSUNG SDS 기술 블로그  
+    <https://www.samsungsds.com/kr/insights/web3.html>
+* LG CNS 기술전략팀 블로그  
+    <https://www.lgcns.com/blog/cns-tech/30838/>  
+    <https://www.lgcns.com/blog/cns-tech/30783/>
+* Arweave explained: the elephant in the room of Web3.0  
+    <https://www.foresightventures.com/focusdetail-16.html>
+* How to use ArDrive for free  
+    <https://ardrive.io/how-to-use-ardrive-for-free/>
+* 컨센시스 블로그 - 이더리움 인프라 기반에서 왜 인퓨라가 비밀무기인 것인가?  
+    <https://consensys.net/blog/news/why-infura-is-the-secret-weapon-of-ethereum-infrastructure/>
+* 라이브피어 깃허브  
+    <https://github.com/livepeer/wiki/blob/master/STREAMFLOW.md>
+* 음악산업 혁신의 시작? 바로 웹 3.0에서 시작!  
+    <https://www.lgcns.com/blog/it-trend/34218/>
+* 인프런, 웹 3.0, 그것이 궁금하다!  
+    <https://www.inflearn.com/pages/infmation-55-20221101?utm_source=mailchimp&utm_medium=email&utm_campaign=traffic_infmation_web3&utm_content=20221101>
+* 미러, 텍스트 콘텐츠를 NFT로…  
+    <https://www.sbiz.news/news/articleView.html?idxno=21068>
+* "스타벅스 오딧세이" 이해를 위한 핵심 키워드 7가지!  
+    <https://engine.roa.ai/articles/172690>
+* 레벨스, 팬덤 위한 디지털 콜렉터블 플랫폼 '모먼티카' 출시  
+    <https://www.metroseoul.co.kr/article/20221021500106>
+* 두나무와 하이브의 레벨스, '모먼티카' 드롭 공식 오픈...첫 아티스트는 '엔하이픈'  
+    <https://www.techm.kr/news/articleView.html?idxno=102830>
+* 지금 꼭 알아야 할 개념, 웹 3.0  
+    <https://contents.premium.naver.com/3mit/wony/contents/220612204532349ym>
+* 테라 후유증에도 VC 공격 투자…웹 3.0에 뭉칫돈  
+    <https://decenter.kr/NewsView/2677EL3JTY>
+* 웹 3.0이 가져올 미래 변화는  
+    <https://magazine.hankyung.com/money/article/202202143142c>
+* 블록체인 업계가 공 들인 'NFT' 마켓 속속 출시  
+    <https://zdnet.co.kr/view/?no=20221025153224>
+* 클레이튼 "카카오 서비스 연계 모색"…'카카오레버리지TF' 설립  
+    <https://www.yna.co.kr/view/AKR20221108103600017>
+* 블록체인 게임 생태계 완성해 가는 넷마블, 하반기 NFT 서비스 내놓는다  
+    <https://www.techm.kr/news/articleView.html?idxno=99059>
