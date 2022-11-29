@@ -22,6 +22,12 @@ function Works() {
       thumbnail: './img/works/works-rep3.png',
       detail: 'https://blog.medianavi.kr/seoulmarina',
     },
+    {
+      name: '한국데이터산업진흥원',
+      content: ['AI 데이터가공','자연어 처리(NLP)'],
+      thumbnail: './img/works/works-rep4.png',
+      detail: 'https://blog.medianavi.kr/kdata',
+    },
   ];
   const worksHistory = [
     {

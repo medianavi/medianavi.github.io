@@ -204,7 +204,7 @@ main.main {
 }
 
 .works .row {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .works-rep {
   padding: 0;
