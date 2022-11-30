@@ -5,7 +5,8 @@ function Works() {
     {
       name: '한국언론진흥재단',
       content: ['언론사를 위한 언어정보자원 개발',
-                '뉴스알고 개발 및 유지보수'],
+                '뉴스알고 개발 및 유지보수',
+                '디지털 뉴스 유통 구조 개선 포럼 논의용 임시 사이트 개발'],
       thumbnail: './img/works/works-rep1.png',
       detail: 'https://blog.medianavi.kr/kpf',
     },
@@ -24,12 +25,20 @@ function Works() {
     },
     {
       name: '한국데이터산업진흥원',
-      content: ['AI 데이터가공','자연어 처리(NLP)'],
+      content: ['2023년도 데이터바우처 지원사업 - AI 데이터가공부문 공급기업 선정'],
       thumbnail: './img/works/works-rep4.png',
       detail: 'https://blog.medianavi.kr/kdata',
     },
   ];
   const worksHistory = [
+    {
+      date: "2022.11 ~ 2023.11",
+      content: "한국데이터산업진흥원, 2023년도 데이터바우처 지원사업 AI 가공데이터 부문 공급기업 선정",
+    },
+    {
+      date: "2022.09 ~ 2022.11",
+      content: "한국언론진흥재단, 디지털 뉴스 유통 구조 개선 포럼 논의용 임시 사이트 개발",
+    }, 
     {
       date: "2022.02 ~ 현재", 
       content: "한국언론진흥재단, 2022년 뉴스알고 유지보수 개발"
@@ -65,11 +74,11 @@ function Works() {
                 <a href={item.detail} rel="noreferrer" target="_blank">
                   <div className="works-rep--thumbnail" style={{backgroundImage: `url(${item.thumbnail})`}}></div>
                   <h5>{item.name}</h5>
-                  <ul className="works-rep-item--content">
+                  {/* <ul className="works-rep-item--content">
                   {item.content.map((content) => {
                     return <li key={content}>{content}</li>
                   })}
-                  </ul>
+                  </ul> */}
                 </a>
               </li>
             )
@@ -81,7 +90,7 @@ function Works() {
           <thead>
             <tr>
               <th>Date</th>
-              <th>Project</th>
+              <th>History</th>
             </tr>
           </thead>
           <tbody>

@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <ol style={{ listStyle: `none` }}>
+      <ol style={{ listStyle: `none`, marginLeft: 0 }}>
         {posts.map(post => {
           // if(post.frontmatter.category === "works") return
           const title = post.frontmatter.title || post.fields.slug

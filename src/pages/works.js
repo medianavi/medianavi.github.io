@@ -22,7 +22,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <ol style={{ listStyle: `none` }}>
+      <ol style={{ listStyle: `none`, marginLeft: 0 }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  {/* <small>{post.frontmatter.date}</small> */}
                 </header>
                 <section>
                   <p
