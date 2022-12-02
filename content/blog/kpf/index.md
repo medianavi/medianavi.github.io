@@ -2,7 +2,7 @@
 title: 한국언론진흥재단
 date: "2021-07-01T00:00:00.000Z"
 category: "works"
-description: 언론사를 위한 언어정보 자원 개발, 2022년 뉴스알고 유지 보수 개발
+description: KPF-BERT, 뉴스알고, 스마트 뉴스 개발
 ---
 
 ## 언론사를 위한 언어정보 자원 개발
@@ -37,4 +37,5 @@ description: 언론사를 위한 언어정보 자원 개발, 2022년 뉴스알�
 
 2022.09 ~ 2022.11 시스템 구축 및 운영, 자연어 처리(NLP)
 
-* [한국언론진흥재단, 디지털 뉴스 유통 구조 개선 포럼 논의용 임시 사이트 개발](https://www.journalist.or.kr/news/article.html?no=52472 "언론사 공동포털 추진… 기록 통해 시행착오 줄일 것")
+* [임시 사이트 바로가기](http://smartnews.newsalgo.or.kr/)
+* [관련기사: 한국언론진흥재단, 디지털 뉴스 유통 구조 개선 포럼 논의용 임시 사이트 개발](https://www.journalist.or.kr/news/article.html?no=52472 "언론사 공동포털 추진… 기록 통해 시행착오 줄일 것")
