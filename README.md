@@ -1,105 +1,83 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's blog starter
-</h1>
+# 미디어나비 블로그
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## 개요
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+미디어나비의 블로그는 GitHub의 무료 호스팅 서비스 GitHub Pages에서 호스팅하고 있습니다.
 
-## 🚀 Quick start
+React 기반의 정적 사이트 생성기 Gatsby를 사용합니다.
 
-1.  **Create a Gatsby site.**
+## 브랜치
 
-    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the blog starter.
+저장소의 브랜치는 총 3개 입니다.
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+1. main: 사용하지 않는 브랜치입니다.
+2. dev: 개발시 사용하는 브랜치입니다. 작업이 완료된 뒤에는 이 브랜치에 푸시합니다.
+3. master: Github Actions에 등록된 Workflow 중 pages-build-deployment라는 작업이 자동 배포를 수행하고 그 결과물을 푸시하는 저장소입니다. \
+Github Pages의 설정에서 blog.medianavi.kr 혹은 medianavi.github.io로 접근했을 때 이 브랜치를 보도록 설정되어 있습니다.
 
-1.  **Start developing.**
+## 구조
 
-    Navigate into your new site’s directory and start it up.
+* /content: 블로그의 구조를 제외한 컨텐츠(포스트 등)를 담는 디렉토리입니다. post, works의 발행은 이 디렉토리의 내용으로 수행합니다.
+  * /blog: 블로그에 발행할 포스트를 담은 디렉토리입니다.
+* /public: 빌드된 결과물이 자동생성되는 디렉토리입니다. 직접 조작하는 경우는 없습니다.
+* /src: 블로그의 개발을 위한 모든 소스를 포함하는 디렉토리입니다.
+  * /assets
+  * /components
+  * /images
+  * /pages
+  * /scss
+  * /templates
+* /static
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+기타 Gatsby 전반에 대한 파일의 용도와 구조는 Gatsby 공식 웹사이트를 참고해 주세요.
 
-1.  **Open the source code and start editing!**
+## 포스트 발행 방법
 
-    Your site is now running at `http://localhost:8000`!
+`/content` 디렉토리 아래에 새로운 디렉토리를 생성합니다. 디렉토리의 이름은 곧 포스트의 slug(url)이 됩니다. 즉, 각 디렉토리는 하나의 포스트를 담당합니다. 디렉토리 이름은 Blog와 Works가 서로 다른 규칙으로 관리되고 있습니다. Blog 포스트의 경우 `YYYY-MM-DD-name-of-post` 꼴로, Works의 경우 프로젝트 이름을 영문명으로 적어줍니다.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-4/#use-graphiql-to-explore-the-data-layer-and-write-graphql-queries)._
+### 디렉토리 명의 예시
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+> 2022-01-21-history-of-ai
 
-## 🚀 Quick start (Gatsby Cloud)
+> 2022-10-24-ai-for-creation
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+> kdata
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-blog)
+> kpf
 
-## 🧐 What's inside?
+각 포스트 디렉토리 아래에 index.md를 생성하고, 작성시에는 [작성 규칙](https://docs.google.com/document/d/16lJqAfo4MGstxBaMlf-mKSyzEAyuy--DBo9qHRMFcY8/edit?usp=share_link) 대로 작성합니다.
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+포스트 상단의 yaml에서 category를 “blog”, “works” 두 가지로 설정할 수 있으며 어떤 것으로 설정하는 지에 따라 웹사이트 블로그 내에서 다른 화면에 출력할 것인지 결정할 수 있습니다.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+```yaml
+---
+title: 포스트의 제목
+...
+category: "blog"
+...
+---
+```
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+## 배포
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+작성이 완료가 됐다면 변경된 내용을 저장하고, commit과 push를 합니다. **이때 push 하는 브랜치는 반드시 dev 브랜치여야 합니다.**
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+push가 완료되면 일정 시간 이후에 Github Actions가 작동하면서 자동으로 배포를 진행합니다. 배포의 진행과 완료 여부는 저장소의 [Actions 탭](https://github.com/medianavi/medianavi.github.io/actions)에서 확인이 가능하며, Slack 채널 ‘미디어나비-홈페이지'에 bot 메시지가 올라옵니다.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+배포 중 이상이 생겼다면 Actions 탭에서 확인이 가능합니다.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+---
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
+_이하는 블로그 포스트와 무관한 정보입니다. 필요한 경우에만 참고해주세요._
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+## Github Actions
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+자동 배포시 사용하는 Github Actions에서 알아두어야 할 몇 가지 정보입니다. (자세한 사용법은 Gatsby Github Actions 자동 배포 등으로 검색하면 많은 정보들이 나옵니다.)
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+* 자동 배포의 수행을 위해 [Repository Secrets](https://github.com/medianavi/medianavi.github.io/settings/secrets/actions)를 사용합니다. 이 페이지에서 확인이 가능합니다.
+* 배포에 사용되는 actions는 `actions/checkout@v1`과 `enriikke/gatsby-gh-pages-action@v2`를 이용하고 있습니다.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+## 도메인의 변경
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/products/cloud/)
-
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+1. [Settings => Pages](https://github.com/medianavi/medianavi.github.io/settings/pages)에서 변경할 도메인을 설정합니다.
+2. 저장소의 ‘CNAME’ 파일을 열어 변경한 도메인을 입력합니다.
