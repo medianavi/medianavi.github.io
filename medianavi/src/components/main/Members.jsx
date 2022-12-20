@@ -68,7 +68,7 @@ export default function Members() {
       project: [
         {
           date: "2022.09 ~ 2022.11",
-          content: "한국언론진흥재단, 디지털 뉴스 유통 구조 개선 포럼 논의용 임시 사이트 개발"
+          content: "한국언론진흥재단, 디지털 뉴스 유통 구조 개선 포럼 논의용 임시 사이트 백엔드 개발"
         },
         {
           date: "2022.02 ~ 현재",
