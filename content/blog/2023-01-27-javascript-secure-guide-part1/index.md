@@ -2,9 +2,19 @@
 title: JavaScript 보안 가이드 1편 - 입력데이터 검증 및 표현
 date: "2023-01-27T00:00:00.169Z"
 category: "blog"
-description: JavaScript로 프로그램을 안전하게 개발할 수 있도록 하는 보안 가이드 입니다. 이중에 입력데이터 검증 및 표현 부분을 설명합니다.
+description: JavaScript로 프로그램을 안전하게 개발할 수 있도록 하는 보안 가이드 입니다. 이 중에 "입력데이터 검증 및 표현" 부분을 보여줍니다.
 postauthor: "Funny"
 ---
+## 0. 시작하는 글
+프로젝트를 하다가 고객사들은 보안 취약점에 대해 어떻게 대비를 하는지 조사를 하였습니다.
+Java, Python, C++ 언어들은 쉽게 정리된 자료를 검색할 수 있었는데 JavaScript는 서버에서는 Node.js 플랫폼에서 서버사이드 애플리케이션을 개발하는데 많이 사용되고 클라이언트에서도 웹페이지의 개발 작업에 두루 사용되는 인기 많은 언어 임에도 불구하고 찾을 수가 없었습니다.  
+이에 JavaScript 보안 가이드의 정리가 필요하여 작업을 진행하였습니다. 한국인터넷진흥원에서 발간한 "Python_시큐어코딩_가이드"를 참조하여 작업하였으며 필요한 텍스트와 이미지를 가져와 사용하였으며 내용을 더하고 소스는 만들어서 작성하였습니다.  
+본문에 짧게 말 줄여 쓰는 점 양해 부탁합니다.
+문의사항이나 잘못된 부분있으면 이메일 보내주길 바랍니다.   
+-미디어나비 백엔드 개발자 퍼니 funny@medianavi.kr
+
+
+클라이언트에서는 브라우저에서 웹 페이지의 동적인 상호 작용을 구현하는 데 사용되고, 서버에서는 Node.js 플랫폼에서 서버 사이드 어플리케이션을 개발하는 데 사용됩니다.
 
 ## 1. SQL 삽입
 
@@ -12,6 +22,7 @@ postauthor: "Funny"
 
 <figure>
   <img src="./image01.jpg" alt=""/>  
+  <figcaption>(1) SQL 삽입 개요 <br/>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 데이터베이스(DB)와 연동된 웹 응용프로그램에서 입력된 데이터에 대한 유효성 검증을 하지 않을 경우 공격자가 입력 폼 및 URL 입력란에 SQL 문을 삽입하여 DB로부터 정보를 열람하거나 조작할 수 있는 보안취약점을 말한다. 취약한 웹 응용프로그램에서는 사용자로부터 입력된 값을 검증 없이 넘겨받아 동적쿼리(Dynamic Query)를 생성하기 때문에 개발자가 의도하지 않은 쿼리가 실행되어 정보유출에 악용될 수 있다.
@@ -105,6 +116,7 @@ db.query(`Select * FROM topic Where id=${db.escape(custom_id)}, function(err,res
 
 <figure>
   <img src="./image02.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -148,6 +160,7 @@ JavaScript 코드 삽입 문제란, 외부 소스에서 악의적인 코드를 �
 
 <figure>
   <img src="./image03.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -231,6 +244,7 @@ Python에서는 subprocess.popen()과 같이 프로세스를 여는 함수, os.p
 
 <figure>
   <img src="./image04.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -299,6 +313,7 @@ javascript에서 막는 방법
 
 <figure>
   <img src="./image05.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -320,6 +335,7 @@ JavaScript는 웹 브라우저에서만 실행되며, 운영체제 명령어를 
       console.log(`stdout: ${stdout}`);
       console.error(`stderr: ${stderr}`);
     });
+
 단, 이러한 코드를 사용하면 운영체제에서 권한을 요구할 수 있으며, 실행되는 명령어에 따라 보안 위험을 내포할 수 있으니 주의가 필요하다.
 
 ## 6. 위험한 형식 파일 업로드
@@ -327,6 +343,7 @@ JavaScript는 웹 브라우저에서만 실행되며, 운영체제 명령어를 
 
 <figure>
   <img src="./image06.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -362,6 +379,7 @@ JavaScript로 개발시 위험한 형식 파일 업로드를 방지하는 방법
 
 <figure>
   <img src="./image07.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 검증되지 않은 외부 입력값이 URL링크 생성에 사용되어 악의적인 사이트로 자동 접속될 수 있는 보안약점이다.
@@ -420,6 +438,7 @@ URL 파라미터에 대한 검증을 수행하지 않은 경우, 발생한다.
 
 <figure>
   <img src="./image08.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -452,6 +471,7 @@ XML 외부 개체 참조를 방지하는 가장 효과적인 방법은 서버측
 
 <figure>
   <img src="./image09.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -486,6 +506,7 @@ XQuery 또는 XPath 쿼리에 사용되는 외부 입력데이터에 대하여 �
 
 <figure>
   <img src="./image10.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -531,6 +552,7 @@ LDAP 삽입 공격을 방지하려면 입력데이터 검증과 권한관리를 
 
 <figure>
   <img src="./image11.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -577,6 +599,7 @@ LDAP 삽입 공격을 방지하려면 입력데이터 검증과 권한관리를 
 
 <figure>
   <img src="./image12.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -602,6 +625,7 @@ LDAP 삽입 공격을 방지하려면 입력데이터 검증과 권한관리를 
 
 <figure>
   <img src="./image13.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -637,6 +661,7 @@ HTTP 응답 분할(HTTP Response Splitting)을 방지하기 위해서는 사용�
 
 <figure>
   <img src="./image14.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -665,6 +690,7 @@ HTTP 응답 분할(HTTP Response Splitting)을 방지하기 위해서는 사용�
 
 <figure>
   <img src="./image15.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 
@@ -709,6 +735,7 @@ HTTP 응답 분할(HTTP Response Splitting)을 방지하기 위해서는 사용�
 
 <figure>
   <img src="./image16.jpg" alt=""/>  
+  <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
 외부로부터 입력된 값을 검증하지 않고 입·출력 함수의 포맷 문자열로 그대로 사용하는 경우 발생할 수 있는 보안약점이다.
