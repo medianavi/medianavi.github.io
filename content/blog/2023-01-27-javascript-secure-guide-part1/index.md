@@ -10,7 +10,7 @@ postauthor: "Funny"
 Java, Python, C++ 언어들은 쉽게 정리된 자료를 검색할 수 있었는데 JavaScript는 서버에서는 Node.js 플랫폼에서 서버사이드 애플리케이션을 개발하는데 많이 사용되고 클라이언트에서도 웹페이지의 개발 작업에 두루 사용되는 인기 많은 언어 임에도 불구하고 찾을 수가 없었습니다.  
 이에 JavaScript 보안 가이드의 정리가 필요하여 작업을 진행하였습니다. 한국인터넷진흥원에서 발간한 "Python_시큐어코딩_가이드"를 참조하여 작업하였으며 필요한 텍스트와 이미지를 가져와 사용하였으며 내용을 더하고 소스는 만들어서 작성하였습니다.  
 본문에 짧게 말 줄여 쓰는 점 양해 부탁합니다.
-문의사항이나 잘못된 부분있으면 이메일 보내주길 바랍니다.   
+문의사항이나 잘못된 부분있으면 이메일 보내주시길 바랍니다.   
 -미디어나비 백엔드 개발자 퍼니 funny@medianavi.kr
 
 
@@ -25,89 +25,61 @@ Java, Python, C++ 언어들은 쉽게 정리된 자료를 검색할 수 있었�
 
 데이터베이스(DB)와 연동된 웹 응용프로그램에서 입력된 데이터에 대한 유효성 검증을 하지 않을 경우 공격자가 입력 폼 및 URL 입력란에 SQL 문을 삽입하여 DB로부터 정보를 열람하거나 조작할 수 있는 보안취약점을 말한다. 취약한 웹 응용프로그램에서는 사용자로부터 입력된 값을 검증 없이 넘겨받아 동적쿼리(Dynamic Query)를 생성하기 때문에 개발자가 의도하지 않은 쿼리가 실행되어 정보유출에 악용될 수 있다.
 
-#### 나. SQL Injection 방어하기 코드
+#### 나. 안전한 코딩기법
 
-웹페이지 상에서 입력란에 소스코드와 SQL문을 입력하여 공격하는 방법을 SQL 인젝션 공격이라고 한다. 코드 인젝션의 한 기법으로 클라이언트의 입력값을 조작하여 서버의 데이터베이스를 공격할 수 있는 공격방식을 말한다.
-주로 사용자가 입력한 데이터를 제대로 필터링, 이스케이핑하지 못했을 경우에 발생한다. 공격의 쉬운 난이도에 비해 파괴력이 어마어마하기 때문에 시큐어 코딩을 하는 개발자라면 가장 먼저 배우게 되는 내용이다. 이러한 injection 계열의 취약점들은 테스트를 통해 발견하기는 힘들지만 스캐닝 툴이나 코드 검증 절차를 거치면 보통 쉽게 발견되기 때문에 탐지하기는 쉬운 편으로 OWASP에서도 수년 동안 인젝션 기법이 보안 위협 1순위로 분류되는 만큼 보안에 각별한 주의가 필요하다고 한다.
-아래는 JavaScript를 통해서 간단하게 막아보는 코드이다.
+ DB API 사용 시 인자화된 쿼리를 통해 외부 입력값을 바인딩해서 사용하면 SQL 삽입 공격으로부터 안전하게 보호할 수 있다. 이 방법을 SQL 파라미터화(parameterization) 방법이라고 한다. 이 방법을 사용하면, 사용자 입력 값이 SQL 쿼리로 실행될 때 별도의 파라미터로 전달되므로, 악의적인 SQL 쿼리를 포함한 입력 값이 발생하더라도 실제 SQL 쿼리에 포함되지 않는다.
 
-      function checkSearchedWord(obj) {
-        if (obj.length > 0) {
-          //특수문자 제거
-          var expText = /[%=><]/;
-          if (expText.test(obj) == true) {
-            alert("특수문자를 입력할 수 없습니다.");
-            obj.value = obj.value.split(expText).join("");
-            return false;
-          }
+#### 다. 코드 예제 
 
-          //특정문자열(sql예약어의 앞뒤공백포함) 제거
-          var sqlArray = new Array(
-            //sql 예약어
-            "OR", "SELECT", "INSERT", "DELETE", "UPDATE", "CREATE", "DROP", "EXEC",
-            "UNION", "FETCH", "DECLARE", "TRUNCATE"
-          );
+SQL 삽입 문제가 있는 코드
 
-          var regex;
-          for (var i = 0; i < sqlArray.length; i++) {
-            regex = new RegExp(sqlArray[i], "gi");
+    var username = req.body.username;
+    var password = req.body.password;
 
-            if (regex.test(obj)) {
-              alert("\"" + sqlArray[i] + "\"와(과) 같은 특정문자로 검색할 수 없습니다.");
-              obj = obj.replace(regex, "");
-              return false;
-            }
-          }
-        }
-        return true;
+    var sql = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
+
+    connection.query(sql, function(error, results) {
+      if (error) {
+        throw error;
       }
+      res.json(results);
+    });
 
-위와 같은 코드로 SQL 인젝션 공격을 어느정도 방어 할 수 있다.
+SQL 삽입(SQL Injection)이란, 사용자가 입력한 값이 악의적인 SQL 쿼리로 실행될 수 있는 것을 말한다. 위의 코드에서는 username과 password 값을 직접 SQL 쿼리에 포함시키고 있기 때문에, 악의적인 사용자가 입력한 값에 SQL 쿼리를 포함시키면 원하지 않는 결과가 발생할 수 있다.
 
-#### 다. 코드 주입(Code injection) 
+아래의 코드처럼 SQL 파라미터화(parameterization) 방법을 사용하면 "SQL 삽입" 문제를 해결할 수 있다.
 
-유효하지 않은 데이터를 처리함으로써 발생되는 버그를 활용하여 시스템을 해킹하거나 공격하는 방법이다. 공격자들은 취약점이 있는 프로그램에 코드를 주입시켜 공격자들이 의도한 대로 실행하게 한다. 코드주입으로 인한 피해는 취약점이 있는 어플리케이션에 기인하는데, 엉뚱한 데이터를 어플리케이션으로 전달함으로써 잘못된 처리를 유도하면서 발생한다.특히 프로그램에서 SQL, LDAP, NoSQL 쿼리나 OS 명령어의 잘못된 처리로 인한 취약점이 발견되며, XML 파서나 SMTP 헤더, 프로그램 인자들의 잘못된 사용으로 인한 취약점도 발견되고 있다.대표적인 해킹 방법에는 SQL주입과 HTML 스크립트 주입이 있다.
+    var username = req.body.username;
+    var password = req.body.password;
 
-#### 라. SQL Injection 예시
+    var sql = "SELECT * FROM users WHERE username = ? AND password = ?";
 
-SQL 삽입 공격은 사용자로부터 입력받은 값을 직접 SQL 문장에 삽입하는 경우에 발생할 수 있는 보안 취약점이다. 예를 들어 아래의 코드는 사용자로부터 입력받은 "username"과 "password"를 이용해 데이터베이스에서 사용자를 검색하는 코드이다.
+    connection.query(sql, [username, password], function(error, results) {
+      if (error) {
+        throw error;
+      }
+      res.json(results);
+    });
 
-      var username = req.body.username;
-      var password = req.body.password;
+SQL 파라미터화 방법을 사용하면, username과 password 값이 별도의 파라미터로 전달되므로, 악의적인 SQL 쿼리를 포함한 입력 값이 발생하더라도 실제 SQL 쿼리에 포함되지 않는다.
 
-      var sql = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
+또 아래 코드와 같은 방법도 있다.
 
-      connection.query(sql, function(error, results) {
-        if (error) {
-          throw error;
-        }
-        res.json(results);
-      });
+    var username = connection.escape(req.body.username);
+    var password = connection.escape(req.body.password);
 
-위 코드는 사용자가 입력한 "username" 과 "password"를 그대로 SQL 문장에 삽입하기 때문에, 사용자가 악의적인 값을 입력할 경우 SQL 삽입 공격을 할 수 있다. 이를 방지하기 위해서는 prepared statement를 사용하거나, 사용자 입력값에 대해 적절한 필터링을 해야 한다.
+    var sql = "SELECT * FROM users WHERE username = " + username + " AND password = " + password;
 
- SQL은 Multiple statement를 지원한다. 이 말의 의미는 다음과 같은 코드를 허용한다는 것 이다.
+    connection.query(sql, function(error, results) {
+      if (error) {
+        throw error;
+      }
+      res.json(results);
+    });
 
-Select * FROM topic; DROP TABLE topic;
+위의 코드에서, connection.escape 메서드를 사용하여 username과 password 값을 이스케이프(escape)한다. 이스케이프된 값은 SQL 쿼리에 안전하게 포함될 수 있다.
 
-이를 이용하면 DB 서버의 모든 데이터를 삭제하는 작업도 아주 간단하게 가능하다. 쿼리 스트링이나 form 형식으로 전달할  데이터에 원하는 SQL문을 삽입하기만 하면 끝이기 때문이다.
 
-#### 마. SQL Injection 예방
-
- SQL injection을 예방하는 방법은 많다.위험한 코딩 방식과 안전한 코딩 방식은 반드시 기억해두시기 바란다.
-
--위험한 코드  
-db.query(`Select * FROM topic Where id=${custom_id}, function(err,result){});   
-
--보안 코드  
-db.query(`Select * FROM topic Where id=${custom_id}, function(err,result){});
-
-두번 째 인자로 등장하는배열의 값이 첫번 째 인자의 ?에 차례대로 대응된다.
-
--보안 코드 2  
-var mysql = require('mysql');  
-var db = mysql.createConnection();  
-db.query(`Select * FROM topic Where id=${db.escape(custom_id)}, function(err,result){});
 
 ## 2. 코드 삽입
 #### 가. 개요 
@@ -252,22 +224,6 @@ XSS는 공격자가 웹 응용프로그램을 속여 사용자의 브라우저�
 #### 나. 안전한 코딩기법
 외부 입력값 또는 출력값에 스크립트가 삽입되지 못하도록 문자열 치환 함수를 사용하여 &<>*‘/()등을 치환하거나, html라이브러리의 escape()를 사용한다. HTML 태그를 허용하는 게시판에서는 허용되는 HTML 태그들을 화이트리스트로 만들어 해당 태그만 지원하도록 한다.
 
-검증되지 않은 값을 웹 브라우저에 보내는 경우(XSS_ATTRIBUTE)  
-안전하지 않은 jsp 코드 일부
-
-    <tr>
-      <td colspan="2">${contents}</td>
-    </tr>
-
-attribute로부터 얻어온 값에 대한 검증을 수행하지 않는다.  
-안전한 jsp 코드 일부
-
-    <tr>
-        <td colspan="2"><c:out value="${contents}"/></td>
-    </tr>
-
-JSTL의 <c:out> 태그를 사용하여 필터링을 수행한다.
-
 javascript에서 막는 방법
 
     var escapeHtmlMap = {
@@ -288,8 +244,6 @@ javascript에서 막는 방법
     var text = "안녕하세요! <b>데브쿠아</b>입니다.";
     text.escapeHTML();
 
-
-
 #### 다. 코드 예제
 크로스사이트 스크립트(Cross-Site Scripting, XSS)문제는 웹 애플리케이션에서 입력받은 데이터를 출력할 때 발생할 수 있는 보안 문제이다. 이러한 문제는 악의적인 사용자가 입력한 스크립트를 실행할 수 있게 하는 것을 의미한다.
 
@@ -302,8 +256,34 @@ javascript에서 막는 방법
 
     <script>alert('Hello')</script>
 
-악의적인 스크립트가 실행될 수 있어 보안 문제가 발생한다.
-이러한 문제를 해결하려면 입력받은 데이터를 적절히 검증하고, 출력 시 이를 이스케이프 해야한다.
+악의적인 스크립트가 실행될 수 있어 보안 문제가 발생한다.  
+이러한 XSS 문제를 해결하기 위한 가장 기본적인 방법은 사용자 입력을 적극적으로 검증하는 것이다. 악의적인 스크립트를 막기 위해서는 아래의 방법 중 하나를 사용해야 한다.  
+인코딩: 사용자 입력에 포함된 스크립트를 인코딩하여 브라우저가 실행할 수 없도록 한다.  
+디코딩: 사용자 입력이 화면에 표시될 때 디코딩하여 스크립트가 실행되지 않도록 한다.  
+허용된 태그만 허용: 허용된 HTML 태그만 허용하도록 제한한다.  
+
+아래와 같이 사용자 입력을 적극적으로 검증하여 크로스사이트 스크립트 문제가 발생하지 않도록 한다.  
+
+    // XSS prevention using encoding
+    function preventXSS(userInput) {
+        return encodeURIComponent(userInput);
+    }
+
+    // XSS prevention using allowed tags only
+    function preventXSS(userInput) {
+        var allowedTags = ['p', 'b', 'strong', 'em', 'u', 'i'];
+        var userInputArray = userInput.split(" ");
+        var result = "";
+        for (var i = 0; i < userInputArray.length; i++) {
+            if (allowedTags.indexOf(userInputArray[i]) !== -1) {
+                result += "<" + userInputArray[i] + ">";
+            } else {
+                result += userInputArray[i];
+            }
+        }
+        return result;
+    }
+
 
 ## 5. 운영체제 명령어 삽입
 #### 가. 개요
@@ -319,21 +299,18 @@ javascript에서 막는 방법
 
 #### 나. 안전한 코딩기법
 외부 입력값 내에 시스템 명령어를 포함하는 경우 |, ;, &, :, >, <, `(backtick), \, ! 과 같이 멀티라인 및 리다이렉트 문자 등을 필터링 하고 명령을 수행할 파일명과 옵션을 제한해 인자로만 사용될 수 있도록 해야 한다. 외부 입력에 따라 명령어를 생성하거나 선택이 필요한 경우에는 명령어 생성에 필요한 값들을 미리 지정해 놓고 사용해야 한다.
-#### 다. 문제 해결
-JavaScript는 웹 브라우저에서만 실행되며, 운영체제 명령어를 직접 실행할 수 없다. 웹 브라우저에서는 제한된 API만 사용 가능하며, 운영체제 명령어를 실행하는 것은 보안 위험을 내포하기 때문에 허용되지 않는다.
-만약, 서버측 언어로 운영체제 명령어를 실행시키고 싶다면, Node.js를 사용하면 된다. Node.js는 JavaScript를 서버측에서 사용 가능하며, 간단한 코드로 운영체제 명령어를 실행시킬 수 있다.
 
-    const { exec } = require("child_process");
-    exec("echo 'Hello, World!'", (error, stdout, stderr) => {
-      if (error) {
-        console.error(`exec error: ${error}`);
-        return;
-      }
-      console.log(`stdout: ${stdout}`);
-      console.error(`stderr: ${stderr}`);
-    });
+#### 다. 코드 예제
+운영체제 명령어 삽입 문제는 사용자가 입력한 데이터를 그대로 운영체제 명령어로 실행할 경우 발생할 수 있는 보안 문제이다. 이 문제를 해결하는 방법으로는 사용자 입력 데이터를 정제하는 것이 중요하다.
 
-단, 이러한 코드를 사용하면 운영체제에서 권한을 요구할 수 있으며, 실행되는 명령어에 따라 보안 위험을 내포할 수 있으니 주의가 필요하다.
+    function sanitizeInput(input) {
+      return input.replace(/[^\w\s]/gi, '');
+    }
+    const userInput = 'rm -rf /';
+    const sanitizedInput = sanitizeInput(userInput);
+    console.log(sanitizedInput);  // rm rf
+
+위 코드에서 sanitizeInput 함수는 사용자 입력 데이터에서 특수 문자를 제거하는 기능을 가진다. 이 함수를 통해 정제된 데이터는 운영체제 명령어로 실행되지 않는다.
 
 ## 6. 위험한 형식 파일 업로드
 #### 가. 개요
@@ -379,55 +356,45 @@ JavaScript로 개발시 위험한 형식 파일 업로드를 방지하는 방법
   <figcaption>이미지출처 : 한국인터넷진흥원 </figcaption>
 </figure>
 
-검증되지 않은 외부 입력값이 URL링크 생성에 사용되어 악의적인 사이트로 자동 접속될 수 있는 보안약점이다.
-사용자로부터 입력되는 값을 외부사이트의 주소로 사용하여 자동으로 연결하는 서버 프로그램은 피싱(Phishing) 공격에 노출되는 취약점을 가질 수 있다.
-일반적으로 클라이언트에서 전송된 URL 주소로 연결하기 때문에 안전하다고 생각할 수 있으나, 공격자는 해당 폼의 요청을 변조함으로써 사용자가 위험한 URL로 접속할 수 있도록 공격할 수 있다.
-
-
-
+사용자가 입력하는 값을 외부 사이트 주소로 사용해 해당 사이트로 자동 접속하는 서버 프로그램은 피싱(Phishing) 공격에 노출되는 취약점을 가진다. 클라이언트에서 전송된 URL 주소로 연결하기 때문에 안전하다고 생각할 수 있으나, 공격자는 정상적인 폼 요청을 변조해 사용자가 위험한 URL로 접속할 수 있도록 공격할 수 있다.
 
 #### 나. 안전한 코딩기법
 리디렉션을 허용하는 모든 URL을 서버 측 화이트리스트로 관리하고 사용자 입력 값을 리디렉션 할 URL이 존재하는지 검증해야 한다.
-만약 사용자 입력 값이 화이트 리스트로 관리가 불가능하고 리디렉션 URL의 인자 값으로 사용되어야만 하는 경우는 모든 리디렉션에서 프로토콜과 host정보가 들어가지 않는 상대 URL(relative)을 사용해야 하고, 검증해야 한다. 또는 절대 URL(absoute URL)을 사용할 경우 리디렉션을 실행하기 전에 사용자 입력 URL이 https://myhompage.com/ 처럼 서비스하고 있는 URL로 시작하는지를 확인해야 한다.
-다. 코드 예제
-URL 파라미터에 대한 검증을 수행하지 않은 경우, 발생한다.
+만약 사용자 입력 값이 화이트 리스트로 관리가 불가능하고 리디렉션 URL의 인자 값으로 사용되어야만 하는 경우는 모든 리디렉션에서 프로토콜과 host정보가 들어가지 않는 상대 URL(relative)을 사용해야 하고, 검증해야 한다. 또는 절대 URL(absoute URL)을 사용할 경우 리디렉션을 실행하기 전에 사용자 입력 URL이 "https://myhompage.com/" 처럼 서비스하고 있는 URL로 시작하는지를 확인해야 한다.
 
--안전하지 않은 jsp 코드 일부
+#### 다. 코드 예제
+아래의 코드는 JavaScript에서 "신뢰되지 않는 URL 주소로 자동 접속 연결" 문제의 예시이다.
 
-    <html>
-    <head>
-    </head>
-    <body>
-        URL : ${param.url}
-      <%
-          if (request.getParameter("url") != null)
-              response.sendRedirect(request.getParameter("url"));
-      %>
-    </body>
-    </html>
+    location.href = untrustedUrl;
+
+이 코드에서, untrustedUrl은 신뢰할 수 없는 URL이 들어있는 변수이다. 코드가 실행되면, 사용자의 브라우저가 untrustedUrl에 포함된 URL로 자동적으로 리다이렉트 된다.  
+이는 보안 문제가 될 수 있다. 왜냐하면 공격자가 untrustedUrl을 악성 웹사이트로 설정할 수 있기 때문에, 민감한 정보를 사기하거나 사용자의 장치에 맬웨어를 설치할 수 있다.  
+이 문제를 해결하려면, untrustedUrl을 리다이렉트하기 전에 검증하는 것이 중요하다. 이는 신뢰할 수 있는 URL 목록과 비교하거나, 적절한 형식을 가지는지 확인하기 위해 정규 표현식을 사용하여 검사하는 것으로 할 수 있다.  
+
+아래의 코드는 이 문제에 대한 해결을 보여준다.
+
+    // URL 검증 함수
+    function validateUrl(url) {
+      // URL 형식을 검사하는 정규 표현식
+      const pattern = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+
+      return pattern.test(url);
+    }
+
+    // 신뢰되지 않는 URL을 검증하고 리다이렉트
+    const untrustedUrl = "example.com";
+    if (validateUrl(untrustedUrl)) {
+      location.href = untrustedUrl;
+    } else {
+      console.error("Invalid URL: " + untrustedUrl);
+    }
+
+위의 코드에서, URL의 유효성을 검사하기 위해 validateUrl 함수가 정의되어 있다. validateUrl 함수는 주어진 URL을 검사하기 위해 정규 표현식(regular expression)을 사용한다. 정규 표현식은 URL이 적절한 형식을 가지고 있는지 검사한다.
+URL이 유효하다면, 코드에서 location.href 값을 URL로 설정하여 리다이렉트한다. 만약 URL이 유효하지 않다면, 코드에서 console.error 함수를 사용하여 오류 메시지를 표시한다.
+이렇게 함으로써, 신뢰되지 않는 URL을 검증하고 리다이렉트하는 과정에서 보안 문제를 최소화할 수 있다.
 
 
--URL 파라미터에 대한 검증을 수행하지 않았다.
 
-안전한 jsp 코드 일부
-
-    <html>
-    <head>
-    </head>
-    <body>
-        URL : ${param.url}
-        <%
-        // 다른 페이지 이동하는 URL 리스트
-        String allowURL[] = { "http://url1.com", "http://url2.com", "http://url3.com" };        
-        // 입력받는 url은 미리 정해진 URL의 order로 받음
-        if (request.getParameter("url") != null)
-            Integer n = Integer.parseInt(url);
-        if (n >= 0 && n < 3)
-            response.sendRedirect(allowURL[n]); 
-        %>
-    </body>
-    </html>
-이동에 대한 URL을 선택하게끔 수정한다.
 
 
 ## 8. 부적절한 XML 외부 개체 참조
