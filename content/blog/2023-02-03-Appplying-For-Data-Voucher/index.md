@@ -16,12 +16,12 @@ postauthor: "Anna"
 데이터바우처 지원사업에 대해 들어보신 적 있나요? 데이터 산업 관계자분들은 한 번쯤은 들어보셨을 지원사업인데요. 데이터 수요 · 공급의 생태계를 조성하고 全 산업의 디지털 기반 데이터 활용 활성화 촉진을 위해 데이터 구매 · 가공 바우처를 지원하는 내용의 한국데이터산업진흥원 주관 사업입니다. 2023년 올해에는, **총 예산 894억 원이 편성되어 2,010건의 바우처를 지원**합니다. 
 
 <figure>
-<img src="./image01.jpg" alt=""/>
+<img src="./image01.jpg" alt="데이터바우처 사업추진체계"/>
 <figcaption>데이터바우처 사업추진체계</figcaption>
 </figure>
 
 <figure>
-<img src="./image02.jpg" alt=""/>
+<img src="./image02.jpg" alt="데이터바우처 사업추진절차"/>
 <figcaption>데이터바우처 사업추진절차</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ postauthor: "Anna"
 수요기업 제출서류를 기반으로 적격성 검토와 선정심사를 통해 지원요건에 부합하고 사업성이 우수한 기업 선정
 - 일반가공 및 AI가공 부문은 수요기업 선정심사 후 매칭심사를 통해 수요에 적합한 가공서비스를 제공할 수 있는 공급기업을 별도 선정
 <figure>
-<img src="./image08.jpg" alt=""/>
+<img src="./image08.jpg" alt="수요기업 선정절차"/>
 <figcaption>수요기업 선정절차</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ postauthor: "Anna"
 
 **수요기업 모집 주요 변경사항**
 <figure>
-<img src="./image09.jpg" alt=""/>
+<img src="./image09.jpg" alt="2023년도 주요 변경사항"/>
 <figcaption>2023년도 주요 변경사항</figcaption>
 </figure>
 
@@ -144,16 +144,16 @@ postauthor: "Anna"
 - **2023년도 데이터바우처 지원사업 수요기업 모집마감 : (구매) 2023년 3월 28일(화) / (일반가공) 2023년 3월 28일(화) / (AI가공) 2023년 3월 29일(수) 18:00**
 
 <figure>
-<img src="./image06.jpg" alt=""/>
+<img src="./image06.jpg" alt="사업계획서 목차"/>
 <figcaption>사업계획서 목차</figcaption>
 </figure>
 <figure>
-<img src="./image07.jpg" alt=""/>
+<img src="./image07.jpg" alt="사업계획서 내 수요기업 개요"/>
 <figcaption>사업계획서 내 수요기업 개요</figcaption>
 </figure>
 
 <figure>
-<img src="./image10.jpg" alt=""/>
+<img src="./image10.jpg" alt="수요기업 제출서류 목록"/>
 <figcaption>수요기업 제출서류 목록</figcaption>
 </figure>
 
