@@ -1,8 +1,8 @@
 ---
-title: 인공지능 최신 트렌드_Part III.     
+title: 인공지능 최신 트렌드_Part III. 국내외 AI 챗봇 서비스
 date: "2023-05-12T00:00:00.000Z"
 category: "blog"
-description: 인공지능 최신 트렌드에 대한 기획/연재기사로, ChatGPT 기술로 주목받고 있는 국내외 서비스 사례들에 대해 이야기합니다. 
+description: 인공지능 최신 트렌드에 대한 기획/연재기사로, ChatGPT 기술로 주목받고 있는 국내외 AI 챗봇 서비스 사례들을 조사해보았습니다.
 postauthor: "Anna"
 ---     
 
@@ -202,7 +202,7 @@ AI 여행플래너가 시간별 일정 및 동선에 맞춘 여행 계획을 제
 
 소유하고 있는 카드의 지출 및 경비 관리를 실시간으로 해주는 AI 어시스턴트 서비스 Fyle는 은행 피드에 의존하지 않고 신용카드 지출에 대한 즉각적인 알림을 받고, 텍스트를 통해 영수증을 수집하며, 실시간 거래 데이터를 수신할 수 있습니다. 비용 지출에 대한 리포팅을 제공받음으로써 사용자의 편의성을 높이며, 매일 같이 사용하는 사용자의 어플리케이션 내부에서 실시간으로 작업합니다. 문자 메시지로 영수증 간편 제출이 가능하며, Gmail, Outlook, Slack, 이메일 전달, 모바일 앱까지 다 지원됩니다. 파일은 AI 기반 데이터 추출 엔진을 사용하여 지출 영수증에서 데이터를 정확하게 추출하고 코드화하며, 기존 방식인 수작업의 노력을 AI 기술력으로 대체한 서비스입니다.
 
-### **6. AI-Powered virtual assistant, DataBot*
+### **6. AI-Powered virtual assistant, DataBot**
 <figure>
 <img src="./image21.jpg" alt="<그림20> AI-Powered virtual assistant, DataBot, 이미지 출처 : DataBot 홈페이지"/>
 <figcaption><그림20> AI-Powered virtual assistant, DataBot, 이미지 출처 : DataBot 홈페이지</figcaption>
