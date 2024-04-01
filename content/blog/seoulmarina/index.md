@@ -11,3 +11,4 @@ description: 서울마리나 웹페이지 리뉴얼 및 유지 보수
 
 * 서울마리나 웹페이지 리뉴얼 및 유지 보수 프로젝트 수행
 * [서울마리나 웹페이지 바로가기](http://www.seoul-marina.com)
+![서울마리나_홈페이지_스크린샷](./seoulmarina.jpg)
