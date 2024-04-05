@@ -36,7 +36,10 @@ https://blog.medianavi.kr/2023-01-10-MediaNavi-AI-Solution/
 
 **Q. 기존에 하시던 일이 이번 일과 관련이 있거나, 관련 없지만 의외로 작업에 도움이 되었던 점이 있으실까요?**  
 
-<img src="./image04.jpg" width="100" style="float: left; margin-right: 10px;" /> 웹디자인 일을 하면서 오탈자 검사를 자주 해서 작업하는 것이 낯설지 않았고 원래 단순 반복 작업을 좋아하는 성격이라 아무 생각없이 무념무상으로 힐링하듯 작업 할 수 있었습니다.  
+<div className="image-left">
+  <StaticImage src="./image04.jpg" alt="" />
+  웹디자인 일을 하면서 오탈자 검사를 자주 해서 작업하는 것이 낯설지 않았고 원래 단순 반복 작업을 좋아하는 성격이라 아무 생각없이 무념무상으로 힐링하듯 작업 할 수 있었습니다.  
+</div>
 <br>  
 <br> 
 <img src="./image08.jpg" width="100" style="float: right; margin-right: 10px;" />컴퓨터를 아주 오랜만에 만져보긴 했는데…생각보다 손가락이 기억을 많이 하고 있었어요.ㅋㅋ 원래 문서작업을 많이 했었고(하지만 경력단절 12년…), 타자를 잘치는 편이긴 했던 것이 도움이 되었을지 모르겠습니다.
