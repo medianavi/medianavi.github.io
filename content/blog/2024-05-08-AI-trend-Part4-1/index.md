@@ -61,7 +61,7 @@ HuggingChat는 Hugging Face에서 개발한 대화형 AI 서비스입니다. 주
 요약하자면, HuggingChat는 강력한 언어 모델 기반으로 맞춤형 대화와 개방성을 제공하고는 있지만, 비용과 리소스 요구사항, 프라이버시와 편향성 이슈 등의 단점이 있습니다. 
 
 **5. Claude 3.0  https://claude.ai/**  
-![클로드 3.0 웹 서비스 UI. 이미지 출처 : https://claude.ai/](./4_Claude_3_0_1.jpg)  
+![클로드 3.0 웹 서비스 UI. 이미지 출처 : https://claude.ai/](./4_Claude_3.0_1.jpg)  
 *클로드 3.0 웹 서비스 UI, 이미지 출처 : https://claude.ai/*  
 
 Anthropic에서 개발한 대화형 AI 모델 Claude 3.0이 최근 공개되었습니다. 처음에는 GPT-4에 비해 주목받지 못했지만, 실제 사용해본 사람들 사이에서 GPT-4보다 우수하다는 평가를 받고 있습니다. 
@@ -78,7 +78,7 @@ Claude 3.0의 핵심 특징은 다양한 크기의 모델(Haiku, Sonnet, Opus)�
 그리고 며칠 전 5월 2일, 클로드 3.0의 ios용 앱 서비스가 출시되었습니다. 순차적으로 안드로이드용 앱 서비스도 출시 예정이라고 하네요. ChatGPT처럼 사용자 접근성까지 높아지면서 저변 확대를 해나가고 있는 클로드 3.0의 영향력이 얼마나 커질지 기대됩니다.    
 
 **6. DALL-E  https://openai.com/index/dall-e-3**  
-![DALL-E 2와 DALL-E 3의 생성 이미지 결과물 비교 예시. 이미지 출처 : https://openai.com/index/dall-e-3](./6.%20DALL-E%202%20and%203.jpg) 
+![DALL-E 2와 DALL-E 3의 생성 이미지 결과물 비교 예시. 이미지 출처 : https://openai.com/index/dall-e-3](./6_DALL-E_2and3.jpg) 
 *DALL-E 2와 DALL-E 3의 생성 이미지 결과물 비교 예시. 이미지 출처 : https://openai.com/index/dall-e-3*  
 
 DALL-E는 ChatGPT를 개발한 OpenAI에서 만든 GPT 아키텍처를 시각적 영역으로 확장한 모델로 텍스트 프롬프트를 입력받아 원하는 이미지를 생성해주는 서비스를 제공하는데요.    
@@ -93,7 +93,7 @@ DALL-E는 다음과 같은 기능과 특징을 갖고 있습니다.
 아이디어를 입력하면 ChatGPT가 자동으로 맞춤형 상세 프롬프트를 생성하여 DALL·E 3에게 전달하고, 사용자의 아이디어를 시각화합니다. 특정 이미지가 마음에 들지만 완벽하지 않다면, ChatGPT에게 몇 마디 프롬프트를 지시해 수정할 수 있습니다. DALL·E 3는 10월 초에 ChatGPT Plus 및 Enterprise 고객들에게 제공될 예정입니다. DALL·E 2와 마찬가지로, DALL·E 3로 생성한 이미지에 대한 저작권은 사용 주체에게 있으므로 인쇄, 판매, 상품화할 때 오픈AI사의  허가가 필요 없습니다. 
 
 **7. Midjourney  https://www.midjourney.com/home**  
-![Midjourney로 생성한 이미지. 이미지 출처 : https://ideasanimation.medium.com/how-to-use-midjourney-to-create-ai-generated-images-dbe49d957d6d](./7.%20Midjourney.jpg)  
+![Midjourney로 생성한 이미지. 이미지 출처 : https://ideasanimation.medium.com/how-to-use-midjourney-to-create-ai-generated-images-dbe49d957d6d](./7_Midjourney.jpg)  
 *Midjourney로 생성한 이미지. 이미지 출처 : https://ideasanimation.medium.com/how-to-use-midjourney-to-create-ai-generated-images-dbe49d957d6d*
 
 DALL-E의 경쟁작 중 하나인 Midjourney는 AI 기술을 활용한 텍스트-이미지 생성 서비스입니다. 작년 발행했던 인공지능 최신 트렌드 연재기사에서도 Midjourney에 대해 다룬 적 있는데요. 사용자가 입력한 텍스트 프롬프트에 따라 아름답고 상상력 넘치는 이미지를 생성해줍니다. 주요 서비스 기능은 다음과 같습니다.   
@@ -145,7 +145,7 @@ Craiyon은 비교적 간단한 원리로 동작하지만 텍스트 기반 이미
 ### AI Softwate  
 
 **1. Viso Suite  https://viso.ai/why-viso-suite/**  
-![Viso Suite 컴퓨터 비전 플랫폼으로 구축된 컴퓨터 비전 애플리케이션 예시. 이미지 출처 : https://viso.ai/deep-learning/ai-software/](./9.%20Viso%20Suite.png)  
+![Viso Suite 컴퓨터 비전 플랫폼으로 구축된 컴퓨터 비전 애플리케이션 예시. 이미지 출처 : https://viso.ai/deep-learning/ai-software/](./9_Viso_Suite.png)  
 *Viso Suite 컴퓨터 비전 플랫폼으로 구축된 컴퓨터 비전 애플리케이션 예시. 이미지 출처 : https://viso.ai/deep-learning/ai-software/*    
 
 Viso Suite는 세계 유일의 end-to-end 컴퓨터 비전 애플리케이션 인프라로 AI 비전 애플리케이션을 개발, 배포, 확장 및 보안하기 위한 확장 가능한 컴퓨터 비전 소프트웨어를 제공합니다. 세계 최대 기업 중 일부가 Viso 플랫폼을 사용하여 자사의 컴퓨터 비전 애플리케이션 포트폴리오를 제공하고 유지 관리하고 있다고 합니다.   
@@ -167,7 +167,7 @@ H2O.ai는 기업이 ML 모델과 애플리케이션을 매우 쉽게 학습시�
 개인적으로 데이터 인터프리터 교육과정 실습시 본 플랫폼을 활용해서 머신러닝 모델을 추천받고 시각자료를 도출하는 등 서비스를 이용한 적 있는데 머신러닝을 다룰줄 모르는 일반임에도 불구하고 사용이 어렵지 않아 편리함을 느꼈습니다.
 
 **4. Synthesia  https://www.synthesia.io/**
-![Synthesia 웹 서비스 UI. 이미지 출처 : https://www.synthesia.io/](./10.%20Synthesia.jpg)    
+![Synthesia 웹 서비스 UI. 이미지 출처 : https://www.synthesia.io/](./10_Synthesia.jpg)    
 *Synthesia 웹 서비스 UI. 이미지 출처 : https://www.synthesia.io/*  
 
 Synthesia는 AI 아바타 산업계의 신흥 선두주자라고 할 수 있는데요. 최신 기술을 기반으로 한 합성 비디오 기술을 통해 비디오 콘텐츠 제작을 위한 소프트웨어 플랫폼을 제공하고 있습니다. 생성형 AI를 활용, 물리적 비디오 제작을 완전히 디지털 프로세스로 전환시켰으며, 대량의 비디오 제작 시 시간과 예산의 최대 80%까지 절감할 수 있습니다. 
@@ -211,7 +211,7 @@ apollo.io는 B2B 영업 및 마케팅을 위한 고급 데이터 인텔리전스
 ### AI for Customer Service  
 
 **1. Drift https://www.drift.com/**  
-![DRIFT 웹사이트 UI. 이미지 출처 : https://www.drift.com/platform/conversational-ai/](./11.%20DRIFT.jpg)  
+![DRIFT 웹사이트 UI. 이미지 출처 : https://www.drift.com/platform/conversational-ai/](./11_DRIFT.jpg)  
 *DRIFT 웹사이트 UI. 이미지 출처 : https://www.drift.com/platform/conversational-ai/*   
 
 Drift AI는 대화형 AI 애시스턴트를 구축하고 배포할 수 있는 플랫폼입니다. 서비스 주요 기능은 다음과 같습니다.
@@ -232,7 +232,7 @@ Chorus AI 소프트웨어를 통해 데이터 분석으로 고객사는 통찰�
 ### AI for HR  
 
 **1. Leena AI  https://leena.ai/**  
-![Leena AI 웹사이트 UI. 이미지 출처 : https://leena.ai/](./12.%20Leena%20AI.jpg)    
+![Leena AI 웹사이트 UI. 이미지 출처 : https://leena.ai/](./12_Leena_AI.jpg)    
 *Leena AI 웹사이트 UI. 이미지 출처 : https://leena.ai/*  
 
 Leena AI는 인공지능 기반의 가상 에이전트 플랫폼을 제공하는 기업으로 AI 기술로 HR 부서의 업무 효율성과 직원 경험을 개선하는 데 중점을 두고 있으며 주요 서비스의 특징은 다음과 같습니다.  
@@ -248,7 +248,7 @@ Leena AI는 인공지능 기반의 가상 에이전트 플랫폼을 제공하는
 : 직원 참여도, 봇 성능 등의 분석 데이터를 제공  
 
 **2. Fetcher.ai  https://fetcher.ai/**  
-![Fecher  AI 웹사이트 UI. 이미지 출처 : https://fetcher.ai/](./13.%20Fecher%20AI.jpg)    
+![Fecher  AI 웹사이트 UI. 이미지 출처 : https://fetcher.ai/](./13_Fecher_AI.jpg)    
 *Fecher  AI 웹사이트 UI. 이미지 출처 : https://fetcher.ai/*  
 
 Fetcher는 인재 소싱(talent sourcing) 플랫폼을 제공하는 기업으로 주요 서비스의 특징과 기능은 다음과 같습니다.   
@@ -262,7 +262,7 @@ Fetcher는 인재 소싱(talent sourcing) 플랫폼을 제공하는 기업으로
 ### AI for Meetings
 
 **1. Fireflies.ai  https://fireflies.ai/**  
-![Fireflies.ai 웹사이트 UI. 이미지 출처 : https://fireflies.ai/](./14.%20Fireflies.ai.jpg)  
+![Fireflies.ai 웹사이트 UI. 이미지 출처 : https://fireflies.ai/](./14_Fireflies.ai.jpg)  
 *Fireflies.ai 웹사이트 UI. 이미지 출처 : https://fireflies.ai/*    
 
 Fireflies.ai는 음성 회의 내용을 자동으로 기록, 요약, 검색 및 분석할 수 있는 서비스로 다음과 같은 주요 기능을 제공합니다. 
@@ -278,7 +278,7 @@ Fireflies.ai는 음성 회의 내용을 자동으로 기록, 요약, 검색 및 
 이렇듯 Fireflies.ai는 회의 준비, 진행, 정리에 드는 수고를 덜어주어 업무 효율성을 높여주는 생산성 도구로 활용될 수 있습니다.
 
 **2. Duet AI for Google Workspace  https://workspace.google.com/**  
-![Duet AI for Google Workspace 웹사이트 UI. 이미지 출처 : https://workspace.google.com/blog/product-announcements/duet-ai?hl=en](./15.%20Duet%20AI%20for%20Google%20Workspace.jpg)  
+![Duet AI for Google Workspace 웹사이트 UI. 이미지 출처 : https://workspace.google.com/blog/product-announcements/duet-ai?hl=en](./15_Duet_AI_for_Google_Workspace.jpg)  
 *Duet AI for Google Workspace 웹사이트 UI. 이미지 출처 : https://workspace.google.com/blog/product-announcements/duet-ai?hl=en*    
 
 Google은 Duet AI for Google Workspace라는 새로운 서비스를 출시하면서 Google Workspace 앱 전반에 생성형 AI 기술력을 내재화하여 문서 작성 및 구성, 시각화, 워크플로우 가속화, 더 나은 회의 진행 등을 돕는 AI 기능을 통합했습니다. 다음과 같은 서비스 기능들을 제공합니다. 
