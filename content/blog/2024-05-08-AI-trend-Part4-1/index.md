@@ -16,7 +16,7 @@ postauthor: "Anna"
 ### Creative AI Tools  
 
 **1. ChatGPT 4.0  https://chatgpt.com/**
-![ChatGPT 서비스 이용 예시 : 지난 데이터 인터프리터 교육과정 중 R스튜디오 실습시 오류사항을 물어봐 실제 개인적으로 많은 도움을 받았다. 이미지 출처 : https://chat.openai.com/](./1.%20ChatGPT_1.jpg)  
+![ChatGPT 서비스 이용 예시 : 지난 데이터 인터프리터 교육과정 중 R스튜디오 실습시 오류사항을 물어봐 실제 개인적으로 많은 도움을 받았다. 이미지 출처 : https://chat.openai.com/](./1_ChatGPT_1.jpg)
 *ChatGPT 서비스 이용 예시 : 지난 데이터 인터프리터 교육과정 중 R스튜디오 실습시 오류사항을 물어봐 실제 개인적으로 많은 도움을 받았다. 이미지 출처 : https://chat.openai.com/*  
 
 ![ChatGPT AI 소프트웨어의 주요 마일드스톤. 이미지 출처 : https://viso.ai/deep-learning/ai-software/](./2.%20ChatGPT_2.jpg)  
