@@ -19,7 +19,7 @@ postauthor: "Anna"
 ![ChatGPT 서비스 이용 예시 : 지난 데이터 인터프리터 교육과정 중 R스튜디오 실습시 오류사항을 물어봐 실제 개인적으로 많은 도움을 받았다. 이미지 출처 : https://chat.openai.com/](./1_ChatGPT_1.jpg)
 *ChatGPT 서비스 이용 예시 : 지난 데이터 인터프리터 교육과정 중 R스튜디오 실습시 오류사항을 물어봐 실제 개인적으로 많은 도움을 받았다. 이미지 출처 : https://chat.openai.com/*  
 
-![ChatGPT AI 소프트웨어의 주요 마일드스톤. 이미지 출처 : https://viso.ai/deep-learning/ai-software/](./2.%20ChatGPT_2.jpg)  
+![ChatGPT AI 소프트웨어의 주요 마일드스톤. 이미지 출처 : https://viso.ai/deep-learning/ai-software/](./2_ChatGPT_2.jpg)  
 *ChatGPT AI 소프트웨어의 주요 마일드스톤. 이미지 출처 : https://viso.ai/deep-learning/ai-software/* 
 
 ChatGPT는 OpenAI가 개발한 최신 AI 기반 언어모델로 대화형 환경에서 자연스러운 언어 응답을 생성하도록 특화되어 있습니다. 이는 GPT(생성 사전 훈련 변환기) 모델 계열에 속합니다. 많은 사람들이 채팅 인터페이스를 통해 ChatGPT와 상호작용했지만, 웹사이트와 애플리케이션에 API를 통해 내장하여 고객 경험과 직원 생산성을 향상시킬 수 있습니다.
@@ -38,7 +38,7 @@ ChatGPT의 경쟁자 중 하나인 Bard는 구글의 대화형 AI 모델로 텍�
 - 제미나이 나노(Gemini Nano): 온 디바이스 작업에 가장 효율적인 모델  
 
 **3. YouChat  https://about.you.com/youchat/**  
-![YouChat 웹 서비스 UI. 이미지 출처 : https://about.you.com/youchat/](./3.%20YouChat.jpg)  
+![YouChat 웹 서비스 UI. 이미지 출처 : https://about.you.com/youchat/](./3_YouChat.jpg)  
 *YouChat 웹 서비스 UI. 이미지 출처 : https://about.you.com/youchat/*
   
 YouChat은 개인화된 AI 어시스턴트 서비스로, 사용자의 대화 스타일과 선호도를 학습하여 맞춤형 대화를 제공합니다.  
@@ -61,7 +61,7 @@ HuggingChat는 Hugging Face에서 개발한 대화형 AI 서비스입니다. 주
 요약하자면, HuggingChat는 강력한 언어 모델 기반으로 맞춤형 대화와 개방성을 제공하고는 있지만, 비용과 리소스 요구사항, 프라이버시와 편향성 이슈 등의 단점이 있습니다. 
 
 **5. Claude 3.0  https://claude.ai/**  
-![클로드 3.0 웹 서비스 UI. 이미지 출처 : https://claude.ai/](./4.%20Claude%203.0_1.jpg)  
+![클로드 3.0 웹 서비스 UI. 이미지 출처 : https://claude.ai/](./4_Claude_3_0_1.jpg)  
 *클로드 3.0 웹 서비스 UI, 이미지 출처 : https://claude.ai/*  
 
 Anthropic에서 개발한 대화형 AI 모델 Claude 3.0이 최근 공개되었습니다. 처음에는 GPT-4에 비해 주목받지 못했지만, 실제 사용해본 사람들 사이에서 GPT-4보다 우수하다는 평가를 받고 있습니다. 
@@ -70,7 +70,7 @@ Anthropic에서 개발한 대화형 AI 모델 Claude 3.0이 최근 공개되었�
 
 Claude 3.0의 핵심 특징은 다양한 크기의 모델(Haiku, Sonnet, Opus)을 포함하고 있다는 점입니다. 그중 가장 대형 모델인 Opus는 전문 지식, 추론, 수학 등의 분야에서 대부분의 경쟁 모델을 능가하며 거의 인간 수준의 이해력과 유창성을 보인다고 하며, 모든 Claude 3.0 모델은 분석/예측, 콘텐츠 생성, 코딩, 다국어 대화 능력이 향상되었다고 합니다.
 
-![타 경쟁 모델과 비교한 Claude 3.0 성능지표. 이미지 출처 : https://www.anthropic.com/news/claude-3-family](./5.%20Claude%203.0_2.jpg)  
+![타 경쟁 모델과 비교한 Claude 3.0 성능지표. 이미지 출처 : https://www.anthropic.com/news/claude-3-family](./5_Claude_3.0_2.jpg)
 *타 경쟁 모델과 비교한 Claude 3.0 성능지표. 이미지 출처 : https://www.anthropic.com/news/claude-3-family*    
 
 클로드 3.0과 타 경쟁 모델들의 성능비교표를 보면, Claude 3 Sonnet은 GPT-4에 비해 밀리는 분야가 분명 있긴 하지만 무료로 사용하기 때문에 같은 무료 서비스인 GPT-3.5나 Gemini Pro와 비교하면 훨씬 좋은 성능을 갖고 있다는 것으로 파악됩니다. Haiku는 가장 작은 모델임에도 Gemini Pro정도 수준의 성능을 갖고 있어 전체적으로 Claude 3.0의 성능이 매우 좋다는 분석이 가능합니다.  
