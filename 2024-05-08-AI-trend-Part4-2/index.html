@@ -1,0 +1,865 @@
+<!DOCTYPE html><html lang="ko"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 4.25.9"/><meta name="description" content="연재기사인 인공지능 최신 트렌드 Part IV.에서는 최신 인공지능 기술력을 적용한 국내외 기술기업들이 운영 중인 AI 서비스들에 대해 이야기합니다." data-gatsby-head="true"/><meta property="og:title" content="인공지능 최신 트렌드 Part IV. 국내외 최신 AI 서비스 현황 - 국내편" data-gatsby-head="true"/><meta property="og:description" content="연재기사인 인공지능 최신 트렌드 Part IV.에서는 최신 인공지능 기술력을 적용한 국내외 기술기업들이 운영 중인 AI 서비스들에 대해 이야기합니다." data-gatsby-head="true"/><meta property="og:type" content="website" data-gatsby-head="true"/><meta name="twitter:card" content="summary" data-gatsby-head="true"/><meta name="twitter:creator" content="" data-gatsby-head="true"/><meta name="twitter:title" content="인공지능 최신 트렌드 Part IV. 국내외 최신 AI 서비스 현황 - 국내편" data-gatsby-head="true"/><meta name="twitter:description" content="연재기사인 인공지능 최신 트렌드 Part IV.에서는 최신 인공지능 기술력을 적용한 국내외 기술기업들이 운영 중인 AI 서비스들에 대해 이야기합니다." data-gatsby-head="true"/><style data-href="/styles.6d4a2b068fe0b7cfb545.css" data-identity="gatsby-global-css">@import url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css);
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden]{display:none}:lang(ko) h1,:lang(ko) h2,:lang(ko) h3,:lang(ko) h4{word-break:keep-all}:root{--maxWidth-none:"none";--maxWidth-xs:20rem;--maxWidth-sm:24rem;--maxWidth-md:28rem;--maxWidth-lg:32rem;--maxWidth-xl:36rem;--maxWidth-2xl:42rem;--maxWidth-3xl:48rem;--maxWidth-4xl:56rem;--maxWidth-full:"100%";--maxWidth-wrapper:var(--maxWidth-2xl);--spacing-px:"1px";--spacing-0:0;--spacing-1:0.25rem;--spacing-2:0.5rem;--spacing-3:0.75rem;--spacing-4:1rem;--spacing-5:1.25rem;--spacing-6:1.5rem;--spacing-8:2rem;--spacing-10:2.5rem;--spacing-12:3rem;--spacing-16:4rem;--spacing-20:5rem;--spacing-24:6rem;--spacing-32:8rem;--fontFamily-sans:Pretendard,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--fontFamily-serif:"Merriweather","Georgia",Cambria,"Times New Roman",Times,serif;--font-body:var(--fontFamily-sans);--font-heading:var(--fontFamily-sans);--fontWeight-normal:400;--fontWeight-medium:500;--fontWeight-semibold:600;--fontWeight-bold:700;--fontWeight-extrabold:800;--fontWeight-black:900;--fontSize-root:16px;--lineHeight-none:1;--lineHeight-tight:1.1;--lineHeight-normal:1.5;--lineHeight-relaxed:1.625;--fontSize-0:0.833rem;--fontSize-1:1rem;--fontSize-2:1.2rem;--fontSize-3:1.44rem;--fontSize-4:1.728rem;--fontSize-5:2.074rem;--fontSize-6:2.488rem;--fontSize-7:2.986rem;--color-primary:#e46b00;--color-text-light:#2e353f;--color-heading:#000;--color-heading-black:#000;--color-accent:#d1dce5;--color-key:#2238ce;--color-base:#ededed;--color-text:#000;--base-margin:30px}*,:after,:before{box-sizing:border-box}html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:var(--fontSize-root);line-height:var(--lineHeight-normal);overflow-y:scroll}body{background-color:var(--color-base);color:var(--color-text);font-family:var(--font-body);font-size:var(--fontSize-1)}footer{padding:var(--spacing-6) var(--spacing-0)}hr{background:var(--color-accent);border:0;height:1px}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);letter-spacing:-.025em;line-height:var(--lineHeight-tight);margin-bottom:var(--spacing-6);margin-top:var(--spacing-12)}h2,h3,h4,h5,h6{font-weight:var(--fontWeight-bold)}h1,h2,h3,h4,h5,h6{color:var(--color-text)}h1{font-size:var(--fontSize-6);font-weight:var(--fontWeight-black)}h2{font-size:var(--fontSize-5)}h3{font-size:var(--fontSize-4)}h4{font-size:var(--fontSize-3)}h5{font-size:var(--fontSize-2)}h6{font-size:var(--fontSize-1)}h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{color:inherit;text-decoration:none}p{--baseline-multiplier:0.179;--x-height-multiplier:0.35;line-height:var(--lineHeight-relaxed);margin:var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0)}ol,p,ul{padding:var(--spacing-0)}ol,ul{list-style-image:none;list-style-position:outside;margin-bottom:var(--spacing-8);margin-left:var(--spacing-4);margin-right:var(--spacing-0)}ol li,ul li{padding-left:var(--spacing-0)}li>p,ol li,ul li{margin-bottom:calc(var(--spacing-8)/2)}li :last-child{margin-bottom:var(--spacing-0)}li>ul{margin-left:var(--spacing-8);margin-top:calc(var(--spacing-8)/2)}blockquote{border-left:var(--spacing-1) solid var(--color-key);color:var(--color-text-light);font-size:var(--fontSize-2);font-style:italic;margin-bottom:var(--spacing-8);margin-left:calc(var(--spacing-6)*-1);margin-right:var(--spacing-8);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6)}blockquote>:last-child{margin-bottom:var(--spacing-0)}blockquote>ol,blockquote>ul{list-style-position:inside}table{border-collapse:collapse;border-spacing:.25rem;margin-bottom:var(--spacing-8);width:100%}table thead tr th{border-bottom:1px solid var(--color-accent)}figcaption{font-size:.9em}a{color:var(--color-primary)}a:focus,a:hover{text-decoration:none}.global-wrapper{margin:var(--spacing-0) auto;max-width:var(--maxWidth-wrapper);padding:var(--spacing-10) var(--spacing-5)}.global-wrapper[data-is-root-path=true] .bio{margin-bottom:var(--spacing-20)}.global-header{display:flex;justify-content:space-between;margin-bottom:var(--spacing-12)}.header--menu{display:flex;margin-bottom:0}.header--menu li{color:var(--color-text);font-size:var(--fontSize-2);font-weight:900;letter-spacing:.18rem;line-height:var(--base-margin);list-style:none;margin-left:2rem;text-transform:uppercase}.header--menu a{color:var(--color-text);text-decoration:none}.header--menu a.active{color:var(--color-key)}.main-heading{font-size:var(--fontSize-7);margin:0}.post-list-item{margin-bottom:var(--spacing-8);margin-top:var(--spacing-8)}.post-list-item p{margin-bottom:var(--spacing-0)}.post-list-item h2{color:var(--color-key);font-size:var(--fontSize-4);margin-bottom:var(--spacing-2);margin-top:var(--spacing-0)}.post-list-item header{margin-bottom:var(--spacing-4)}.header-link-home{font-family:var(--font-heading);font-size:var(--fontSize-2);font-weight:var(--fontWeight-bold);text-decoration:none}.bio{display:flex;margin-bottom:var(--spacing-16)}.bio p,.bio-avatar{margin-bottom:var(--spacing-0)}.bio-avatar{border-radius:100%;margin-right:var(--spacing-4);min-width:50px}.blog-post header h1{margin:var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0)}.blog-post header p{font-family:var(--font-heading);font-size:var(--fontSize-2)}.blog-post-nav ul{margin:var(--spacing-0)}.gatsby-highlight{margin-bottom:var(--spacing-8)}.header--logo{align-items:center;display:flex;font-size:var(--fontSize-2);font-weight:var(--fontWeight-black);justify-items:center;text-decoration:none}.header--logo--text{color:var(--color-key);letter-spacing:.18rem;line-height:var(--base-margin);margin-left:var(--spacing-2);text-transform:uppercase}.svg_logo{height:var(--base-margin)}.svg_logo_path{fill:var(--color-key)}.copyright{font-size:12px;font-weight:200;letter-spacing:.2em;text-align:center;text-transform:uppercase}.bio{align-items:center}.blog-post img{max-width:100%}.blog-post table td,.blog-post table th{border:1px solid #777;padding:.5em}.responsive-iframe{overflow:hidden;padding-top:56.25%;position:relative;width:100%}.responsive-iframe iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}@media(max-width:42rem){:root{--base-margin:16px}blockquote{margin-left:var(--spacing-0);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4)}ol,ul{list-style-position:inside}}@media(prefers-color-scheme:dark){:root{--color-base:#1e1c22;--color-text:#eee;--color-key:#1289ff;--color-text-light:#a4a4a4}}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#000;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;tab-size:4;text-align:left;text-shadow:0 1px #fff;white-space:pre;word-break:normal;word-spacing:normal}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{background:#b3d4fc;text-shadow:none}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{background:hsla(0,0%,100%,.5);color:#9a6e3a}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><title data-gatsby-head="true">인공지능 최신 트렌드 Part IV. 국내외 최신 AI 서비스 현황 - 국내편 | MediaNavi 미디어나비 Blog</title><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-144HB93NR5"></script><script>
+    window.GATSBY_GTAG_PLUGIN_GA_TRACKING_ID = (
+      'G-144HB93NR5'
+    );
+    window.GATSBY_GTAG_PLUGIN_ANONYMIZE = false;
+
+    var options = {
+      send_page_view: false
+    };
+    if (false) {
+      options.anonymize_ip = true;
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-144HB93NR5', options);
+  </script><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){const t=e.target;if(void 0===t.dataset.mainImage)return;if(void 0===t.dataset.gatsbyImageSsr)return;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link rel="alternate" type="application/rss+xml" title="MediaNavi blog" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=6bfe33411e9e143f9e2c946e9de05911" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=6bfe33411e9e143f9e2c946e9de05911"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=6bfe33411e9e143f9e2c946e9de05911"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="global-wrapper" data-is-root-path="false"><header class="global-header"><a class="header--logo" href="/"><svg xmlns="http://www.w3.org/2000/svg" role="img" class="svg_logo" preserveAspectRatio="none" viewBox="0 0 205.71 90"><title>미디어나비 로고</title><path class="svg_logo_path" d="M202.22,0H176.37a9,9,0,0,0-7.52,5.12l-19,43.4-19-43.4A9,9,0,0,0,123.35,0H97.4a9,9,0,0,0-7.52,5.12L79.15,29.64,75.29,5.12A6.32,6.32,0,0,0,69.2,0H42.88a9,9,0,0,0-7.52,5.12L.46,84.88C-.78,87.71.58,90,3.5,90H29.34a9,9,0,0,0,7.52-5.12L47.59,60.36l3.86,24.52A6.33,6.33,0,0,0,57.54,90H83.86a9,9,0,0,0,7.53-5.12l19-43.4,19,43.4A9,9,0,0,0,136.89,90h25.94a9,9,0,0,0,7.52-5.12L205.26,5.12C206.49,2.29,205.13,0,202.22,0ZM51.51,51.4,70.44,8.16,75.23,38.6,56.31,81.84Zm61.73-16.46L125.66,6.56a2.8,2.8,0,0,1,.36.56l21,47.94L134.58,83.44a2.42,2.42,0,0,1-.36-.56Z"></path></svg><span class="header--logo--text">Blog</span></a><ul class="header--menu"><li><a href="/">Posts</a></li><li><a href="/works">Works</a></li></ul></header><main><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><h1 itemProp="headline">인공지능 최신 트렌드 Part IV. 국내외 최신 AI 서비스 현황 - 국내편</h1><p>2024.05.08.</p></header><section itemProp="articleBody"><h2>들어가며</h2>
+<p>안녕하세요. 안나입니다. 꽤 오랜만에 연재기사로 찾아왔습니다.<br>
+지난 해 5월에 이어 연재하는 인공지능 최신 트렌드_Part IV.인 이번 블로그에서는 최신 기술력을 보유한 기술 스타트업들의 AI 서비스들에 대해 살펴보고자 합니다. 오픈AI, 구글 등 빅테크 기업들의 대규모 언어모델(LLM) API와 연결, 적용하여 런칭한 국내외 서비스들이 매우 많은데요.<br>
+현재 출시된 서비스들 중에서도 최근(2023년도 이후 기준) 투자유치 실적이 있거나 화제성을 가진 국내외 스타트업의 서비스를 기준으로 산업 카테고리별 분류하여 자세히 소개해 드리려고 합니다.</p>
+<h2>도메인별 국내 AI 서비스</h2>
+<h3>이커머스 / 패션</h3>
+<p><strong>1. AI 가상 의류 코디 플랫폼 ‘스타일봇’  <a href="http://stylebot.co.kr/">http://stylebot.co.kr/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c96893df2464ad44af3fb65d06c5104d/bd82c/1_Stylebot.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABJ0AAASdAHeZh94AAACXklEQVQoz42Q30/TUBTH+QNJUEIiGiHDGF8kMPakvBB8AxmiIbpEY5Aoyg8zZA+TBde1k0jbdUNGkWwi7kdvO2h1rL/uZb336tZFEuODJ+fhnJx8vud8TxeultDrBbSxht6touVFV1UsCGuaZts2hBAh1Gg0NE1z27VlWQoAtVrNdV2McRdunJEveXpUoMXDViKICYEQnp+fN9uBEHIcx2/92nXdZrNJCOmilDZct6rrim4oxg8FqJZp0v+LFryyvDwwMHBz8PqtwODQ0I1YLEYpJYR4nicIQi6X43l+c3NTFEVJkv6G0xx7d3z8eWR+8VkkOBZKJBL+DEKYyWQYhhFFkWEYQRCSySRCyJfuwJ/47OMnkXgiFU8wM/enOY7z4Wazqeu6oigAAFVVAQCVSsVxHIzxBSzLBxvR1YWl1acvo+vRt7Is07Y4xtgwjHq9DiHEGP/bc7l8vM0m4vFoZGFlbm721dKSqqp/brNMk2NZhmE4jmNZNp1OMwyj63oHLpXKkpRZi229eBOdmpy8d2dcyuUopZ7ntaXLV/r7e3ou9V+91tvXd7m3t7u7m+f5DmwYRqlUlveyqY+MsbVNEzutjYRSjN3K99ODvLb/uba/C/ZyZvEQgQqE8MKzbdumabqOI4hitVA0Fc3zHRJ8Iu0UP7zXs7yxK9b3JDufJXrN/0gH/np0nEqmGuCoVD2VDw+Kx998w4S0JPTTk/kHs7PTUw/DM4/C4blweGJiolAodOB6va6oGlQVC4CfZ2e2afnPJO39QFWDY2O3h4dHRkdHgsFQKBQIBPL5/G/4F7RImtiSAiiRAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="AI 기반 가상 의류 코디 플랫폼 ‘스타일봇’. 이미지 출처 :  http://stylebot.co.kr/"
+        title="AI 기반 가상 의류 코디 플랫폼 ‘스타일봇’. 이미지 출처 :  http://stylebot.co.kr/"
+        src="/static/c96893df2464ad44af3fb65d06c5104d/f058b/1_Stylebot.png"
+        srcset="/static/c96893df2464ad44af3fb65d06c5104d/c26ae/1_Stylebot.png 158w,
+/static/c96893df2464ad44af3fb65d06c5104d/6bdcf/1_Stylebot.png 315w,
+/static/c96893df2464ad44af3fb65d06c5104d/f058b/1_Stylebot.png 630w,
+/static/c96893df2464ad44af3fb65d06c5104d/40601/1_Stylebot.png 945w,
+/static/c96893df2464ad44af3fb65d06c5104d/78612/1_Stylebot.png 1260w,
+/static/c96893df2464ad44af3fb65d06c5104d/bd82c/1_Stylebot.png 1585w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>AI 기반 가상 의류 코디 플랫폼 ‘스타일봇’. 이미지 출처 :  <a href="http://stylebot.co.kr/">http://stylebot.co.kr/</a></em></p>
+<p>AI 기반 가상 의류 코디 플랫폼 ‘스타일봇’은 웹, 앱 서비스 모두 제공 중이며 2024년 4월, Pre-A단계로 추가 투자유치 성과를 냈습니다.</p>
+<p>스타일봇의 핵심 기술인 생성형 AI 엔진 제니핏은 판매 의류의 평면 이미지를 수만 개의 점으로 쪼갠 뒤 재구성해 아바타에게 입히는 방식으로 구현됩니다. 단순한 이미지 붙여넣기가 아니라 점 단위의 재구성 작업이므로 아바타 포즈에 맞춘 자연스러운 연출이 가능하다는 설명입니다.</p>
+<p>10분이면 콘텐츠 생성이 완성되기에 스튜디오를 빌리고 인력을 고용해 촬영하고 편집하는 수고가 필요 없어졌으며, 고객들도 입어보지 않고 구매하는 온라인 쇼핑의 큰 고민을 덜 수 있을 것 같네요.</p>
+<p>온라인 쇼핑몰 방문자에게 코디를 제안하는 서비스도 있는데요. 의류 브랜드의 패션 트렌드를 분석해 1초만에 판매 중인 의류의 코디 조합을 소비자에게 추천한다고 하네요. 빅데이터 기반 콘텐츠 추천 알고리즘 제니스픽이 적용된다고 합니다.</p>
+<p><strong>2. 모바일 팀구매 커머스 플랫폼 ‘올웨이즈’  <a href="http://alwayz.co">http://alwayz.co</a></strong><br>
+모바일 팀구매 커머스 플랫폼 ‘올웨이즈’는 모바일 커머스 웹, 앱 서비스로 2023년 6월, 시리즈 B단계로 600억원 투자를 유치했네요. 지난 해 9월 기준, 고유 방문자수 231.8만명으로 1,105.7% 증가한 바 있습니다.</p>
+<p>2021년 9월 출시된 이래 1년 9개월만에 가입자 수 700만명, 월간 활성 사용자 수 250만명, 일간 활성 사용자 수 130만명 등을 달성했다고 합니다.</p>
+<p>다양한 엔터테인먼트 요소 등을 통해 사용자들이 매일 서비스를 사용할 수 있게 하고, 초저가 상품들과 추천 알고리즘을 통해 구매를 이끌어내는 디스커버리형 커머스 모델을 도입하였습니다. 대다수의 이용자들은 검색을 통한 구매보다 앱을 둘러보다 자연스럽게 초저가 상품을 발견하고 구매하는 패턴을 보이는 것으로 확인되었다고 해요.</p>
+<h3>의료 / 헬스케어</h3>
+<p><strong>3. 비대면 인지건강 케어 플랫폼 ‘실비아’  <a href="https://www.silvia.io/company">https://www.silvia.io/company</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ebaa15219a7868bf43da7a1d11591089/29d31/3_Sylvia.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 87.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHqz6TS3CyLIOsD/8QAHhAAAgEDBQAAAAAAAAAAAAAAAQIRAAMEEhQhIjH/2gAIAQEAAQUCumFtnu8g5UhE1bp/c0RYTnLCiv/EABURAQEAAAAAAAAAAAAAAAAAACBB/9oACAEDAQE/AYP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAQMFAAAAAAAAAAAAAAAAARECITEQIlKBkf/aAAgBAQAGPwK1yG/DLFHJCTxD07KZvsMI/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFRYXGxwf/aAAgBAQABPyEr8l6WNQS9alBRY5jaGcUXLgTX4hWgDWe+Mq/Kf//aAAwDAQACAAMAAAAQVwg8/8QAFhEBAQEAAAAAAAAAAAAAAAAAASAh/9oACAEDAQE/EA1H/8QAFhEAAwAAAAAAAAAAAAAAAAAAASAx/9oACAECAQE/EDU//8QAHxABAAICAgIDAAAAAAAAAAAAAQARITFBUWFxkbHB/9oACAEBAAE/EGOPIMRWw35l2FL0tZpM8koxDasvuWusQWru8fMFzGe7r8JU0Hv5Y1GMoU8xIHT2ReaZ6T//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="실비아 앱 서비스 UI. 이미지 출처 : https://www.etnews.com/20231006000365"
+        title="실비아 앱 서비스 UI. 이미지 출처 : https://www.etnews.com/20231006000365"
+        src="/static/ebaa15219a7868bf43da7a1d11591089/828fb/3_Sylvia.jpg"
+        srcset="/static/ebaa15219a7868bf43da7a1d11591089/ff44c/3_Sylvia.jpg 158w,
+/static/ebaa15219a7868bf43da7a1d11591089/a6688/3_Sylvia.jpg 315w,
+/static/ebaa15219a7868bf43da7a1d11591089/828fb/3_Sylvia.jpg 630w,
+/static/ebaa15219a7868bf43da7a1d11591089/29d31/3_Sylvia.jpg 700w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>실비아 앱 서비스 UI. 이미지 출처 : <a href="https://www.etnews.com/20231006000365">https://www.etnews.com/20231006000365</a></em></p>
+<p>비대면 인지건강 케어 플랫폼 ‘실비아’를 운영 중인 실비아 헬스는 치매 예방 효과가 입증된 임상 연구에 인간 중심 인공지능 기술을 접목한 기술력으로 치매 분야 최초로 보건복지부 비의료 건강관리 서비스 인증을 획득한 치매 분야 선도기업인데요. 인간중심 AI가 접목된 치매 조기 발견 및 예방 프로그램을 통해 이 땅의 모든 사람들이 인지 건강 문제를 극복하고 풍요롭고 활동적인 노화 여정을 맞이할 수 있도록 돕는 것을 목표로 하고 있습니다.</p>
+<p>전문 임상 역량과 AI 기술을 융합한 사용자 맞춤 솔루션으로 퇴행성 뇌 질환 예방 및 치료 여정의 혁신을 목표로 하는 실비아는 다음과 같은 서비스를 제공합니다.</p>
+<ul>
+<li>두뇌 건강 코스 어플 제공 - 테스트 등을 통해 치매 위험 지수를 판단하고, 핸드폰의 건강 앱처럼 생활습관, 식습관, 인지활동 등 데이터를 분석해 부족 부분 등 알림해주는 서비스 제공</li>
+<li>간단한 설문으로 잠재적 치매 발병 요인을 분석하여 치매 위험 지수를 알려줌</li>
+</ul>
+<p><strong>2. AI 영양관리 솔루션 ‘알고케어’ <a href="https://www.algocare.me/">https://www.algocare.me/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 451px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/19d869a5c6e0e28f29de3d033100d628/b5072/4_Algocare.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHrMSmI6X//xAAcEAABAwUAAAAAAAAAAAAAAAABAhESAAMiMUL/2gAIAQEAAQUClk7gITR3zaJh/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQMBAT8BS//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAYEAACAwAAAAAAAAAAAAAAAAABECBBkf/aAAgBAQAGPwIhXsP/xAAbEAADAAIDAAAAAAAAAAAAAAAAARExQSGBof/aAAgBAQABPyGNiCwBpVegmZJ0HuT2z//aAAwDAQACAAMAAAAQcA//xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAwEBPxBT/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQIBAT8QR//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQYFRYZH/2gAIAQEAAT8QADayTqV9KtRv1hmDIXXR5hFAC7TmIsCksfIwVXmn/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="알고케어 앱 서비스.  이미지 출처 : https://www.pharmnews.com/news/articleView.html?idxno=213935"
+        title="알고케어 앱 서비스.  이미지 출처 : https://www.pharmnews.com/news/articleView.html?idxno=213935"
+        src="/static/19d869a5c6e0e28f29de3d033100d628/b5072/4_Algocare.jpg"
+        srcset="/static/19d869a5c6e0e28f29de3d033100d628/ff44c/4_Algocare.jpg 158w,
+/static/19d869a5c6e0e28f29de3d033100d628/a6688/4_Algocare.jpg 315w,
+/static/19d869a5c6e0e28f29de3d033100d628/b5072/4_Algocare.jpg 451w"
+        sizes="(max-width: 451px) 100vw, 451px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>알고케어 앱 서비스. 이미지 출처 : <a href="https://www.pharmnews.com/news/articleView.html?idxno=213935">https://www.pharmnews.com/news/articleView.html?idxno=213935</a></em></p>
+<p>인공지능 기반 헬스케어 스타트업 알고케어는 최근 롯데와의 기술탈취 분쟁으로 어려움이 있었는데요. 그럼에도 불구하고 자체 AI 영양관리 솔루션이 ICT 융합 전시회 CES에서 3년 연속 혁신상을 수상했습니다. 기업용 영양관리 서비스 ‘알고케어 앳 워크’ 서비스는 현재 LG에너지솔루션, SK스퀘어를 포함 약 40개사의 기업 고객을 확보했다고 하네요.</p>
+<p>알고 케어 앳 워크는 “하루 한 잔으로 챙기는 건강복지”라는 슬로건으로 ESG를 넘어선 건강 친화 경영, 직원 스스로 건강을 관리하도록 하는 서비스인데요. 공간, 시간, 관리 걱정 없이 누구나 손 쉽게 건강복지를 도입할 수 있다는 것이 주요 컨셉입니다.</p>
+<p>앱 서비스 계정을 생성하고 건강 데이터를 입력함으로써 건강검진 기록 연동, 200여 개의 건강 문진, 40여 개의 몸 상태가 준비되어 있고 자세한 데이터를 입력할수록 내 몸에 최적화된 영양 성분을 계산할 수 있습니다.
+주요 기능 및 서비스 향후 계획은 다음과 같습니다.</p>
+<ul>
+<li>사용자의 최근 건강상태, 과거이력, 오늘의 컨디션을 분석하고 부작용과 추천성분을 고려하여 나에게 꼭 맞는 영양성분과 최적의 용량까지 계산</li>
+<li>B2B 점유율 확대와 동시에 가정용 솔루션 개발 준비 중</li>
+</ul>
+<p><strong>3. 신체 측정 AI 비서 ‘피트릭스’  <a href="https://fittrix.io/">https://fittrix.io/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/98d9ca8083febc4b0274a6380e4ad0e4/393aa/5_Fittrix.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABJ0AAASdAHeZh94AAACW0lEQVQozz3QS08TURQH8ImSssIdCxQXGoRQDI0hJvol3OhSY2IICYIRpDw0EXBgaItM53lLZ+bOdNrR2pZCyjzaKbaANaxkQakFFSyU4kITEz+CGaYhubm5i//vnHMPgnMpP79K8CohqCTUSEEl+BQppGhRI4X6g5Y0WtQoUSOhRgiaFeZVnEshJNQpKc2EMvYJKB9hogDjnwJKlo+uw9hmQMmCsAnCWVY2GdlkQhk6lKGlNAV1hBA0y4sGJRqsnMXIaN+z14NujIKql5LR+SCQDeYsbd8WEw0S6oSgWdj2JNS56Eb/MIogSHNzi4eMdHQ4HQ0Nc0RITGyBcJYSDUtKBnUmLey3fqvZlYLv1wdGZhsbG1uvXvcQSrer51JT01s22jswMTThWVTy9ox22M+riLUtob6G4Lt8/4sZh8NxpfUa5g+3tzsbLlxcAPGe23fv3X8oxAoEr55LnFtFcK6O/bwaUHKD7rnLLa0dna4FEMPm8PGxV2J07enw1PgUAcJr9Tbn2MMsedmkDyz72CW/oPUPoW03Ortv3VkAsdrp3z+//ynJDSCbjJTG6ITPToJlL5v00AnE/UYYReHYjDg+K81Syb7nqNPp6uzqmfSKxdLPg8MaK6mT85F5sIRR8Wn8w0ssNIbCURS6p3mElnRG0gORDM6tPBmcetTrdna52tpvEsHE13KlUjmNq5+BbOQKOzQXe/B4BA+uLEZMJmQppPyjVv5e2zv4tVM+0s2CmdtKaXk1vfll56C0X90tHxXLx8W9anHvOF/YXl7NbRcPS99Odverpf2T/3Slf2InwZR8AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="피트릭스 하드웨어 3종. 이미지 출처 : https://fittrix.io/"
+        title="피트릭스 하드웨어 3종. 이미지 출처 : https://fittrix.io/"
+        src="/static/98d9ca8083febc4b0274a6380e4ad0e4/f058b/5_Fittrix.png"
+        srcset="/static/98d9ca8083febc4b0274a6380e4ad0e4/c26ae/5_Fittrix.png 158w,
+/static/98d9ca8083febc4b0274a6380e4ad0e4/6bdcf/5_Fittrix.png 315w,
+/static/98d9ca8083febc4b0274a6380e4ad0e4/f058b/5_Fittrix.png 630w,
+/static/98d9ca8083febc4b0274a6380e4ad0e4/40601/5_Fittrix.png 945w,
+/static/98d9ca8083febc4b0274a6380e4ad0e4/393aa/5_Fittrix.png 1190w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>피트릭스 하드웨어 3종. 이미지 출처 : <a href="https://fittrix.io/">https://fittrix.io/</a></em></p>
+<p>현대자동차 사내벤처로 분사한 첫 번째 헬스케어 기업으로 신체측정 AI 비서가 특별한 헬스케어 공간으로 만들어 준다고 합니다. 사용자 스스로 바디측정을 하여 최적의 코칭 피드백을 받을 수 있는 스마트 기기로, 개인별 측정 데이터를 누구나 쉽게 한 눈에 파악하고 별도 서비스가 필요한 고객에게 맞춤형 자동 모니터링 기능을 제공합니다.</p>
+<p>개인 이력관리, 목표고객 자동선별, 고객맞춤 솔루션을 제공하는데 세 종류의 하드웨어 측정기가 있어 웹, 앱 모두 연동되는 서비스를 제공 중입니다.</p>
+<h3>콘텐츠 / 엔터테인먼트</h3>
+<p><strong>1. AI 영상 편집기 ‘Vrew’  <a href="https://www.voyagerx.com/">https://www.voyagerx.com/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/90f82036f7c6ae8efa7d027784ee8f3c/9888a/6_Vrew.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 93.0379746835443%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCBAX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAwEC/9oADAMBAAIQAxAAAAH3sQsyqY4slIdg4t//xAAbEAEBAAMAAwAAAAAAAAAAAAABAgADERASM//aAAgBAQABBQJw74m6dlPqQ9kpMqlnT8//xAAYEQEBAAMAAAAAAAAAAAAAAAAAAQIhMv/aAAgBAwEBPwFEumHL/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQETH/2gAIAQIBAT8Bih6f/8QAGxAAAgIDAQAAAAAAAAAAAAAAABABESFBQlH/2gAIAQEABj8CNKuS1NemZX//xAAeEAACAQMFAAAAAAAAAAAAAAAAEQEhMUFRcYGRsf/aAAgBAQABPyFsIbnoWNxxb3BXp1EaSqJ9FA9j/9oADAMBAAIAAwAAABBjOED/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxAdNJCaSHDeF//EABgRAQEBAQEAAAAAAAAAAAAAAAEAIREx/9oACAECAQE/EHJOMhdL2v/EAB4QAQEBAAICAwEAAAAAAAAAAAERACExQXFRYZGx/9oACAEBAAE/EIisHmmR2h811+4AQAPrcEDwLOROsK0Q8GZrVaMrLUkHN+fQP5ur23//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="보이저엑스의 영상편집기 Vrew. 이미지 출처 : https://www.voyagerx.com/"
+        title="보이저엑스의 영상편집기 Vrew. 이미지 출처 : https://www.voyagerx.com/"
+        src="/static/90f82036f7c6ae8efa7d027784ee8f3c/828fb/6_Vrew.jpg"
+        srcset="/static/90f82036f7c6ae8efa7d027784ee8f3c/ff44c/6_Vrew.jpg 158w,
+/static/90f82036f7c6ae8efa7d027784ee8f3c/a6688/6_Vrew.jpg 315w,
+/static/90f82036f7c6ae8efa7d027784ee8f3c/828fb/6_Vrew.jpg 630w,
+/static/90f82036f7c6ae8efa7d027784ee8f3c/0ede0/6_Vrew.jpg 945w,
+/static/90f82036f7c6ae8efa7d027784ee8f3c/9888a/6_Vrew.jpg 1198w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span>
+<em>보이저엑스의 영상편집기 Vrew. 이미지 출처 : <a href="https://www.voyagerx.com/">https://www.voyagerx.com/</a></em></p>
+<p>인공지능 스타트업 보이저엑스는 AI 영상 편집기 ‘Vrew’와 함께 모바일 스캐너 앱 ‘vFlat’, 고객문의 분석 툴 ‘VOC STUDIO’ 서비스를 운영 중입니다.</p>
+<p>‘Vrew’는 인공지능 기술을 활용한 영상 편집 프로그램으로 최근 일반인의 자가 영상편집 수요 확대와 맞물리면서 유저수가 상승하는 추세입니다. ‘vFlat’은 문서, 책, 메모 등 핸드폰으로 촬영한 이미지를 고화질 PDF 또는 JPG 이미지로 변환해주는 스캐닝 앱 서비스입니다.</p>
+<p>두 서비스 모두 사용자 중심 편의성을 고려한 비즈니스 모델인데요. 저렴한 서비스 단가와 낮은 접근성을 기반으로 글로벌 시장을 겨냥한 B2C 서비스로 자리잡고 있는듯 보이네요.</p>
+<p><strong>2. 3D 기반 SNS 플랫폼 ‘아들러’  <a href="https://adler.cx/">https://adler.cx/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/4505567a91506f81af67c4f471aa139c/5e6fc/7_Adler.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 45.56962025316456%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHrVqihh//EABgQAQEBAQEAAAAAAAAAAAAAAAECMQMQ/9oACAEBAAEFAqqjoKBjvn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAEAAwEAAAAAAAAAAAAAAAABAAIhIP/aAAgBAQAGPwICuRzn/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMRBR/9oACAEBAAE/Ibjj1qLLnD2KwpXQyf/aAAwDAQACAAMAAAAQwA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgMBAQAAAAAAAAAAAAABACERMUFRcf/aAAgBAQABPxBiBTiL9inHOguGYEmcJZNE4zX8n//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="3D 기반  SNS 플랫폼 아들러 웹 서비스 UI. 이미지 출처 : https://adler.cx/"
+        title="3D 기반  SNS 플랫폼 아들러 웹 서비스 UI. 이미지 출처 : https://adler.cx/"
+        src="/static/4505567a91506f81af67c4f471aa139c/828fb/7_Adler.jpg"
+        srcset="/static/4505567a91506f81af67c4f471aa139c/ff44c/7_Adler.jpg 158w,
+/static/4505567a91506f81af67c4f471aa139c/a6688/7_Adler.jpg 315w,
+/static/4505567a91506f81af67c4f471aa139c/828fb/7_Adler.jpg 630w,
+/static/4505567a91506f81af67c4f471aa139c/0ede0/7_Adler.jpg 945w,
+/static/4505567a91506f81af67c4f471aa139c/3ac88/7_Adler.jpg 1260w,
+/static/4505567a91506f81af67c4f471aa139c/5e6fc/7_Adler.jpg 2432w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>3D 기반  SNS 플랫폼 아들러 웹 서비스 UI. 이미지 출처 : <a href="https://adler.cx/">https://adler.cx/</a></em></p>
+<p>3D 기반 SNS 플랫폼 ‘아들러’는 2024년 4월, 카카오인베스트먼트로부터 5억 원 규모의 추가 투자유치 성과를 냈는데요. ‘3D Web’은 현실 공간을 아득히 뛰어넘는 공간의 기회를 제공하는 것을 목표로 합니다. “압도적으로 낮은 기회비용으로 나만의 공간을 갖는 일상을 경험해보라”는 슬로건 하에 다음과 같은 기능들을 제공합니다.</p>
+<ul>
+<li>한 손가락으로 누비는 3D 피드 - 이미지와 테마 선택으로 간단하게 만드는 내 공간</li>
+<li>상하좌우 무한 스크롤로 다른 공간 탐색하기</li>
+<li>익숙한 동시에 새로운 - 텍스트 채팅과 음성 채팅은 물론 자유이동모드까지. 익숙한 기능은 더 쉽게 신선한 소셜기능으로 새롭게</li>
+<li>크리에이터 스튜디오 - 더 섬세한 편집기능과 통계 대시보드 제공</li>
+<li>오브젝트 라이브러리로 3D 아이템 검색</li>
+</ul>
+<h3>푸드테크</h3>
+<p><strong>1. 태블릿 오더 플랫폼 ‘티오더’  <a href="https://torder.com/">https://torder.com/</a></strong><br>
+태블릿 메뉴판 시장에서 압도적 선두주자인 테이블 오더 플랫폼 티오더는 주문 플랫폼에 기반, 오프라인 외식 산업의 데이터화에서 성과를 내는 중입니다. 최근 3월, 시리즈 B단계로 130억 원 투자유치에 성공했습니다.</p>
+<p>최근에는 고객 음성을 AI로 분석한다는 내용을 발표해 화제를 모았는데요. AI 스타트업 썸 테크놀로지스와 음성 파일을 텍스트로 변환하고 핵심 정보를 요약하는 기술 협업을 진행 중이라고 합니다. 썸 테크놀리지가 보유한 회의내용 자동 기록, 분석, 요약하는 AI 기술력을 통해 자사 고객 데이터 플랫폼 서비스로 유입된 고객과의 상담, 문의 음성파일을 텍스트로 요약하는 기술을 접목한다고 합니다.</p>
+<p>CDP 플랫폼은 티오더 뿐 아니라 고객 상담을 진행하는 모든 기업에 필요한 플랫폼으로 상반기 내 타기업에서도 사용할 수 있도록 플랫폼을 런칭할 예정이라고 하네요.</p>
+<p><strong>2. AI 기반 도심 스마트팜 / 신선채소 판매 플랫폼 ‘리브팜’  <a href="https://livfarm.com/">https://livfarm.com/</a></strong><br>
+퓨처커넥트는 푸드테크이자 스마트팜으로 AI 기반 도심 스마트팜 공급 및 신선채소 판매 플랫폼 ‘리브팜’을 운영하는 기업입니다. ‘리브팜’ 웹, 앱 서비스 제공 중으로 월 1만 명 이상 방문 중이라고 하네요.</p>
+<p>특이한 점은 스마트팜 공간을 농촌이 아닌 서울로 택했는데 그 이유는 탄소배출량을 줄이기 위함과 함께 서비스의 관점을 ‘공급자’가 아닌 ‘소비자’로 결정짓고 내린 판단이라 합니다. 게다가 기술의 발전과 소비 문화의 변화로 스마트팜 성공 요인을 좌우했던, 예전에는 활용하기 어려웠던 IoT나 클라우드를 지금은 누구나 적용이 가능하고 LED, 하드웨어 비용도 과거 보다 많이 떨어진 상황이기에 도심 속에서 지속가능한 생산이 가능한 기회가 확장되고 있다고 합니다.</p>
+<p>리브팜의 최종 목표는 도시의 모든 사람이 자급자족할 수 있는 ‘팜(farm) 파트너’를 찾는 것이며, 창업자는 “우리가 도시 안에 팜 네트워크를 운영할 판로를 만든다면 (자급자족하는 사람이) 더 늘어날 것”이라며 “그렇게 되면 머지않은 미래에 도시에서도 깨끗하게 만든 음식을 쉽게 사 먹을 수 있다”고 하는데요. ESG 경영에 동참하는 바른 기업인 것 같네요.</p>
+<h3>챗봇 / 어시스턴트</h3>
+<p><strong>1. AI 기반 대화형 모바일 앱 ‘가상남녀’  <a href="https://mindlogic.ai/ko">https://mindlogic.ai/ko</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/36710c0c4a3fa5eb0638ac2c7aec0e27/b4294/8_Mindlogic.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe7lCFj/xAAYEAACAwAAAAAAAAAAAAAAAAAAERIgIf/aAAgBAQABBQIWxp//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAEQEgMv/aAAgBAQAGPwIbNTT/xAAYEAEBAQEBAAAAAAAAAAAAAAARAQAxIP/aAAgBAQABPyGXLsAMm3p4/9oADAMBAAIAAwAAABBw3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIDAAMAAAAAAAAAAAAAAAERACExQWFx/9oACAEBAAE/ECWNvmKLwKm9mOwTACQ6FSlQEaEZn//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="마인드로직의 AI 기반 대화형 모바일 앱 ‘가상남녀’ UI. 이미지 출처 : https://www.aitimes.com/news/articleView.html?idxno=132070"
+        title="마인드로직의 AI 기반 대화형 모바일 앱 ‘가상남녀’ UI. 이미지 출처 : https://www.aitimes.com/news/articleView.html?idxno=132070"
+        src="/static/36710c0c4a3fa5eb0638ac2c7aec0e27/b4294/8_Mindlogic.jpg"
+        srcset="/static/36710c0c4a3fa5eb0638ac2c7aec0e27/ff44c/8_Mindlogic.jpg 158w,
+/static/36710c0c4a3fa5eb0638ac2c7aec0e27/a6688/8_Mindlogic.jpg 315w,
+/static/36710c0c4a3fa5eb0638ac2c7aec0e27/b4294/8_Mindlogic.jpg 600w"
+        sizes="(max-width: 600px) 100vw, 600px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>마인드로직의 AI 기반 대화형 모바일 앱 ‘가상남녀’ UI. 이미지 출처 : <a href="https://www.aitimes.com/news/articleView.html?idxno=132070">https://www.aitimes.com/news/articleView.html?idxno=132070</a></em></p>
+<p>인공지능 챗봇 스타트업 마인드로직은 AI 기반 대화형 모바일 앱 ‘가상남녀’ 서비스를 제공하고 있습니다. 최근 이수만 전 SM엔터테인먼트 총괄 프로듀서가 70억 원의 개인투자를 하여 화제가 된 스타트업이기도 한데요.</p>
+<p>사람과 구분할 수 없을 정도로 수준 높은 대화가 가능한 대화형 챗봇 서비스를 개발 중이며 이용자와의 과거 대화 내용을 기억하는 페르소나 엔그램 기술, 사용자의 정보 및 IP를 보호하는 기술, 할루시네이션 억제 기술 등 높은 기술 역량을 보유한 것으로 자체 평가하고 있습니다.</p>
+<p>2023년 9월 기준, 트래픽수 2.5만 건 기록하고 있으며, CES 2024에서 개성적 인격과 높은 신뢰성을 보장하는 ‘페르소나 챗봇’을 소개 한 바 있습니다.</p>
+<p>마인드로직이 론칭해 현재까지 제공 중인 서비스는 다음과 같습니다.</p>
+<ul>
+<li>챗GPT와 마인드로직의 대화 엔진을 결합한 기업형 솔루션 ‘마인드로직 챗API’</li>
+<li>올인원 버튜빙(All-in-One Virtubing) 솔루션 ‘오픈타운 스튜디오’</li>
+<li>AI 튜터를 통한 1:1 영어 톡 서비스 ‘딥러닝잉글리시’ 외</li>
+</ul>
+<p>개성적인 인격과 서비스 이용자의 이름과 대화 내용을 장기적으로 기억하는 능력도 페르소나 챗봇에 구현되었으며, 텍스트 기반의 소통을 초월해 음성 대화까지 지원함으로써 챗봇과 이용자 간의 유대감 형성도 기대해볼만 하겠네요.</p>
+<p><strong>2. 자체 LLM 모델 솔라와 만난 ‘AskUp’  <a href="https://www.upstage.ai/">https://www.upstage.ai/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/eedc11b73ecd4b911033712ee05d5800/b4294/9_AskUp.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUBA//EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABlLEnZyYL/8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhAgMEEP/aAAgBAQABBQIFlecYOgrKf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAAQAQIxgf/aAAgBAQAGPwLDFcnq/8QAHBABAAIBBQAAAAAAAAAAAAAAAQARIRAxQVHw/9oACAEBAAE/Ic5dI+HS8AY8CtuE6n//2gAMAwEAAgADAAAAECjP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxCDAz//xAAaEAEBAQEBAQEAAAAAAAAAAAABEQAhQWFx/9oACAEBAAE/EDIpSmaKAnOxkmYHOxSzOrp7h8+7z8G//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="업스테이지의 자체 LLM모델 솔라를 적용한 AskUp 서비스, 이미지 출처 :  https://www.upstage.ai/"
+        title="업스테이지의 자체 LLM모델 솔라를 적용한 AskUp 서비스, 이미지 출처 :  https://www.upstage.ai/"
+        src="/static/eedc11b73ecd4b911033712ee05d5800/b4294/9_AskUp.jpg"
+        srcset="/static/eedc11b73ecd4b911033712ee05d5800/ff44c/9_AskUp.jpg 158w,
+/static/eedc11b73ecd4b911033712ee05d5800/a6688/9_AskUp.jpg 315w,
+/static/eedc11b73ecd4b911033712ee05d5800/b4294/9_AskUp.jpg 600w"
+        sizes="(max-width: 600px) 100vw, 600px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>업스테이지의 자체 LLM모델 솔라를 적용한 AskUp 서비스, 이미지 출처 :  <a href="https://www.upstage.ai/">https://www.upstage.ai/</a></em></p>
+<p>최근 AI 업계 최대 투자금액, 총 누적투자금 1,400억 원 유치라는 기사를 보신 적 있을까요? 이 같은 대규모 투자의 배경에는 앞서 업스테이지가 개발한 기업 문서 및 비정형 데이터 디지털화 솔루션 ‘다큐먼트 AI’ 제품의 성공적 안착과 더불어, 지난 12월 출시한 자체 사전학습 거대언어모델(LLM) ‘솔라’의 사업성과 기술적 역량을 글로벌 무대에서 증명한 것이 주효했다는 분석입니다.</p>
+<p>솔라는 빅테크 모델보다 작은 사이즈로 더 빠른 속도와 성능을 탑재, 속도와 비용 효율성이 관건인 기업용 LLM 시장에 최적화된 모델로 꼽히며, ‘DUS(Depth-Up Scaling; 깊이 확장 스케일링)’ 등 모델 성능 고도화를 위한 자체적인 기술력을 보유하고, 이를 세계적으로 권위 있는 학회에 논문 채택으로 공인받은 점도 중대하게 작용했다고 하네요.</p>
+<p>이를 증명하듯 솔라는 최근 아마존웹서비스(AWS)에서 AI 모델을 제공하는 ‘아마존 세이지메이커 점프스타트’(Amazon SageMaker JumpStart) 등 글로벌 플랫폼에도 대표 사전학습 모델로 탑재되었습니다. 또한, 오픈소스로 공개한 솔라 영어 모델을 기반으로 1,000여 개에 달하는 파인튜닝 모델이 나오는 등 새로운 생태계를 창출하고 있다는 평가를 받고 있습니다.</p>
+<p><strong>3. 생성형 AI 챗봇 서비스 ‘봇톡스’  <a href="https://personaai.co.kr/">https://personaai.co.kr/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 601px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/702b888655efaedd787b5a0b0a10a82f/5ed3f/10_PersonaAI.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 81.64556962025317%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAW2vAxILCf/EABoQAQACAwEAAAAAAAAAAAAAAAEAAgMREiH/2gAIAQEAAQUC7xi7YDL4W1zw3P/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABESEQIkH/2gAIAQEABj8CtwzVotjcdz//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhUUFhcf/aAAgBAQABPyFfDBzbCQm9LlXEvRUoop24lRNEpuf/2gAMAwEAAgADAAAAEPv/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAQEBAAAAAAAAAAAAAAAAAAAhEf/aAAgBAgEBPxDar//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExYZGhsf/aAAgBAQABPxB5sgaIDpcrSTjJAbm3SruXnnNhHD7ADxQeRFpFz//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="페르소나AI가 자체 개발한 sLLM 기술 적용한 생성형 AI 모델 서비스 예시. 이미지 출처 : https://personaai.co.kr/"
+        title="페르소나AI가 자체 개발한 sLLM 기술 적용한 생성형 AI 모델 서비스 예시. 이미지 출처 : https://personaai.co.kr/"
+        src="/static/702b888655efaedd787b5a0b0a10a82f/5ed3f/10_PersonaAI.jpg"
+        srcset="/static/702b888655efaedd787b5a0b0a10a82f/ff44c/10_PersonaAI.jpg 158w,
+/static/702b888655efaedd787b5a0b0a10a82f/a6688/10_PersonaAI.jpg 315w,
+/static/702b888655efaedd787b5a0b0a10a82f/5ed3f/10_PersonaAI.jpg 601w"
+        sizes="(max-width: 601px) 100vw, 601px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>페르소나AI가 자체 개발한 sLLM 기술 적용한 생성형 AI 모델 서비스 예시. 이미지 출처 : <a href="https://personaai.co.kr/">https://personaai.co.kr/</a></em></p>
+<p>토종 대화엔진 기반 대화형 AI 솔루션 기업인 페르소나AI는 ‘봇톡스’ 웹 서비스를 제공하고 있습니다. 2024년  4월, Pre-IPO 단계로 비공개 금액이지만 투자유치 성과를 냈습니다.</p>
+<p>자체 개발 NLP 엔진의 무결점 인식률을 자랑하고 정확한 의도 파악과 적은 데이터로도 스스로 자연어 생성을 하고 증강학습을 통해 진화한다고 합니다.</p>
+<p>기업 서비스를 이용하는 고객 감정 분석까지. 음성 및 비전 센서로 표정을 추출하여 고객의 감정도를 분석함으로써 우호 또는 불만 감정 여부를 평가하고 악성 고객을 분류하는 기술도 제공하고 있습니다. RoCHA AI-기업형 챗봇 서비스 외 기능들을 제공 중인데요.</p>
+<p>지난 1월에는 자체 개발 sLLM 기술을 적용한 생성형 AI 모델 4종을 공개한 바 있습니다. 한 페이지 안에서 비디오 생성, 이미지 생성, 대화, 이미지 설명 등 다양한 모델 이용이 가능하도록 했습니다.</p>
+<p><strong>4. AI 아바타 챗봇 ‘레플리’  <a href="https://reppley.com/">https://reppley.com/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/05b647472faebe865c5b459f0c05da2c/0903d/11_Reppley.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 42.405063291139236%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIDBf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAdeoWUAR/8QAGBABAAMBAAAAAAAAAAAAAAAAAQACIRH/2gAIAQEAAQUCy05lkH//xAAWEQEBAQAAAAAAAAAAAAAAAAAAMQH/2gAIAQMBAT8Bra//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAEBGB/9oACAEBAAY/AtUP/8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAMUEhYf/aAAgBAQABPyEngGdRWOgq4RtXs//aAAwDAQACAAMAAAAQcB//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QQGpAFf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EEf/xAAYEAEAAwEAAAAAAAAAAAAAAAABABEhUf/aAAgBAQABPxCpoMAzS4lvKY4gVQ0ERyf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="AI 아바타 챗봇 레플리 앱 서비스 UI. 이미지 출처 : 구글 플레이스토어"
+        title="AI 아바타 챗봇 레플리 앱 서비스 UI. 이미지 출처 : 구글 플레이스토어"
+        src="/static/05b647472faebe865c5b459f0c05da2c/828fb/11_Reppley.jpg"
+        srcset="/static/05b647472faebe865c5b459f0c05da2c/ff44c/11_Reppley.jpg 158w,
+/static/05b647472faebe865c5b459f0c05da2c/a6688/11_Reppley.jpg 315w,
+/static/05b647472faebe865c5b459f0c05da2c/828fb/11_Reppley.jpg 630w,
+/static/05b647472faebe865c5b459f0c05da2c/0ede0/11_Reppley.jpg 945w,
+/static/05b647472faebe865c5b459f0c05da2c/0903d/11_Reppley.jpg 1101w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>AI 아바타 챗봇 레플리 앱 서비스 UI. 이미지 출처 : 구글 플레이스토어</em></p>
+<p>AI 기반 대화 플랫폼 ‘레플리’를 운영하는 기업으로 동명의 웹과 모바일 앱 서비스를 제공 중입니다. 2024년 4월에는 더벤처스로부터 비공개 금액의 투자를 이끌어냈습니다.</p>
+<p>“나를 학습하는 AI 챗봇”이라는 슬로건답게 가르치기 미션이 게이미피케이션 기능으로 있고, SNS에서 가져온 채팅의 학습을 바탕으로 진짜 내 친구와 대화하는 듯한 리얼한 채팅 경험을 선사한다고 하네요.</p>
+<p>직접 가르치기 기능에선 내가 원하는 모든 대화를 자유롭게 가르칠 수 있으며, 나만의 커스텀으로 만드는 챗봇 페르소나라는 점이 간단하면서도 이용자에게 특별한 경험으로 다가올 것 같네요.</p>
+<h3>에듀테크</h3>
+<p><strong>1. 유아동 디지털 학습교구 연계 서비스 ‘프레도 AI’  <a href="http://pledo.co.kr/">http://pledo.co.kr/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0d2a6d7814e0ec7caa73085d203f1f88/eea4a/12_PredoAI.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHTtCJiD//EABoQAAICAwAAAAAAAAAAAAAAAAABAhIQERP/2gAIAQEAAQUC6sssOKZSIlo//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQITEy/9oACAEBAAY/AsRsWjlFH//EABoQAQADAAMAAAAAAAAAAAAAAAEAETFhkfH/2gAIAQEAAT8hTLQLghjuCONzCGeZAFADif/aAAwDAQACAAMAAAAQ4M//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAJ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAQEBAAIDAAAAAAAAAAAAAREAITFBYXHx/9oACAEBAAE/EO6gBbT7wR6p4jC0B8NytVedLvx+hCvQhv/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="유아동 디지털 학습교구 프레도 AI 제품 및 서비스. 이미지 출처 : http://pledo.co.kr/"
+        title="유아동 디지털 학습교구 프레도 AI 제품 및 서비스. 이미지 출처 : http://pledo.co.kr/"
+        src="/static/0d2a6d7814e0ec7caa73085d203f1f88/828fb/12_PredoAI.jpg"
+        srcset="/static/0d2a6d7814e0ec7caa73085d203f1f88/ff44c/12_PredoAI.jpg 158w,
+/static/0d2a6d7814e0ec7caa73085d203f1f88/a6688/12_PredoAI.jpg 315w,
+/static/0d2a6d7814e0ec7caa73085d203f1f88/828fb/12_PredoAI.jpg 630w,
+/static/0d2a6d7814e0ec7caa73085d203f1f88/0ede0/12_PredoAI.jpg 945w,
+/static/0d2a6d7814e0ec7caa73085d203f1f88/3ac88/12_PredoAI.jpg 1260w,
+/static/0d2a6d7814e0ec7caa73085d203f1f88/eea4a/12_PredoAI.jpg 1280w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>유아동 디지털 학습교구 프레도 AI 제품 및 서비스. 이미지 출처 : <a href="http://pledo.co.kr/">http://pledo.co.kr/</a></em></p>
+<p>아동 학습교구 ‘플레도 AI블록’, 스마트 저금통 ‘삐뽀’를 제조 및 판매하는 기업으로 프레도 AI블록으로 한글, 코딩, 영어, 수학, 음악, 미술 교육이 가능한 교육 콘텐츠들을 제공하고 있습니다. 프레도 AI ‘나만의 그림책 만들기’ 서비스는 ‘AI 미술블록’과 ‘말하기’ 버튼만 누르면 제작부터 출간까지 한 번에 되는 기능을 제공합니다.</p>
+<p>학부모에게는 학습데이터를 제공, 아이가 어떤 부분을 잘하고 있고 무엇을 어려워하는지 면밀히 분석하여 객관적인 데이터로 결과를 제공합니다.</p>
+<p>직업 체험, 시계와 달력, 기본 예정, 세계와 나라 등 매달 새로운 교육용 콘텐츠가 업데이트 되며, 프레도 AI블록으로 작곡, 요리 레시피도 공부하는 콘텐츠들이 다양하게 구축되어 있습니다.</p>
+<p><strong>2. AI 영어 학습 튜터 플랫폼 ‘테스트글라이더’  <a href="https://www.testglider.com/ko">https://www.testglider.com/ko</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/bdc88d310e78cff389c39d6472d54365/c1b63/13_Testglider.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACIUlEQVQozyWQ60/aYByF+0cvEyPqnMs+LEt0H3bTmblsyYKI2aYMRim9vG9bcFIvXDWoIC2UaltaBN5e4LfAzscnOclzDnVxfrb18UM0urSyHP36ZffN5sbiYuTF+vNEIr66uhJZeLqzvbWz8ykSWVhfexaLf3u9+XJ5LbL9+V2pdEaxOUbvGX4QaqoqcJzneb7nsUxW01Tf9zvaf+gTQmrVav6w3D2eNPHoWnDZNKZYJtvrdQHAtu45niPhFAAwRndtDQAeTFvgeS/wAaDRqB8sXZQ2oPgK6CdOalegOJYvVKy6CoWKxSUPJ41zuC1JP2LqTcEzT/TrDJ9J2mrgqpNy/pLevmgnAb9330ZPmDiieAGdXvWvOnBc6wt/UtNmFZpV+WdcbxXBPbPbOcSkBz1wtbD6t4ExHgwGfcvVOkZezlOCgAzDmGnbNs/zAcwiS9LdXRsAHNfFCI/JGABarRtFUch8v+M4siRSLI9V3ZnPs2QkTMNgXsZGtxUEfrejYQF544CMyWW9XiwqhHiPw3G/78iyRHE8bndsmEyM+weJY0N/9o0k4m5HDcNQ13WM8Gg4JoRc1msnRcUPQ+IFjjuQRJHieN59HAGAaZqyJM6tQRJFyzJn8MEs5PMAMAVo3t6WyxUAmAAMhyMBCdSpUswx2SxNp5JH+/txhASazuzFvjM0zbG5dOr3/l4MY0TTmaPDXweJBMty6XQ6k6FPFeUfu53xd3SQp0QAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="테스트글라이더 앱에 출시한 토플 강의 서비스 UI. 이미지 출처 : 데이터뱅크 공식 블로그"
+        title="테스트글라이더 앱에 출시한 토플 강의 서비스 UI. 이미지 출처 : 데이터뱅크 공식 블로그"
+        src="/static/bdc88d310e78cff389c39d6472d54365/f058b/13_Testglider.png"
+        srcset="/static/bdc88d310e78cff389c39d6472d54365/c26ae/13_Testglider.png 158w,
+/static/bdc88d310e78cff389c39d6472d54365/6bdcf/13_Testglider.png 315w,
+/static/bdc88d310e78cff389c39d6472d54365/f058b/13_Testglider.png 630w,
+/static/bdc88d310e78cff389c39d6472d54365/40601/13_Testglider.png 945w,
+/static/bdc88d310e78cff389c39d6472d54365/c1b63/13_Testglider.png 1200w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>테스트글라이더 앱에 출시한 토플 강의 서비스 UI. 이미지 출처 : 데이터뱅크 공식 블로그</em></p>
+<p>AI 기반 영어 학습 튜터 플랫폼 ‘테스트글라이더’를 운영하는 데이터뱅크는 직접 개발한 영어 시험 전문 AI가 채점, 첨삭 서비스를 1분 안에 제공하고 있습니다. 사용자 실력에 맞춘, AI tutor, 챗봇 Glidy(글라이디)가 1:1 주관식(WR/SP) 첨삭 및 답변을 제공, 독학으로도 심화 학습이 가능합니다.</p>
+<p>테스트글라이더 앱에서는 토플/아이엘츠 무료 모의고사 1회를 포함, 일부 컨텐츠(연습문제,강의)를 무료로 제공하지만 토플/아이엘츠 전체 모의고사를 포함 컨텐츠 전체를 사용하시려면 유료결제가 필요합니다.</p>
+<p>데이터뱅크 역시 2024년 2월, 시리즈 B단계에 50억원 투자유치 성과를 냈으며, 최근 소비자 이용지수 상승 추세를 보이고 있네요.</p>
+<h3>업무자동화 / 마케팅</h3>
+<p><strong>1. 서비스 테스트 AI 솔루션 서비스, 릴리브에이아이코리아</strong><br>
+웹 및 앱 서비스 출시 전 테스트 AI 자동화 솔루션을 운영하는 스타트업인 릴리브에이아이는 테스트 전 과정을 AI로 자동화해 비용, 시간 등 QA 전반의 업무를 대폭 상향시키기 위한 서비스를 제공 중입니다.</p>
+<p>서비스의 UI를 자동 분석해 화면상의 버튼, 탭 등의 다양한 요소들을 별도의 메타데이터로 기록해 화면 변경 시에도 AI가 이를 자동으로 감지하고 테스트를 제안, 비개발자도 녹화만으로 신속하게 테스트를 생성하고 관리할 수 있는 것이 특징입니다.</p>
+<p>2024년 3월, 비공개 단계로 두나무앤파트너스, 스마일게이트인베스트먼트로부터 투자유치 성과를 냈네요.</p>
+<p><strong>2. AI 프로젝트 매니저 서비스 ‘Ace’  <a href="https://withace.ai/">https://withace.ai/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5ac7f69387f2ab79ddd6e1d431d0d45b/9f7af/14_Ace.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHKpNbjEgf/xAAXEAEAAwAAAAAAAAAAAAAAAAABABIg/9oACAEBAAEFAmCVXH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAXEQEAAwAAAAAAAAAAAAAAAAABAhAR/9oACAECAQE/AYKbX//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAQEBAAMAAAAAAAAAAAAAAAEAERAhMf/aAAgBAQABPyFurrZQ+xb1M8f/2gAMAwEAAgADAAAAEF/v/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABcRAQEBAQAAAAAAAAAAAAAAAAEAITH/2gAIAQIBAT8QRRd2/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARIVEx/9oACAEBAAE/EL0MVrYJFxy56bK5CPoRUUcjP//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="AI 프로젝트 매니저 서비스 ‘Ace’ UI. 이미지 출처 : https://withace.ai/"
+        title="AI 프로젝트 매니저 서비스 ‘Ace’ UI. 이미지 출처 : https://withace.ai/"
+        src="/static/5ac7f69387f2ab79ddd6e1d431d0d45b/828fb/14_Ace.jpg"
+        srcset="/static/5ac7f69387f2ab79ddd6e1d431d0d45b/ff44c/14_Ace.jpg 158w,
+/static/5ac7f69387f2ab79ddd6e1d431d0d45b/a6688/14_Ace.jpg 315w,
+/static/5ac7f69387f2ab79ddd6e1d431d0d45b/828fb/14_Ace.jpg 630w,
+/static/5ac7f69387f2ab79ddd6e1d431d0d45b/0ede0/14_Ace.jpg 945w,
+/static/5ac7f69387f2ab79ddd6e1d431d0d45b/3ac88/14_Ace.jpg 1260w,
+/static/5ac7f69387f2ab79ddd6e1d431d0d45b/9f7af/14_Ace.jpg 1475w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>AI 프로젝트 매니저 서비스 ‘Ace’ UI. 이미지 출처 : <a href="https://withace.ai/">https://withace.ai/</a></em></p>
+<p>스타트업 앳의 AI 프로젝트 매니저 서비스 ‘Ace’ 역시 얼마 전 2024년 4월, 더벤처스로부터 투자유치를 받았는데요.</p>
+<p>Ace는 업무 진행상황을 팀원들에게 물어보고, 이를 자동으로 협업 툴에 문서화해줍니다. 업무 프로세스의 맥락을 AI가 스스로 파악하고 문서화하여 팀의 커뮤니케이션 문제를 해결하는 AI PM에서 출발해, 스스로 업무를 수행할 수 있는 AI 개발자, 디자이너 등의 제품군으로 확장하는 것이 향후 목표라고 하네요.</p>
+<h3>공간정보</h3>
+<p><strong>1. 딥러닝 기반 실내공간 데이터 플랫폼 ‘에리어스’  <a href="https://www.dabeeo.com/">https://www.dabeeo.com/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/8cedd5d4c96c2d3a303b7c52e1626c98/3096d/15_Aries.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 68.35443037974683%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAABJ0AAASdAHeZh94AAABmklEQVQoz6WSb48SMRDG+f4fRiLKYUiUi8R3rsJhTOQO7w8syx7Q7rbT3Xam7ZhdTkElRuOTvulMfp2Zp9PhE0X+N3W8DwoqS/74RGREsg4dIiI5xKfjXP64f1hmWbYzxjYwk58JdSn02tHGUWRWSr0ZjcBUpqqdQ2udMVVd18ycZvlg+Prq6nNVuRZmLh1+LfS1VNOdrMlLIXq9Hli43d6t9qtMZhxZaT0ejwevBsPhMEkmdY1PMBEF7zmGGAIzCyEu+hcSysndbL6+We5S8lTX9uNkOp19ep98uJ7P2+liA++KQgEwc4iNZVLK/su+RXuT36Zi3cRD8D5g68v9w3L+5QRuckSH+6Fyt9sNbRfWuk3+aEyFrhnyfrl69vzFYrE4wuQ9ncAAkCTJwXkpi9Hbd6osf2Q3mzxN0yP8i2KMxhjQoDUYYzx5AFOWCsAg0k///DscQthu90IUVVVrDUppADCmanxtZ/kTHGNUSgtRQFsWiQ4Nn9mws7CUxXa7K4rSIVrnrHNI9FcwM2OzjM1K0nedLd7h/9A3cdkndBz25IwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="딥러닝 기반 실내 공간 데이터 플랫폼 ‘에리어스 스튜디오’ UI. 이미지 출처 : https://www.dabeeo.com/"
+        title="딥러닝 기반 실내 공간 데이터 플랫폼 ‘에리어스 스튜디오’ UI. 이미지 출처 : https://www.dabeeo.com/"
+        src="/static/8cedd5d4c96c2d3a303b7c52e1626c98/f058b/15_Aries.png"
+        srcset="/static/8cedd5d4c96c2d3a303b7c52e1626c98/c26ae/15_Aries.png 158w,
+/static/8cedd5d4c96c2d3a303b7c52e1626c98/6bdcf/15_Aries.png 315w,
+/static/8cedd5d4c96c2d3a303b7c52e1626c98/f058b/15_Aries.png 630w,
+/static/8cedd5d4c96c2d3a303b7c52e1626c98/40601/15_Aries.png 945w,
+/static/8cedd5d4c96c2d3a303b7c52e1626c98/78612/15_Aries.png 1260w,
+/static/8cedd5d4c96c2d3a303b7c52e1626c98/3096d/15_Aries.png 1319w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span>
+<em>딥러닝 기반 실내 공간 데이터 플랫폼 ‘에리어스 스튜디오’ UI. 이미지 출처 : <a href="https://www.dabeeo.com/">https://www.dabeeo.com/</a></em></p>
+<p>공간데이터(실내외 지도, 디지털 트윈, 메타버스) 전문 기술 스타트업 다비오는 딥러닝 기반 실내 공간 데이터 플랫폼 ‘에리어스’, 인공위성 및 항공사진 기반 공간정보 데이터 서비스 ‘어스아이’, 그리고 지도 기반 여행 플래닝 앱 ‘투어플랜비’를 서비스하고 있습니다.</p>
+<p>미국 CES에서 기술 혁신상을 받을 정도로 공간데이터 업계에서 세계적인 수준으로 발돋움하고 있는 회사로 딥러닝 기술을 기반으로한 솔루션을 고도화시키면서 사업영역을 구축해 나가고 있는 다비오는 디비오 맵 웹 서비스 운영 중으로 얼마 전 2024년 3월, 시리즈C단계로 추가 투자유치 성과를 거두었네요.</p>
+<h3>재고관리 / 농업</h3>
+<p><strong>1. 유통기한 재고 관리 앱 ‘유통기한 언제지’  <a href="http://ourneeds.co.kr/">http://ourneeds.co.kr/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/96cd450b94751d1aa77924d02175d3a9/9f82e/16_Ourneeds.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 43.67088607594937%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABxUlEQVQoz2NQutaLC4lf6ZC62ql8rU/2amf87RXW16dLXQFx4QoYIJTCtR6Faz2KMBIkcqW75f7u8FtLxa62u12b8/3nj9dfPwTcXCh1tVMFph+qWeP6BM0bEzWuT1S/PlH7xiSxK+1xN5f///Hn59fv3lfnrnxy5se376+/fnK6NEPmWjdCs/K1Xvmr3WH3V2Q+3hR+f0ncgyWe9xbIXew4++bB////T7+5V3Vz88dvX969e9f0cBfP1WaVq70ozla81uN/b0nG400R9+ckP5iqeq2j5d6u///+///7P+TS/MrrG////3/p81PLLU1ehyaq352seLUHxdmKUK/2KV2fKH+5u/raxrefPy67fyLj+sqmG1sLLq6MurKoeEZnRnhcxKpOuVt9yleRNCtd61W+1qtyrU/iclvJ3U2z7h2OO7/Q58Ksmy8f/f/2v+HRrsjjs/5/+3Xq2HGnNY3yd/rRNatc6xO/2hF2c0n3kwMNT/cU3F7ffXf3/x9/X3/9FHt41oSFs/5//rnw/B7ZK13oUQWy+Xqf3OXONbeP/v//f9mLsyHn5r7/+OH/n/8THh4w3t3s5++fm5/nenaa1LUueJgBAPz6Rs13qqTNAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="AI 기반 유통기한 및 재고 관리 서비스 플랫폼 앱 서비스 UI. 이미지 출처 : https://platum.kr/archives/166633"
+        title="AI 기반 유통기한 및 재고 관리 서비스 플랫폼 앱 서비스 UI. 이미지 출처 : https://platum.kr/archives/166633"
+        src="/static/96cd450b94751d1aa77924d02175d3a9/f058b/16_Ourneeds.png"
+        srcset="/static/96cd450b94751d1aa77924d02175d3a9/c26ae/16_Ourneeds.png 158w,
+/static/96cd450b94751d1aa77924d02175d3a9/6bdcf/16_Ourneeds.png 315w,
+/static/96cd450b94751d1aa77924d02175d3a9/f058b/16_Ourneeds.png 630w,
+/static/96cd450b94751d1aa77924d02175d3a9/9f82e/16_Ourneeds.png 820w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>AI 기반 유통기한 및 재고 관리 서비스 플랫폼 앱 서비스 UI. 이미지 출처 : <a href="https://platum.kr/archives/166633">https://platum.kr/archives/166633</a></em></p>
+<p>니즈는 AI 기반 유통기한 및 재고 관리 서비스 플랫폼 ‘유통기한 언제지’를 웹, 앱 서비스로 제공 중입니다. 니즈 역시 2024년 3월, 비공개 단계로 뉴키즈인베스트먼트로부터 추가 투자유치 성과를 냈는데요.</p>
+<p>니즈는 프랜차이즈 전문 식자재 유통기한 및 재고 관리 솔루션인 ‘미리(MIRI)’ 서비스 개발사로 식자재 발주부터 입고, 출고까지 전 범위 자동화 시스템을 구축했으며, 단순 재고 관리를 넘어 AI 기반의 서비스가 장착된 자동 재고 관리 솔루션을 제공합니다. 또한, POS 데이터와 배달 데이터까지 제공하여 정확하고 효율적인 재고 관리가 가능하게 하는 것이 서비스 목표라고 합니다.</p>
+<p><strong>2. 농식품 인공지능 선별 플랫폼 ‘에이오팜’  <a href="https://aiofarm.co.kr/en/index.php">https://aiofarm.co.kr/en/index.php</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/909ff6bcffe7bb670a4e42b77d38bb75/4e663/17_Aiofarm.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 44.93670886075949%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdxSJWr/xAAYEAADAQEAAAAAAAAAAAAAAAAAAhESIP/aAAgBAQABBQLRRWvH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAECBBkeH/2gAIAQEABj8CwTSf/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERURAhMUGh/9oACAEBAAE/IY7507CTq6ErK9EPCP/aAAwDAQACAAMAAAAQHA//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QoX//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAgEBPxCn/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAExESFRcUGBsf/aAAgBAQABPxBpaYAJYQdXG9Fjpf2I5bHK2Q7P/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="에이오팜 제품 설치 프로세스. 이미지 출처 : https://aiofarm.co.kr/en/index.php"
+        title="에이오팜 제품 설치 프로세스. 이미지 출처 : https://aiofarm.co.kr/en/index.php"
+        src="/static/909ff6bcffe7bb670a4e42b77d38bb75/828fb/17_Aiofarm.jpg"
+        srcset="/static/909ff6bcffe7bb670a4e42b77d38bb75/ff44c/17_Aiofarm.jpg 158w,
+/static/909ff6bcffe7bb670a4e42b77d38bb75/a6688/17_Aiofarm.jpg 315w,
+/static/909ff6bcffe7bb670a4e42b77d38bb75/828fb/17_Aiofarm.jpg 630w,
+/static/909ff6bcffe7bb670a4e42b77d38bb75/0ede0/17_Aiofarm.jpg 945w,
+/static/909ff6bcffe7bb670a4e42b77d38bb75/3ac88/17_Aiofarm.jpg 1260w,
+/static/909ff6bcffe7bb670a4e42b77d38bb75/4e663/17_Aiofarm.jpg 1893w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>에이오팜 제품 설치 프로세스. 이미지 출처 : <a href="https://aiofarm.co.kr/en/index.php">https://aiofarm.co.kr/en/index.php</a></em></p>
+<p>농식품 인공지능 선별 플랫폼 ‘에이오팜’도 얼마 전 2024년 3월, 시리즈A단계로 35억원 규모의 투자 유치 성과를 거둔 바 있습니다. 딥러닝 기반 농산물 품질판단 시스템인 ‘에이오비전’ 서비스를 제공 중인데요. 농식품부의 대표 창업기업 16개 중 하나로 선정되어 민간투자기반 스케일업 지원사업에 최종 선발되기도 했습니다.</p>
+<p>미래 먹거리가 더욱 더 중요해진만큼 농식품분야 테크기업들의 성장과 활약이 기대되네요.</p>
+<p><strong>3. 컬티랩스의 생육데이터 측정분석 시스템  <a href="http://cultilabs.com/">http://cultilabs.com/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 599px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/964a793c7fd0244d9270a044f286848e/d533d/18_Cultilabs.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.708860759493675%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIDBP/aAAwDAQACEAMQAAAB1awVOLZv/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECAyH/2gAIAQEAAQUCvopzbSg//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQIAEf/aAAgBAwEBPwEiaFd3f//EABURAQEAAAAAAAAAAAAAAAAAABEA/9oACAECAQE/AUi//8QAGRAAAgMBAAAAAAAAAAAAAAAAACEBMkKR/9oACAEBAAY/AnCNdKn/xAAXEAEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEBAAE/IRVVA1poiYCcz//aAAwDAQACAAMAAAAQe9//xAAXEQEBAQEAAAAAAAAAAAAAAAABACFh/9oACAEDAQE/EBI0jm//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQIBAT8QViTf/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFhcf/aAAgBAQABPxCUnDAaXBJmusyAYvWf/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="컬티랩스 생육데이터 측정분석 시스템 서비스 예시. 이미지 출처 : https://www.etoday.co.kr/news/view/1973105 (자료제공 : 농업기술실용화재단)"
+        title="컬티랩스 생육데이터 측정분석 시스템 서비스 예시. 이미지 출처 : https://www.etoday.co.kr/news/view/1973105 (자료제공 : 농업기술실용화재단)"
+        src="/static/964a793c7fd0244d9270a044f286848e/d533d/18_Cultilabs.jpg"
+        srcset="/static/964a793c7fd0244d9270a044f286848e/ff44c/18_Cultilabs.jpg 158w,
+/static/964a793c7fd0244d9270a044f286848e/a6688/18_Cultilabs.jpg 315w,
+/static/964a793c7fd0244d9270a044f286848e/d533d/18_Cultilabs.jpg 599w"
+        sizes="(max-width: 599px) 100vw, 599px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>컬티랩스 생육데이터 측정분석 시스템 서비스 예시. 이미지 출처 : <a href="https://www.etoday.co.kr/news/view/1973105">https://www.etoday.co.kr/news/view/1973105</a> (자료제공 : 농업기술실용화재단)</em></p>
+<p>AI 기반 스마트팜 솔루션 제공 스타트업 컬티랩스는 스마트팜과 관련된 모든 곳에 디지털 솔루션을 제공하고 있습니다. 재배과정의 실수를 줄이고 누구나 쉽고 더 많은은 수익을 창출할 수 있도록 하며, 지구환경을 생각하는 농업을 추구한다고 합니다.</p>
+<p>컬티랩스에서는 다음과 같은 기능들을 제공합니다.</p>
+<ul>
+<li>재배 데이터 통합 모니터링 및 전문가 코칭 - 생육, 병해, 환경, 생리 등 모든 재배데이터를 통합 수집/분석하며, 파트너들과 데이터 공유 및 전문가 코칭을 통한 지속적인 생산성 향상 지원</li>
+<li>생육/병해 정보 취득 및 예측 - 표준화된 생육지표 데이터와 이미지 분석을 통해 작물 생육/병해 상태 파악 및 건강한 작물 재배를 위한 가이드라인 제공</li>
+<li>농경영 정보 분석 및 자원 관리 최적화 - 인력, 비료, 에너지 등 농장 운영에 필요한 모든 정보의 디지털화 및 통합 관리 및 데이터 분석을 통한 자원 절약 및 최적화</li>
+</ul>
+<p>즉, 재배데이터 통합 모니터링, 전문가 코칭, 생육/병해 예측, 농경영 정보 분석을 통해 농업 생산성과 효율성을 높이는 종합적인 서비스를 제공합니다. 웹 서비스로는 컬티테이터, 컬티그로쓰, 컬티매니저가 있으며 시스템&#x26;센서 제품을 제공하고 있습니다.</p>
+<p><strong>4. AI 기반 농촌 경제 플랫폼 ‘트랜스파머’  <a href="https://transfarmer.co.kr/">https://transfarmer.co.kr/</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 567px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1f1591b671c00ca48c850fef4e7df332/a7172/19_Transfarmer.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 67.08860759493672%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAUW85+TC4l//xAAaEAACAwEBAAAAAAAAAAAAAAABAgADERIh/9oACAEBAAEFAlGvZQVPhj6Il78cq8//xAAWEQEBAQAAAAAAAAAAAAAAAAABABL/2gAIAQMBAT8BCy3/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEXH/2gAIAQIBAT8B1H//xAAdEAACAQQDAAAAAAAAAAAAAAAAATECERIhIkGR/9oACAEBAAY/AkqoOO0QLcmPRdrw/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARIVFxQWH/2gAIAQEAAT8hBLW2oQeRiteHIAXhcoE2ZiIH6qf/2gAMAwEAAgADAAAAEHw//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QBZ//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EMagk//EAB0QAAICAgMBAAAAAAAAAAAAAAERACExUUFhcbH/2gAIAQEAAT8QIvekS9Q2YyDasP5KU7AKcEAyKaxah4GRhIkcB6ESTFGge0p//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="AI 기반 농촌 경제 플랫폼 ‘트랜스파머’ 앱 서비스. 이미지 출처 : https://www.hankooki.com/news/articleView.html?idxno=120589"
+        title="AI 기반 농촌 경제 플랫폼 ‘트랜스파머’ 앱 서비스. 이미지 출처 : https://www.hankooki.com/news/articleView.html?idxno=120589"
+        src="/static/1f1591b671c00ca48c850fef4e7df332/a7172/19_Transfarmer.jpg"
+        srcset="/static/1f1591b671c00ca48c850fef4e7df332/ff44c/19_Transfarmer.jpg 158w,
+/static/1f1591b671c00ca48c850fef4e7df332/a6688/19_Transfarmer.jpg 315w,
+/static/1f1591b671c00ca48c850fef4e7df332/a7172/19_Transfarmer.jpg 567w"
+        sizes="(max-width: 567px) 100vw, 567px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>AI 기반 농촌 경제 플랫폼 ‘트랜스파머’ 앱 서비스. 이미지 출처 : <a href="https://www.hankooki.com/news/articleView.html?idxno=120589">https://www.hankooki.com/news/articleView.html?idxno=120589</a></em></p>
+<p>AI 기반 농촌경제 플랫폼 ‘트랜스파머’도 2024년 3월, 소풍벤처스로부터 비공개 금액의 투자유치를 했습니다.</p>
+<p>트랜스파머 앱에서는 농지 검색에서 수익 창출까지 AI 가이드가 농촌생활을 돕습니다. 앱에서는 다음과 같은 기능을 제공합니다.</p>
+<ul>
+<li>가격 분석 - AI가 추정하는 농지와 전원주택 가격 보기</li>
+<li>매물 분석 - 농지 / 전원주택의 매물, 경매, 공매 정보</li>
+<li>농지연금 분석 - 농지, 나이에 따라 달라지는 예상 수령액 보기</li>
+<li>농지 찾기 - 궁금한 농지의 작물별 예상 수익보기</li>
+<li>내 농장 진단 - 내 작물 정보 입력하고 농사 성적표 확인하기</li>
+<li>내 집 짓기 - 원하는 땅에 집 설계도 선택하고 견적 확인하기</li>
+<li>이밖에 숨은 정책 지원금 찾기 - 농촌/농업의 지역별, 사업별 정책 검색</li>
+</ul>
+<p><strong>5. 데이터농업 플랫폼 ‘팜모닝’  <a href="https://greenlabs.co.kr/">https://greenlabs.co.kr/</a></strong>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 560px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f7cf1155c8dcedb4fc23570b3d616079/9342c/20_Parmmorning.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAd90XMsA/8QAGRAAAgMBAAAAAAAAAAAAAAAAABIBESEi/9oACAEBAAEFAtE2YUbly2P/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAgEFAQAAAAAAAAAAAAAAABEBAhASIZEy/9oACAEBAAY/AnvpG6u2WMnmRpH/xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMVFxYaHR/9oACAEBAAE/Ia4pzpGobosUK9ty3tMRSjq6+xsyeDP/2gAMAwEAAgADAAAAEIwP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERQf/aAAgBAwEBPxBJoz//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAHRAAAgICAwEAAAAAAAAAAAAAAREAITFBYXGRof/aAAgBAQABPxAHBIMVlPjUEBulknoOUtstz2bmIwyUe3Mv2Sm5YgrGgwP45//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="데이터농업 플랫폼 ‘팜모닝’ 앱 서비스. 이미지 출처 :  https://greenlabs.co.kr/"
+        title="데이터농업 플랫폼 ‘팜모닝’ 앱 서비스. 이미지 출처 :  https://greenlabs.co.kr/"
+        src="/static/f7cf1155c8dcedb4fc23570b3d616079/9342c/20_Parmmorning.jpg"
+        srcset="/static/f7cf1155c8dcedb4fc23570b3d616079/ff44c/20_Parmmorning.jpg 158w,
+/static/f7cf1155c8dcedb4fc23570b3d616079/a6688/20_Parmmorning.jpg 315w,
+/static/f7cf1155c8dcedb4fc23570b3d616079/9342c/20_Parmmorning.jpg 560w"
+        sizes="(max-width: 560px) 100vw, 560px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>데이터농업 플랫폼 ‘팜모닝’ 앱 서비스. 이미지 출처 :  <a href="https://greenlabs.co.kr">https://greenlabs.co.kr</a></em></p>
+<p>데이터 농업 플랫폼 ‘팜모닝’을 운영하는 스타트업 그린랩스는 누적투자 유치금액 2,485억원(유치횟수 5회)로 어마어마한 투자 성과를 자랑하고 있는데요. 월간 이용자수 약 40만명 이상으로(팜모닝에 한함)  팜모닝 웹, 앱 서비스, 신선하이 웹, 앱 서비스, 팜모닝_축산 앱 서비스를 제공 중에 있습니다.</p>
+<p>특히 그린랩스의 창업자 이력이 인상적이네요. 펀드 매니저에서 전자책 플랫폼(리디북스)와 데이팅앱(아만다) 창업한 후 애그테크 분야까지 전환한 커리어를 보유하고 있습니다. 팜모닝의 창업자는 본질적으로 유저를 많이 모으기 위해 뭘 해야할까?’ 고민하는 것에서 시작한 것이므로 별 차이가 없다고 말합니다. 유저가 모이면 데이터를 쌓아서 필요한 솔루션을 제시하는 게 기본구조라고요. 서비스 기획시 중점사항은 어떤 도메인이냐가 아니라 유저가 모일만한 곳과 쌓이는 데이터에 무게를 두었다는 뜻인 것 같습니다.</p>
+<h3>환경 / 에너지</h3>
+<p><strong>1. 탄소관리 플랫폼 ‘eNetZero’  <a href="http://ccmedia.co.kr/">http://ccmedia.co.kr/</a></strong><br>
+탄소관리 플랫폼 ‘eNetZero’ 및 데이터 수집, 분석, 블록체인 개발, AI 모델링 솔루션을 제공하는 기업 씨씨미디어는 eNetZero, eBrother DLSP, eBrother PILMS 서비스를 제공 중입니다.</p>
+<p>빅데이터 분야에서는 기상청, 환경공단, 저작권위원회, 데이터진흥원, 도로공사 등 공공기관과 신한금융, 우리금융 등 금융·민간 기업의 대용량 데이터 수집·저장·처리·분석·시각화와 데이터 포털 등의 업무를 지원했습니다. 최근 수집 데이터의 분석과 활용을 위한 조직 내 데이터 거버넌스와 메타 관리 및 데이터 분석 프로세스 구축 요구를 수용할 수 있는 ‘eBrother DSP’ 수요가 늘고 있다고 합니다.</p>
+<p>지난 해 신설된 ESG 사업부는 올해 글로벌 탄소관리플랫폼 구축 사업에 새롭게 착수했으며, 현대글로비스의 탄소관리, 환경시스템 구축과 환경공단의 대국민 탄소포인트 앱개발 등 구축형 사업과 더불어 최근 중소기업을 위한 서비스형 ‘eBrother NetZero’ 탄소관리 플랫폼을 애저 클라우드에서 제공한 바 있습니다.</p>
+<p>2024년 4월, 시리즈 B단계로 케이비증권, 비엔케이투자증권, 하이투자증권, 카카오페이증권부터 비공개 금액 투자유치 성과를 냈습니다.</p>
+<p><strong>2. 폐기물 관리 솔루션 플랫폼 ‘업박스’  <a href="https://recokr.com">https://recokr.com</a></strong><br>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/31678ba8495962474185e819779efadd/0a47e/21_Upbox.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 68.35443037974683%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACa0lEQVQ4y01US3LTQBDVuViyZAUXgBUX4AQcgBNwCnasKBawIVQli6SSEBPLdhxbkjU/aTQz0mj0qG5bLrqqq6Vpd+v16zfOLi6vcRAStZDoug7aNDBNC+8ciqJAnuccyX5f3eDbjwtMY8RqvUaMA/LNM168eoeXb97j9dsPyKqDgDk16ToHe2ratha1EFBKoW1bjOMI+u2uqND1AUprBtA0Le4XOW7uFhyzkb6WL6GbDqobERNAZ1Ut8byvMFuMEVNKACaUjcFB1FBSQmvN+WEY0NoOmbUWUilobSDkMTatxTBEbJ73WD3t0DnPRWNKjFQpzUh35QF93yOEnmMcBmRFVaOsajjn4X1A545jk335+h0fP33Gz19XSOPIzciUaVBLze8pJUzTxJE8I1RSazjvOTEb8em956IQAudpbCqic200Qh8Y9cREHD1jwkNAsBZGKvYUI3PSW4tgDBAHqLKCFpI/QI2Jmu1my7WUJ59iROacg5Ya+XKNu9sH3FzfYb8rGa1UGkob3rhUhpWQTjxKqXB5ec11vrXYrJ5QFhUyWv3twxJ/Hld4eFzj/u8K213JY3tCfhqXYuh7pCkxQms7LPINlustHtdPuFvkOAiFjHhgHZ60R3FeSowjL4vQzvxN6fg8c3t27zH0PbLipCchBCdqoXg0KiIpEJfkNIk0CtZ3LA/2E9fU3BjDFyAjbli003SWQUojNyP387g+oLUtXO/RO4dGiLOMZsmwbLa7As6Hs1xmTdGyqBEJn9DNaMiJv92+ZM3Ot2imIetDh9aUvDW6RoSKmlKz4b+xZgGTzePNAPisafk/4B+jZC7jx/CKnAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="폐기물 관리 솔루션 플랫폼 ‘업박스’ 서비스 인터페이스로 고객에게 배출량 포함한 데이터를 취합하여 전달하며, 사용자는 월별, 연간 배출량과 증감분 모두 확인 가능하다. 이미지 출처 :  https://recokr.com/"
+        title="폐기물 관리 솔루션 플랫폼 ‘업박스’ 서비스 인터페이스로 고객에게 배출량 포함한 데이터를 취합하여 전달하며, 사용자는 월별, 연간 배출량과 증감분 모두 확인 가능하다. 이미지 출처 :  https://recokr.com/"
+        src="/static/31678ba8495962474185e819779efadd/0a47e/21_Upbox.png"
+        srcset="/static/31678ba8495962474185e819779efadd/c26ae/21_Upbox.png 158w,
+/static/31678ba8495962474185e819779efadd/6bdcf/21_Upbox.png 315w,
+/static/31678ba8495962474185e819779efadd/0a47e/21_Upbox.png 600w"
+        sizes="(max-width: 600px) 100vw, 600px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span><br>
+<em>폐기물 관리 솔루션 플랫폼 ‘업박스’ 서비스 UI로 고객에게 폐기물 배출량을 포함한 데이터를 취합 전달하며, 사용자는 월별, 연간 배출량과 증감분 모두 확인 가능하다. 이미지 출처 :  <a href="https://recokr.com/">https://recokr.com/</a></em></p>
+<p>폐기물 관리 솔루션 플랫폼 ‘업박스’를 운영하는 스타트업 리코는 넥스트랩과 공동개발한 인공지능 폐기물 부피 측정 기술을 인정받아 2023 코리아 AI 스타트업에 선정되기도 했습니다.</p>
+<p>대표 서비스 ‘업박스’는 사업장 폐기물 수거 서비스로, 폐기물을 수거할 때 정확한 양을 측정하고 사진 을 찍는 것이 특징이며, 그중 음식 폐기물은 부피를 측정하는 방식으로 수거 기사가 입력한 값의 오류를 검증하기 위해 AI 부피 측정 기술을 개발했다고 합니다. 리코 역시 얼마 전 2024년 2월, 팁스 인큐베이팅 지원금을 투자받아 사업화를 지속해 나가고 있습니다.</p>
+<h2>마치며</h2>
+<p>지금까지 AI 기술 및 서비스 최신 트렌드 PartIV. 국내외 최신 AI 서비스 현황을 만나보았습니다. 욕심껏 담다보니 약 40여 개 서비스들로 구성되어 2편으로 나눠 발행하게 되었습니다.
+향후 시장조사했던 실제 서비스를 pick하여 직접 이용해 본 리뷰 콘텐츠를 작성해볼까도 생각해보는 계기가 되었네요.<br>
+곧 다양하고 알찬 주제로 다시 만나뵐게요. 다소 긴 글 끝까지 함께해 주셔서 감사합니다.</p>
+<h2>참고문헌 및 링크</h2>
+<ul>
+<li><a href="https://outstanding.kr/monthly20240403">https://outstanding.kr/monthly20240403</a></li>
+<li><a href="https://www.innoforest.co.kr/">https://www.innoforest.co.kr/</a></li>
+<li><a href="https://thevc.kr/">https://thevc.kr/</a></li>
+<li><a href="https://news.cafe24.com/kr/">https://news.cafe24.com/kr/</a></li>
+<li><a href="https://platum.kr/archives/209044">https://platum.kr/archives/209044</a></li>
+<li><a href="https://www.etnews.com/20231006000365">https://www.etnews.com/20231006000365</a></li>
+<li><a href="https://www.pharmnews.com/news/articleView.html?idxno=213935">https://www.pharmnews.com/news/articleView.html?idxno=213935</a></li>
+<li><a href="https://m.ddaily.co.kr/page/view/2024022011262661695">https://m.ddaily.co.kr/page/view/2024022011262661695</a></li>
+<li><a href="https://news.heraldcorp.com/view.php?ud=20231201000355">https://news.heraldcorp.com/view.php?ud=20231201000355</a></li>
+<li><a href="https://www.aitimes.com/news/articleView.html?idxno=132070">https://www.aitimes.com/news/articleView.html?idxno=132070</a></li>
+<li><a href="https://kr.aving.net/news/articleView.html?idxno=1787459">https://kr.aving.net/news/articleView.html?idxno=1787459</a></li>
+<li><a href="https://www.aitimes.com/news/articleView.html?idxno=132070">https://www.aitimes.com/news/articleView.html?idxno=132070</a></li>
+<li><a href="https://www.aitimes.kr/news/articleView.html?idxno=30917">https://www.aitimes.kr/news/articleView.html?idxno=30917</a></li>
+<li><a href="https://www.econovill.com/news/articleView.html?idxno=641949">https://www.econovill.com/news/articleView.html?idxno=641949</a></li>
+<li><a href="https://www.sedaily.com/NewsView/2D4727H841">https://www.sedaily.com/NewsView/2D4727H841</a></li>
+<li><a href="https://www.joongang.co.kr/article/25030759#home">https://www.joongang.co.kr/article/25030759#home</a></li>
+<li><a href="https://platum.kr/archives/224799">https://platum.kr/archives/224799</a></li>
+<li><a href="http://www.ccgnews.kr/news/articleView.html?idxno=11603">http://www.ccgnews.kr/news/articleView.html?idxno=11603</a></li>
+<li><a href="https://www.venturesquare.net/900708">https://www.venturesquare.net/900708</a></li>
+<li><a href="https://www.etnews.com/20240417000253">https://www.etnews.com/20240417000253</a></li>
+<li><a href="https://www.hankooki.com/news/articleView.html?idxno=120589">https://www.hankooki.com/news/articleView.html?idxno=120589</a></li>
+<li><a href="https://platum.kr/archives/225276">https://platum.kr/archives/225276</a></li>
+<li><a href="https://platum.kr/archives/224799">https://platum.kr/archives/224799</a></li>
+<li><a href="https://www.stylebot.co.kr/">https://www.stylebot.co.kr/</a></li>
+<li><a href="http://alwayz.co/">http://alwayz.co/</a></li>
+<li><a href="https://www.silvia.io/company">https://www.silvia.io/company</a></li>
+<li><a href="https://www.algocare.me/">https://www.algocare.me/</a></li>
+<li><a href="https://fittrix.io/">https://fittrix.io/</a></li>
+<li><a href="https://www.voyagerx.com/">https://www.voyagerx.com/</a></li>
+<li><a href="https://adler.cx/">https://adler.cx/</a></li>
+<li><a href="https://torder.com/">https://torder.com/</a></li>
+<li><a href="https://livfarm.com/">https://livfarm.com/</a></li>
+<li><a href="https://mindlogic.ai/ko">https://mindlogic.ai/ko</a></li>
+<li><a href="https://www.upstage.ai/">https://www.upstage.ai/</a></li>
+<li><a href="https://personaai.co.kr/">https://personaai.co.kr/</a></li>
+<li><a href="https://reppley.com/">https://reppley.com/</a></li>
+<li><a href="http://pledo.co.kr/">http://pledo.co.kr/</a></li>
+<li><a href="https://www.testglider.com/ko">https://www.testglider.com/ko</a></li>
+<li><a href="https://withace.ai/">https://withace.ai/</a></li>
+<li><a href="https://www.dabeeo.com/">https://www.dabeeo.com/</a></li>
+<li><a href="http://ourneeds.co.kr/">http://ourneeds.co.kr/</a></li>
+<li><a href="https://aiofarm.co.kr/en/index.php">https://aiofarm.co.kr/en/index.php</a></li>
+<li><a href="http://cultilabs.com/">http://cultilabs.com/</a></li>
+<li><a href="https://transfarmer.co.kr/">https://transfarmer.co.kr/</a></li>
+<li><a href="https://greenlabs.co.kr/">https://greenlabs.co.kr/</a></li>
+<li><a href="http://ccmedia.co.kr/">http://ccmedia.co.kr/</a></li>
+<li><a href="https://recokr.com/">https://recokr.com/</a></li>
+</ul></section><hr/><footer><div class="bio"><img class="bio-avatar" src="../images/Anna.png" width="50" height="50" alt=""/><p>작성자 <strong>Anna</strong></p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/2024-05-08-AI-trend-Part4-1/">← <!-- -->인공지능 최신 트렌드 Part IV. 국내외 최신 AI 서비스 현황 - 해외편</a></li><li><a rel="next" href="/2024-12-19-gyeonggi-good-work-place/">2024 경기가족친화 일하기 좋은 기업 선정! 미디어나비가 만들어가는 특별한 문화<!-- --> →</a></li></ul></nav></main><footer><p class="copyright">© MediaNavi</p></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2024-05-08-AI-trend-Part4-2/";window.___webpackCompilationHash="f8caf2253b1a6c7714c9";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-90c1351ed6738eeedfbb.js"],"component---src-pages-404-js":["/component---src-pages-404-js-ac989e24304a34f67e47.js"],"component---src-pages-index-js":["/component---src-pages-index-js-2c4d359f6f501ded91cb.js"],"component---src-pages-works-js":["/component---src-pages-works-js-beb11e784d78eadba7dc.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-3b9ccc2046bedbfe9991.js"]};/*]]>*/</script><script src="/app-90c1351ed6738eeedfbb.js" async=""></script><script src="/framework-1e99f3a671b040f20568.js" async=""></script><script src="/webpack-runtime-f59dd854d445c0e46e1c.js" async=""></script></body></html>
