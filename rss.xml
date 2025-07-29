@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MediaNavi blog]]></title><description><![CDATA[변화를 위한, 더 나은 목표를 위한 기술조력자. MediaNavi의 blog 입니다.]]></description><link>https://blog.medianavi.kr</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Jul 2025 04:06:03 GMT</lastBuildDate><item><title><![CDATA[코드넛]]></title><description><![CDATA[코드넛, AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료 2024.09. ~ 2025.05. 코드넛과 함께 진행했던 “AI 튜터 개발을 위한 교과서 기반의 AI…]]></description><link>https://blog.medianavi.kr/codnut/</link><guid isPermaLink="false">https://blog.medianavi.kr/codnut/</guid><pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;코드넛, AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MediaNavi blog]]></title><description><![CDATA[변화를 위한, 더 나은 목표를 위한 기술조력자. MediaNavi의 blog 입니다.]]></description><link>https://blog.medianavi.kr</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 29 Jul 2025 02:53:50 GMT</lastBuildDate><item><title><![CDATA[코드넛]]></title><description><![CDATA[AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료 2024.09. ~ 2025.05. 코드넛과 함께 진행했던 “AI 튜터 개발을 위한 교과서 기반의 AI…]]></description><link>https://blog.medianavi.kr/codnut/</link><guid isPermaLink="false">https://blog.medianavi.kr/codnut/</guid><pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료&lt;/h2&gt;
 &lt;p&gt;2024.09. ~ 2025.05.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;코드넛과 함께 진행했던 “AI 튜터 개발을 위한 교과서 기반의 AI 학습 데이터 가공” 과제의 고도화 프로젝트&lt;/li&gt;
 &lt;li&gt;초∙중∙고등학교 교과서 기반 데이터 추출 시스템 보완 및 고도화 작업을 통해 실제 AI가 생성해낸 문항의 정확도가 목표치를 상회하는 결과를 얻음.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;코드넛, 중∙고등학교 교과서 데이터 가공 프로젝트 수행 완료&lt;/h2&gt;
+&lt;h2&gt;중∙고등학교 교과서 데이터 가공 프로젝트 수행 완료&lt;/h2&gt;
 &lt;p&gt;2023.10. ~ 2024.03.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;AI 모델 개발을 위한 중∙고등학교 교과서 텍스트 데이터 가공 프로젝트 수행 완료&lt;/li&gt;
