@@ -1,13 +1,13 @@
 ---
 title: "AI로 구글 검색을 지배하는 법 – 2025 AI SEO 전략과 실전 프롬프트 완벽 가이드"
-date: "2025-08-11T01:00:00.000Z"
+date: "2025-08-12T01:00:00.000Z"
 category: "blog"
 description: "2025년 최신 AI SEO 전략과 실전 프롬프트를 한눈에! 구글에서 블로그 검색 유입을 10배로 끌어올릴 수 있는 실무형 가이드입니다."
 postauthor: "Anna"
 ---     
-## 지난 편에서 다룬 기본 SEO 전략, 이제 AI로 한 단계 더!  
+## 기본 SEO 전략, 이제 AI로 한 단계 더!  
 
-**1편: 구글 상위노출 비밀 노트 – 2025 기술 블로그 SEO 완벽 가이드** (https://blog.medianavi.kr/2025-08-11-Google-SEO-Guide-2025/)에서는 Google Search Console 설정부터 키워드 리서치, 메타 태그 최적화까지 SEO의 기본기에 대해 자세히 알아보았습니다.
+**1편: 구글 상위노출 비밀 노트 – 2025 기술 블로그 SEO 완벽 가이드** (https://blog.medianavi.kr/2025-08-11-Google-SEO-Guide-2025/) 에서는 Google Search Console 설정부터 키워드 리서치, 메타 태그 최적화까지 SEO의 기본기에 대해 자세히 알아보았습니다.
 
 하지만 2025년 현재, 단순히 키워드를 넣고 메타 태그를 작성하는 것만으로는 치열한 검색 경쟁에서 살아남기 어려운 현실입니다. ChatGPT, Claude, Gemini 같은 AI 도구들이 콘텐츠 생성 패러다임을 완전히 바꿔놓았기 때문이지요.
 
