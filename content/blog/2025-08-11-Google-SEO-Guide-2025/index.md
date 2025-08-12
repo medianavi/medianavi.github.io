@@ -330,7 +330,7 @@ Google Search Console은 구글이 무료로 제공하는 웹마스터 도구로
 
 따라서 다음 편에서는 ChatGPT API를 활용한 키워드 분석, AI 기반 메타 태그 자동 생성, Python을 활용한 SEO 성과 예측 모델 개발과 실전 프롬프트 예시까지 AI를 활용한 스마트 SEO 전략을 소개하겠습니다.
 
-**2편: AI로 구글 검색을 지배하는 법 – 2025 AI SEO 전략과 실전 프롬프트 완벽 가이드 ()**
+**2편: AI로 구글 검색을 지배하는 법 – 2025 AI SEO 전략과 실전 프롬프트 완벽 가이드 (https://blog.medianavi.kr/2025-08-11-Smart-AI-SEO-Giude-2025/)**
 
 ## 참고 문헌 및 링크
 1) https://moz.com/learn/seo  
