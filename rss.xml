@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MediaNavi blog]]></title><description><![CDATA[변화를 위한, 더 나은 목표를 위한 기술조력자. MediaNavi의 blog 입니다.]]></description><link>https://blog.medianavi.kr</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Nov 2025 02:19:50 GMT</lastBuildDate><item><title><![CDATA[AI 시대, 비개발자의 바이브 코딩 앱 개발기]]></title><description><![CDATA[1. 코딩 한 줄 몰라도 만든 5개의 앱 비개발자인 제가 약 6주간 바이브 코딩으로 5개의 앱 서비스를 만들고 배포까지 완료했습니다. 개발 기간: 약 6주 개발 비용: 무료(API, 호스팅 비용 포함) 사용 도구: Google AI Studio…]]></description><link>https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</link><guid isPermaLink="false">https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</guid><pubDate>Wed, 05 Nov 2025 01:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;1. 코딩 한 줄 몰라도 만든 5개의 앱&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MediaNavi blog]]></title><description><![CDATA[변화를 위한, 더 나은 목표를 위한 기술조력자. MediaNavi의 blog 입니다.]]></description><link>https://blog.medianavi.kr</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Nov 2025 02:54:24 GMT</lastBuildDate><item><title><![CDATA[AI 시대, 비개발자의 바이브 코딩 앱 개발기]]></title><description><![CDATA[1. 코딩 한 줄 몰라도 만든 5개의 앱 비개발자인 제가 약 6주간 바이브 코딩으로 5개의 앱 서비스를 만들고 배포까지 완료했습니다. 개발 기간: 약 6주 개발 비용: 무료(API, 호스팅 비용 포함) 사용 도구: Google AI Studio…]]></description><link>https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</link><guid isPermaLink="false">https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</guid><pubDate>Wed, 05 Nov 2025 01:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;1. 코딩 한 줄 몰라도 만든 5개의 앱&lt;/h2&gt;
 &lt;p&gt;비개발자인 제가 약 6주간 바이브 코딩으로 5개의 앱 서비스를 만들고 배포까지 완료했습니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;개발 기간: 약 6주&lt;/li&gt;
@@ -920,51 +920,7 @@ model &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; SentenceTransf
 &lt;li&gt;SEO Starter Guide - &lt;a href=&quot;https://developers.google.com/&quot;&gt;https://developers.google.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Google Search Console 도움말 - &lt;a href=&quot;https://support.google.com/webmasters#topic=9128571&quot;&gt;https://support.google.com/webmasters#topic=9128571&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Google PageSpeed Insights - &lt;a href=&quot;https://pagespeed.web.dev/&quot;&gt;https://pagespeed.web.dev/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[에이앤에이]]></title><description><![CDATA[스마트 RPC 재고관리 시스템 고도화 프로젝트 진행 중 2025.01. ~ 현재 2024년 수행 완료한 스마트 RPC 재고관리 시스템 1차 프로젝트의 고도화 작업으로 시스템 안정화 및 유지보수 작업 진행 중 공급업체 관리 시스템(VMS…]]></description><link>https://blog.medianavi.kr/ana/</link><guid isPermaLink="false">https://blog.medianavi.kr/ana/</guid><pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;스마트 RPC 재고관리 시스템 고도화 프로젝트 진행 중&lt;/h2&gt;
-&lt;p&gt;2025.01. ~ 현재&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2024년 수행 완료한 스마트 RPC 재고관리 시스템 1차 프로젝트의 고도화 작업으로 시스템 안정화 및 유지보수 작업 진행 중&lt;/li&gt;
-&lt;li&gt;공급업체 관리 시스템(VMS) 개발을 포함, 관리자의 편의성과 재고 측정 정확도 향상을 고려한 소프트웨어 개선작업 추진 중&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;스마트 RPC 실시간 재고관리 시스템 구축사업 수행 완료&lt;/h2&gt;
-&lt;p&gt;2023.04. ~ 2023.12.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;지역 농협 RPC 에 미디어나비에서 설계하고 개발한 라이다 센서 제어 하드웨어 및 관리 소프트웨어 개발 납품&lt;/li&gt;
-&lt;li&gt;사일로 재고를 실시간으로 모니터링 할 수 있도록 센서 데이터 수집부터 가공, 분석, 대시보드 API 등 스마트 RPC 실시간 재고관리 시스템을 위한 솔루션 공급&lt;/li&gt;
-&lt;li&gt;1차 프로젝트로 지역 RPC 내 49개 사일로 재고를 실시간으로 모니터링하고 있음&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4b457c07ccf90c9e2b57a1cff95e5740/f8402/ana_djrpc.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABosIqFf/EABgQAQEAAwAAAAAAAAAAAAAAAAMBAAIT/9oACAEBAAEFAl1TqEsLP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAECABARIf/aAAgBAQAGPwJiq8g0Ya//xAAaEAABBQEAAAAAAAAAAAAAAAABABARIWFR/9oACAEBAAE/IbsC0cQduDInW//aAAwDAQACAAMAAAAQ/A//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAJ/8QAGhABAQACAwAAAAAAAAAAAAAAAREAITFBUf/aAAgBAQABPxB9lCKV06uH1BR0LXuFheZn/9k=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;에이앤에이 프로젝트 내용_스크린샷&quot;
-        title=&quot;에이앤에이 프로젝트 내용_스크린샷&quot;
-        src=&quot;/static/4b457c07ccf90c9e2b57a1cff95e5740/828fb/ana_djrpc.jpg&quot;
-        srcset=&quot;/static/4b457c07ccf90c9e2b57a1cff95e5740/ff44c/ana_djrpc.jpg 158w,
-/static/4b457c07ccf90c9e2b57a1cff95e5740/a6688/ana_djrpc.jpg 315w,
-/static/4b457c07ccf90c9e2b57a1cff95e5740/828fb/ana_djrpc.jpg 630w,
-/static/4b457c07ccf90c9e2b57a1cff95e5740/0ede0/ana_djrpc.jpg 945w,
-/static/4b457c07ccf90c9e2b57a1cff95e5740/f8402/ana_djrpc.jpg 1066w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[코드넛]]></title><description><![CDATA[AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료 2024.09. ~ 2025.05. 코드넛과 함께 진행했던 “AI 튜터 개발을 위한 교과서 기반의 AI…]]></description><link>https://blog.medianavi.kr/codnut/</link><guid isPermaLink="false">https://blog.medianavi.kr/codnut/</guid><pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료&lt;/h2&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[코드넛]]></title><description><![CDATA[AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료 2024.09. ~ 2025.05. 코드넛과 함께 진행했던 “AI 튜터 개발을 위한 교과서 기반의 AI…]]></description><link>https://blog.medianavi.kr/codnut/</link><guid isPermaLink="false">https://blog.medianavi.kr/codnut/</guid><pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;AI 튜터 개발을 위한 초∙중∙고등학교 교과서 데이터 추출 시스템 보완 및 고도화 프로젝트 수행 완료&lt;/h2&gt;
 &lt;p&gt;2024.09. ~ 2025.05.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;코드넛과 함께 진행했던 “AI 튜터 개발을 위한 교과서 기반의 AI 학습 데이터 가공” 과제의 고도화 프로젝트&lt;/li&gt;
