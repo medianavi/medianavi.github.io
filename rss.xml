@@ -1,4 +1,264 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MediaNavi blog]]></title><description><![CDATA[변화를 위한, 더 나은 목표를 위한 기술조력자. MediaNavi의 blog 입니다.]]></description><link>https://blog.medianavi.kr</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Nov 2025 02:54:24 GMT</lastBuildDate><item><title><![CDATA[AI 시대, 비개발자의 바이브 코딩 앱 개발기]]></title><description><![CDATA[1. 코딩 한 줄 몰라도 만든 5개의 앱 비개발자인 제가 약 6주간 바이브 코딩으로 5개의 앱 서비스를 만들고 배포까지 완료했습니다. 개발 기간: 약 6주 개발 비용: 무료(API, 호스팅 비용 포함) 사용 도구: Google AI Studio…]]></description><link>https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</link><guid isPermaLink="false">https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</guid><pubDate>Wed, 05 Nov 2025 01:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;1. 코딩 한 줄 몰라도 만든 5개의 앱&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[MediaNavi blog]]></title><description><![CDATA[변화를 위한, 더 나은 목표를 위한 기술조력자. MediaNavi의 blog 입니다.]]></description><link>https://blog.medianavi.kr</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 26 Dec 2025 02:23:16 GMT</lastBuildDate><item><title><![CDATA[미디어나비 2025 프로젝트 회고 - Just Do It]]></title><description><![CDATA[2025년, 기술을 관망하지 않고 직접 써보는 팀으로 살아남기 안녕하세요. 안나입니다. 벌써 2025년의 마지막 달이네요. 해가 갈수록 1년이 유난히 빠르게 지나갑니다. 올해를 돌아보며 문득 이런 생각이 들었습니다. “우리는 AI…]]></description><link>https://blog.medianavi.kr/2025-12-26-Project-Retrospective-2025/</link><guid isPermaLink="false">https://blog.medianavi.kr/2025-12-26-Project-Retrospective-2025/</guid><pubDate>Fri, 26 Dec 2025 01:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;2025년, 기술을 관망하지 않고 직접 써보는 팀으로 살아남기&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.69620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACeUlEQVQoz02SW0/TcBjG+xn8BsbvoIm3mph4iPHGCzVRQkxMNCbGiIiHSDThQgwIWRTkPNg4DBQ2xsYYbIDMscGWAVvZqXRrafvv2m09bN3af2sGmpi8efJevL88yfO8CCNojAhZGXJVgxE1IEEgnSpkZZ2r6lzVABJkBI1uXDYUiBorazhfR7iqEUvTozZPz+Ds8LTbMu/7ZrZ/NdsHrEt2b8g0umBd8KfIYkHWgahSZZUpq/miuneshHEZ4RVjFyX6JxaHp9zm2ZWZxQ2bc9O2tGmZ90UOia1o5ncsm6VKnKynQY2WIFnWIkQlkJW9qIjwDWdqwOK0e0MTP9cGJ11zroBjNTRqWzkCoqwZJUUnSjCMy7v5yg9/0hej11NiEFfygo4ACeYK0l6GRHNs/IhJ4GA/Q8VxgOZYvKj2OVGbNxHHQTDJYbza0mlr/eLABCN0yLzunkGACAlewRgxz1VwVs4XKkRBpooKK9RYCf5KsGOe/eUgigNp3BPz7KSXN8IdQ76H7XMWZwBhTtIDonYa9RGvpjkYSPJD7lT8WMK4mj+Ssbq3e6yels9Tk86tBy1dXSOL23sZUDUQ5gSjy3W6XAdiPUoq/nTVlxTG17ClKO2Oks2tfR3fFz6ZHW3d1kt32kzjLtUwiJK6eigipwXSgvqP11hJY0WVKlaFug4NwzS9c/NZz+V7L991jt1+9PF601tPCEuSZYJXGvDJn2h/F0GjSmqhAiuG4Qunrt59c/b8/Q+91uBBLoRJ4WxpYHql+UXvrab3ETSPNDz/G7JUYyR4gLFPXpnOnLtx8dpThy+S5uE6VrPvS65EJcEakRR43t5/4crjP4f0HBO4ScR7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot; 기술을 관망하지 않고 직접 써본 한해 - 2025년, 미디어나비의 기록, 이미지 출처: 미디어나비&quot; title=&quot; 기술을 관망하지 않고 직접 써본 한해 - 2025년, 미디어나비의 기록, 이미지 출처: 미디어나비&quot; src=&quot;/static/b9322a1ebccf768f03e85a0bbe8b8f95/f058b/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png&quot; srcset=&quot;/static/b9322a1ebccf768f03e85a0bbe8b8f95/c26ae/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png 158w,
+/static/b9322a1ebccf768f03e85a0bbe8b8f95/6bdcf/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png 315w,
+/static/b9322a1ebccf768f03e85a0bbe8b8f95/f058b/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png 630w,
+/static/b9322a1ebccf768f03e85a0bbe8b8f95/40601/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png 945w,
+/static/b9322a1ebccf768f03e85a0bbe8b8f95/78612/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png 1260w,
+/static/b9322a1ebccf768f03e85a0bbe8b8f95/56fb6/%EC%8D%B8%EB%84%A4%EC%9D%BC_2025%EB%85%84%2C%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D.png 2752w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;안녕하세요. 안나입니다.&lt;br&gt;
+벌써 2025년의 마지막 달이네요. 해가 갈수록 1년이 유난히 빠르게 지나갑니다.&lt;/p&gt;
+&lt;p&gt;올해를 돌아보며 문득 이런 생각이 들었습니다.&lt;br&gt;
+&lt;strong&gt;“우리는 AI 시대를 어떻게 준비하고 받아들이고 있을까?”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;미디어나비의 2025년은 하나의 문장으로 정리할 수 있습니다.&lt;br&gt;
+기술을 이야기하는 회사가 아니라, 직접 써보고 몸으로 익히는 팀이 되자.&lt;/p&gt;
+&lt;p&gt;누가 묻지 않았지만, 어쩌면 궁금했을지도 모를 미디어나비의 2025년을 정리해 봅니다.&lt;/p&gt;
+&lt;h2&gt;기술을 ‘연구’하는 것을 넘어, ‘현장’으로 가져가다&lt;/h2&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/47/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.9620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAdgssqMn/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAEQESH/2gAIAQEAAQUCMyOLh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAEgIf/aAAgBAQAGPwI1v//EABoQAAIDAQEAAAAAAAAAAAAAAAABESExQXH/2gAIAQEAAT8hc8rxNlMJ2LOmhpNKfDSD/9oADAMBAAIAAwAAABAX3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFRMUFhcZH/2gAIAQEAAT8QWCrjwErlFxawpqM6fVzFed5iIBUVeoSg1bb7qf/Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(1) 스마트 RPC 재고관리 시스템 고도화 2025년 주요 성과, 이미지 출처: 미디어나비&quot; title=&quot;(1) 스마트 RPC 재고관리 시스템 고도화 2025년 주요 성과, 이미지 출처: 미디어나비&quot; src=&quot;/static/447759f0e2dc10f8332a3e77b0ae32d8/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_01.jpg&quot; srcset=&quot;/static/447759f0e2dc10f8332a3e77b0ae32d8/ff44c/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_01.jpg 158w,
+/static/447759f0e2dc10f8332a3e77b0ae32d8/a6688/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_01.jpg 315w,
+/static/447759f0e2dc10f8332a3e77b0ae32d8/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_01.jpg 630w,
+/static/447759f0e2dc10f8332a3e77b0ae32d8/ed9a5/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_01.jpg 940w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(1) 스마트 RPC 재고관리 시스템 고도화 2025년 주요 성과, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;  
+&lt;p&gt;2025년 우리의 중심에는 &lt;strong&gt;스마트 RPC 재고관리 시스템이&lt;/strong&gt; 있었습니다.&lt;/p&gt;
+&lt;p&gt;곡물 저장 시설이라는 매우 현실적인 산업 현장에서,&lt;br&gt;
+하드웨어부터 소프트웨어, 데이터 분석까지 전 공정을 직접 경험하며&lt;br&gt;
+&lt;strong&gt;“기술이 실제로 작동하는 조건”&lt;/strong&gt; 을 끊임없이 검증해 온 프로젝트입니다.&lt;/p&gt;
+&lt;p&gt;이 프로젝트는 단일 솔루션을 넘어서 미디어나비가&lt;br&gt;
+&lt;strong&gt;AI·센서·엣지 컴퓨팅·대시보드·모바일 앱&lt;/strong&gt;을
+하나의 흐름으로 다룰 수 있는 팀이라는 점을&lt;br&gt;
+증명해 준 기반이 되었습니다.&lt;/p&gt;
+&lt;p&gt;*&lt;em&gt;상세 내용은 상단 이미지를 클릭하시거나 블로그 하단 프로젝트별 상세 링크를 클릭하시면 연결됩니다.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;새로운 도메인에 직접 뛰어들며 얻은 것들&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.69620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABVvzGKmRMH//EABkQAQEAAwEAAAAAAAAAAAAAAAECABEhA//aAAgBAQABBQLzg3zTApS1dIPc/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/AY1//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AbGP/8QAHRAAAQIHAAAAAAAAAAAAAAAAAAEhEBFBQlFxgf/aAAgBAQAGPwK1NjyM9HUZaQ//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhYXH/2gAIAQEAAT8h7jQL3kKmPDXA/UYIouOUKMlVd//aAAwDAQACAAMAAAAQWC//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAEDAQE/EGhOH//EABYRAQEBAAAAAAAAAAAAAAAAAAEAUf/aAAgBAgEBPxBGHt//xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUFRcYH/2gAIAQEAAT8QK13DOHlQ7ott4/cRNQvAHqrxFIB25m70Gd3LQl8z/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;새로운 도메인에 직접 뛰어들며 얻은 것들, 이미지 출처: 미디어나비&quot; title=&quot;새로운 도메인에 직접 뛰어들며 얻은 것들, 이미지 출처: 미디어나비&quot; src=&quot;/static/79800aabd59d26c3f79e074ba9fde7ef/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_02.jpg&quot; srcset=&quot;/static/79800aabd59d26c3f79e074ba9fde7ef/ff44c/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_02.jpg 158w,
+/static/79800aabd59d26c3f79e074ba9fde7ef/a6688/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_02.jpg 315w,
+/static/79800aabd59d26c3f79e074ba9fde7ef/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_02.jpg 630w,
+/static/79800aabd59d26c3f79e074ba9fde7ef/ed9a5/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_02.jpg 940w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;올해 우리는 기존에 다뤄보지 않았던 영역에도 과감히 들어갔습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;유통·물류 기업과의 협업 프로젝트&lt;/strong&gt;를 통해&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;여전히 아날로그에 머물러 있는 현장의 문제를 가까이에서 관찰했고,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;E 브로슈어 웹뷰어 개발, 컨테이너 적재 시뮬레이터 개발 등 디지털 전환&lt;/strong&gt;에 기여했으며,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;그 연장선에서 &lt;strong&gt;쿠팡·네이버스토어에 직접 판매자로 참여&lt;/strong&gt;하며&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;유통의 A to Z를 몸소 경험해오고 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;브로슈어 웹뷰어 바로가기&lt;/strong&gt; &lt;a href=&quot;http://hongcheon.medianavi.kr&quot;&gt;http://hongcheon.medianavi.kr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;컨테이너 적재 시뮬레이터 바로가기&lt;/strong&gt; &lt;a href=&quot;http://container.medianavi.kr/&quot;&gt;http://container.medianavi.kr/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;쿠팡스토어 미디어나비 판매상품 바로가기&lt;/strong&gt; &lt;a href=&quot;https://shop.coupang.com/A01509399?source=brandstore_sdp_atf&amp;#x26;ocid=23476156&amp;#x26;checkBatchDelivery=true&amp;#x26;pid=8286298620&amp;#x26;viid=93492867798&amp;#x26;platform=p&amp;#x26;brandId=0&amp;#x26;btcEnableForce=false%20i&quot;&gt;https://shop.coupang.com/A01509399?source=brandstore_sdp_atf&amp;#x26;ocid=23476156&amp;#x26;checkBatchDelivery=true&amp;#x26;pid=8286298620&amp;#x26;viid=93492867798&amp;#x26;platform=p&amp;#x26;brandId=0&amp;#x26;btcEnableForce=false%20i&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;프로젝트가 항상 후속 계약으로 이어지지는 않았습니다.&lt;br&gt;
+하지만 중요한 것은 결과보다 &lt;strong&gt;학습 속도와 도메인 이해도&lt;/strong&gt;였습니다.&lt;/p&gt;
+&lt;p&gt;이 경험들은 &lt;strong&gt;“우리 기술이 어디까지 확장 가능한가”&lt;/strong&gt; 를 판단하는&lt;br&gt;
+현실적인 기준이 되어 주었습니다.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/48/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 57.59493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAezRsok0lf/EABoQAQABBQAAAAAAAAAAAAAAAAABESEiMUH/2gAIAQEAAQUCpK7J2dv/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AY1//8QAGRABAAIDAAAAAAAAAAAAAAAAAAEyECEx/9oACAEBAAY/AlVXUbx//8QAHBABAAEEAwAAAAAAAAAAAAAAAQAQESFBUXHh/9oACAEBAAE/IQzLeBzHULPUB3S/CjOt0//aAAwDAQACAAMAAAAQPy//xAAWEQEBAQAAAAAAAAAAAAAAAAAAAXH/2gAIAQMBAT8Qsaf/xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhcf/aAAgBAgEBPxBoowf/xAAcEAEBAAMAAwEAAAAAAAAAAAABEQAhMWGBodH/2gAIAQEAAT8Q7C74TDjFyCtn18YLVNbrBEqa4z8wIgdkj0aY5//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(2) 좌측 상단부터 시계 방향으로 브로슈어 웹뷰어 UI, 컨테이너 적재 시뮬레이터 UI, 쿠팡스토어 미디어나비 입정 스크린샷, 이미지 출처: 미디어나비&quot; title=&quot;(2) 좌측 상단부터 시계 방향으로 브로슈어 웹뷰어 UI, 컨테이너 적재 시뮬레이터 UI, 쿠팡스토어 미디어나비 입정 스크린샷, 이미지 출처: 미디어나비&quot; src=&quot;/static/ae221c19fc38186ebd563f007addc3be/828fb/%EC%9C%A0%ED%86%B5_%EB%AC%BC%EB%A5%98_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_%EB%B3%91%ED%95%A9%EB%B3%B8.jpg&quot; srcset=&quot;/static/ae221c19fc38186ebd563f007addc3be/ff44c/%EC%9C%A0%ED%86%B5_%EB%AC%BC%EB%A5%98_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_%EB%B3%91%ED%95%A9%EB%B3%B8.jpg 158w,
+/static/ae221c19fc38186ebd563f007addc3be/a6688/%EC%9C%A0%ED%86%B5_%EB%AC%BC%EB%A5%98_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_%EB%B3%91%ED%95%A9%EB%B3%B8.jpg 315w,
+/static/ae221c19fc38186ebd563f007addc3be/828fb/%EC%9C%A0%ED%86%B5_%EB%AC%BC%EB%A5%98_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_%EB%B3%91%ED%95%A9%EB%B3%B8.jpg 630w,
+/static/ae221c19fc38186ebd563f007addc3be/0ede0/%EC%9C%A0%ED%86%B5_%EB%AC%BC%EB%A5%98_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_%EB%B3%91%ED%95%A9%EB%B3%B8.jpg 945w,
+/static/ae221c19fc38186ebd563f007addc3be/07635/%EC%9C%A0%ED%86%B5_%EB%AC%BC%EB%A5%98_%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_%EB%B3%91%ED%95%A9%EB%B3%B8.jpg 952w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(2) 좌측 상단부터 시계 방향으로 브로슈어 웹뷰어 UI, 컨테이너 적재 시뮬레이터 UI, 쿠팡스토어 미디어나비 입정 스크린샷, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;*&lt;em&gt;상세 내용은 상단 이미지를 클릭하시거나 블로그 하단 프로젝트별 상세 링크를 클릭하시면 연결됩니다.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;생성형 AI를 ‘도구’가 아니라 ‘동료’로 쓰기 시작하다&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.69620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABsylxnHNX/8QAGRABAQADAQAAAAAAAAAAAAAAAQACEhMx/9oACAEBAAEFAudpGIxPjf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABcRAQADAAAAAAAAAAAAAAAAAAABEiH/2gAIAQIBAT8BtLX/xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAACAwEAAAAAAAAAAAAAAAAAAREhMXH/2gAIAQEAAT8hdqwj0WTDd8NJmwx//9oADAMBAAIAAwAAABBMH//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QAtDl/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxBBsXdv/8QAHRABAAICAgMAAAAAAAAAAAAAAQARIVExQWGhsf/aAAgBAQABPxAWoDKDuhhor3GbQot0x39mastQHF1EE8mp/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;생성형 AI를 도구가 아니라 동료로 쓰기 시작하다, 이미지 출처: 미디어나비&quot; title=&quot;생성형 AI를 도구가 아니라 동료로 쓰기 시작하다, 이미지 출처: 미디어나비&quot; src=&quot;/static/7a82e838f8a6ff63e410c56703a4cf30/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_03.jpg&quot; srcset=&quot;/static/7a82e838f8a6ff63e410c56703a4cf30/ff44c/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_03.jpg 158w,
+/static/7a82e838f8a6ff63e410c56703a4cf30/a6688/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_03.jpg 315w,
+/static/7a82e838f8a6ff63e410c56703a4cf30/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_03.jpg 630w,
+/static/7a82e838f8a6ff63e410c56703a4cf30/ed9a5/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_03.jpg 940w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;2025년은 생성형 AI를 가장 적극적으로 실험한 해이기도 합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;게임, 웹 서비스, 숏폼 영상, 자동화 도구까지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;혼자서 어디까지 만들 수 있는지를 실험했고,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude, Gemini, Sora 등 **다양한 생성형 AI를 활용해&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;기획부터 개발, 배포까지의 속도를 극단적으로 끌어올렸습니다.**&lt;/p&gt;
+&lt;p&gt;이 과정에서 중요한 깨달음이 하나 있었습니다.&lt;br&gt;
+이제 경쟁력의 차이는 “개발을 할 줄 아는가”가 아니라&lt;br&gt;
+&lt;strong&gt;AI에게 무엇을, 어떻게, 잘 시키는가&lt;/strong&gt;에 달려 있다는 점입니다.&lt;/p&gt;
+&lt;p&gt;그래서 우리는 결과물도 물론이지만,&lt;br&gt;
+&lt;strong&gt;과정과 학습을 기록하는 것&lt;/strong&gt;에도 집중했습니다.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/49/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 48.10126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHZWil4XFxf/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAECBDEDERIz/9oACAEBAAEFAsbNkheHWJUz1P/EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8BjFv/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/AZxT/8QAHxAAAAMJAAAAAAAAAAAAAAAAAAERAhIgISIxQYGR/9oACAEBAAY/ApNJoFU8pXGOwf/EAB4QAAIBAwUAAAAAAAAAAAAAAAERABAhMUFhobHB/9oACAEBAAE/ISkyJvEQLmoxDc+dB6d0/9oADAMBAAIAAwAAABCTz//EABcRAQADAAAAAAAAAAAAAAAAAAABEUH/2gAIAQMBAT8QjlZ//8QAFhEBAQEAAAAAAAAAAAAAAAAAACER/9oACAECAQE/EKpl/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBUWH/2gAIAQEAAT8QXdSVuj4x5AR0ItacLivLRfpEov1GotWgEPZ//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(3) 생성형 AI를 활용하여 개발한 웹 게임 UI 모음, 이미지 출처: 미디어나비&quot; title=&quot;(3) 생성형 AI를 활용하여 개발한 웹 게임 UI 모음, 이미지 출처: 미디어나비&quot; src=&quot;/static/9b9b676a123d3c015c9491e4a45b9d3b/828fb/%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C_UI_%EB%B3%91%ED%95%A9.jpg&quot; srcset=&quot;/static/9b9b676a123d3c015c9491e4a45b9d3b/ff44c/%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C_UI_%EB%B3%91%ED%95%A9.jpg 158w,
+/static/9b9b676a123d3c015c9491e4a45b9d3b/a6688/%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C_UI_%EB%B3%91%ED%95%A9.jpg 315w,
+/static/9b9b676a123d3c015c9491e4a45b9d3b/828fb/%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C_UI_%EB%B3%91%ED%95%A9.jpg 630w,
+/static/9b9b676a123d3c015c9491e4a45b9d3b/2d18b/%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C_UI_%EB%B3%91%ED%95%A9.jpg 893w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(3) 생성형 AI를 활용하여 개발한 웹 게임 UI 모음, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/49/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 58.22784810126582%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAHtZdBTUX//xAAbEAABBAMAAAAAAAAAAAAAAAACAAERIjEzQf/aAAgBAQABBQJzYhHXlRfkL//EABYRAQEBAAAAAAAAAAAAAAAAAAABAv/aAAgBAwEBPwGpp//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwHVf//EABkQAAIDAQAAAAAAAAAAAAAAAAABEBExkf/aAAgBAQAGPwLH0RhU/wD/xAAZEAADAQEBAAAAAAAAAAAAAAAAARExIUH/2gAIAQEAAT8h7TgvIHsOVaNagjJSZBpLlYND/9oADAMBAAIAAwAAABDXP//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxBCYWBf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAgEBPxAR2Dt//8QAGxABAQEBAAMBAAAAAAAAAAAAAREAITFBYYH/2gAIAQEAAT8QqkUtQH5gK4BKr55qIX7ZkYWl4TO4FcAzEZOet//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(4) 생성형 AI를 활용하여 개발한 유아동 발달 자극 게임 &apos;JaneWorld&apos; UI 모음, 이미지 출처: 미디어나비&quot; title=&quot;(4) 생성형 AI를 활용하여 개발한 유아동 발달 자극 게임 &apos;JaneWorld&apos; UI 모음, 이미지 출처: 미디어나비&quot; src=&quot;/static/54452c7f74d2ffdc10bd28e5d0d9ad11/828fb/%EC%A0%9C%EC%9D%B8%EC%9B%94%EB%93%9C_UI_%EB%B3%91%ED%95%A9.jpg&quot; srcset=&quot;/static/54452c7f74d2ffdc10bd28e5d0d9ad11/ff44c/%EC%A0%9C%EC%9D%B8%EC%9B%94%EB%93%9C_UI_%EB%B3%91%ED%95%A9.jpg 158w,
+/static/54452c7f74d2ffdc10bd28e5d0d9ad11/a6688/%EC%A0%9C%EC%9D%B8%EC%9B%94%EB%93%9C_UI_%EB%B3%91%ED%95%A9.jpg 315w,
+/static/54452c7f74d2ffdc10bd28e5d0d9ad11/828fb/%EC%A0%9C%EC%9D%B8%EC%9B%94%EB%93%9C_UI_%EB%B3%91%ED%95%A9.jpg 630w,
+/static/54452c7f74d2ffdc10bd28e5d0d9ad11/873c3/%EC%A0%9C%EC%9D%B8%EC%9B%94%EB%93%9C_UI_%EB%B3%91%ED%95%A9.jpg 939w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(4) 생성형 AI를 활용하여 개발한 유아동 발달 자극 게임 &apos;JaneWorld&apos; UI 모음, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/49/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 35.44303797468354%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAdUwQb//xAAZEAACAwEAAAAAAAAAAAAAAAABAwARExL/2gAIAQEAAQUC6IGzK1ZP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BR//EABkQAAMAAwAAAAAAAAAAAAAAAAABESEyYf/aAAgBAQAGPwLCVXCM2P/EABkQAAMBAQEAAAAAAAAAAAAAAAABIUER8f/aAAgBAQABPyFRHp6H2NUsQ8HP/9oADAMBAAIAAwAAABCIP//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPxCQ2//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxAjRf/EABsQAAICAwEAAAAAAAAAAAAAAAERACFhccHR/9oACAEBAAE/EHgKMJo9QgYUEjBT3KlFY8n/2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(5) 생성형 AI 활용 제작 콘텐츠 SNS 1일 1업로드 게시 현황 , 이미지 출처: 미디어나비&quot; title=&quot;(5) 생성형 AI 활용 제작 콘텐츠 SNS 1일 1업로드 게시 현황 , 이미지 출처: 미디어나비&quot; src=&quot;/static/22c53ef83cd1f1a4a9b1fdb53f588085/828fb/SNS_%EA%B2%8C%EC%8B%9C%ED%98%84%ED%99%A9_%EB%B3%91%ED%95%A9.jpg&quot; srcset=&quot;/static/22c53ef83cd1f1a4a9b1fdb53f588085/ff44c/SNS_%EA%B2%8C%EC%8B%9C%ED%98%84%ED%99%A9_%EB%B3%91%ED%95%A9.jpg 158w,
+/static/22c53ef83cd1f1a4a9b1fdb53f588085/a6688/SNS_%EA%B2%8C%EC%8B%9C%ED%98%84%ED%99%A9_%EB%B3%91%ED%95%A9.jpg 315w,
+/static/22c53ef83cd1f1a4a9b1fdb53f588085/828fb/SNS_%EA%B2%8C%EC%8B%9C%ED%98%84%ED%99%A9_%EB%B3%91%ED%95%A9.jpg 630w,
+/static/22c53ef83cd1f1a4a9b1fdb53f588085/0ede0/SNS_%EA%B2%8C%EC%8B%9C%ED%98%84%ED%99%A9_%EB%B3%91%ED%95%A9.jpg 945w,
+/static/22c53ef83cd1f1a4a9b1fdb53f588085/ea522/SNS_%EA%B2%8C%EC%8B%9C%ED%98%84%ED%99%A9_%EB%B3%91%ED%95%A9.jpg 1028w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(5) 생성형 AI 활용 제작 콘텐츠 SNS 1일 1업로드 게시 현황 , 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;*&lt;em&gt;상세 내용은 상단 이미지를 클릭하시거나 블로그 하단 프로젝트별 상세 링크를 클릭하시면 연결됩니다.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;비개발자도 만들 수 있는 시대, 바이브 코딩의 가능성&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.69620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB04t3Nggf/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAIBIDH/2gAIAQEAAQUC0WVav//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAwEBPwGMv//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAZEAABBQAAAAAAAAAAAAAAAAAAAREgIUH/2gAIAQEABj8CKV8j/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERIRBBUf/aAAgBAQABPyFzBUpDrROofRIs94//2gAMAwEAAgADAAAAEMQP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBByzf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8Qpl//xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAQITFRYZH/2gAIAQEAAT8QoXSSIu/zEkdzgB6wAZPM5+GmI2AWmd6f/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;비개발자도 만들 수 있는 바이브 코딩의 가능성, 이미지 출처: 미디어나비&quot; title=&quot;비개발자도 만들 수 있는 바이브 코딩의 가능성, 이미지 출처: 미디어나비&quot; src=&quot;/static/f56ea84396ac9e280511beb7b224c77e/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_04.jpg&quot; srcset=&quot;/static/f56ea84396ac9e280511beb7b224c77e/ff44c/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_04.jpg 158w,
+/static/f56ea84396ac9e280511beb7b224c77e/a6688/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_04.jpg 315w,
+/static/f56ea84396ac9e280511beb7b224c77e/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_04.jpg 630w,
+/static/f56ea84396ac9e280511beb7b224c77e/ed9a5/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_04.jpg 940w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;개인적으로는 바이브 코딩 앱 서비스 개발이 큰 전환점이었습니다.&lt;br&gt;
+비개발자도 아이디어와 대화만으로 서비스를 만들 수 있는 시대에,&lt;br&gt;
+기술의 장벽은 생각보다 훨씬 낮아졌다는 것을 직접 확인했습니다.&lt;/p&gt;
+&lt;p&gt;아이를 위한 그림동화, 관계 상담 챗봇, 웰니스 앱, 시니어 키오스크 도우미까지.&lt;br&gt;
+짧은 기간 동안 여러 프로토타입을 만들어보며&lt;br&gt;
+&lt;strong&gt;“이제 중요한 것은 기술이 아니라 문제 정의”&lt;/strong&gt; 라는 확신을 갖게 되었습니다.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/49/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAG7ERqBP//EABkQAAEFAAAAAAAAAAAAAAAAAAQAAQMRM//aAAgBAQABBQIrEJrhX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ASf/xAAZEAABBQAAAAAAAAAAAAAAAAAAAQIQIVH/2gAIAQEABj8Ccpex/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFBYf/aAAgBAQABPyEpeeY5uWiLzgeT/9oADAMBAAIAAwAAABD73//EABgRAAIDAAAAAAAAAAAAAAAAAAABESEx/9oACAEDAQE/EMshH//EABcRAQADAAAAAAAAAAAAAAAAAAABETH/2gAIAQIBAT8Qnq3/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMVFh/9oACAEBAAE/ECg3Y4QEV1CrqiphyL8n/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(6-1) 바이브 코딩으로 개발, 배포한 앱 서비스 UI 모음, 이미지 출처: 미디어나비&quot; title=&quot;(6-1) 바이브 코딩으로 개발, 배포한 앱 서비스 UI 모음, 이미지 출처: 미디어나비&quot; src=&quot;/static/c597edae52e2e83e1674796262492ee6/828fb/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_01.jpg&quot; srcset=&quot;/static/c597edae52e2e83e1674796262492ee6/ff44c/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_01.jpg 158w,
+/static/c597edae52e2e83e1674796262492ee6/a6688/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_01.jpg 315w,
+/static/c597edae52e2e83e1674796262492ee6/828fb/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_01.jpg 630w,
+/static/c597edae52e2e83e1674796262492ee6/c80f2/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_01.jpg 796w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(6-1) 바이브 코딩으로 개발, 배포한 앱 서비스 UI 모음, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/49/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 40.50632911392405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAEDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWkkuB/8QAGBABAAMBAAAAAAAAAAAAAAAAAgABAyL/2gAIAQEAAQUC16OZsif/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABgQAAMBAQAAAAAAAAAAAAAAAAERMQAQ/9oACAEBAAY/AkLkbz//xAAYEAEBAAMAAAAAAAAAAAAAAAABACExUf/aAAgBAQABPyEPQQEIazf/2gAMAwEAAgADAAAAEHg//8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQMBAT8QCz//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QQOz/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQBBIeH/2gAIAQEAAT8QXe4KizmkippbgIRWdPm//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(6-2) 바이브 코딩으로 개발, 배포한 앱 서비스 UI 모음, 이미지 출처: 미디어나비&quot; title=&quot;(6-2) 바이브 코딩으로 개발, 배포한 앱 서비스 UI 모음, 이미지 출처: 미디어나비&quot; src=&quot;/static/a2189fea9a2a865fadf62adf67f8ab7e/828fb/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_02.jpg&quot; srcset=&quot;/static/a2189fea9a2a865fadf62adf67f8ab7e/ff44c/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_02.jpg 158w,
+/static/a2189fea9a2a865fadf62adf67f8ab7e/a6688/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_02.jpg 315w,
+/static/a2189fea9a2a865fadf62adf67f8ab7e/828fb/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_02.jpg 630w,
+/static/a2189fea9a2a865fadf62adf67f8ab7e/23313/%EB%B0%94%EC%9D%B4%EB%B8%8C%20%EC%BD%94%EB%94%A9_%EB%B3%91%ED%95%A9_02.jpg 741w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(6-2) 바이브 코딩으로 개발, 배포한 앱 서비스 UI 모음, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;*&lt;em&gt;상세 내용은 상단 이미지를 클릭하시거나 블로그 하단 프로젝트별 상세 링크를 클릭하시면 연결됩니다.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;내부 문제를 가장 먼저 해결하는 팀&lt;/h2&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.69620253164557%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAP/aAAwDAQACEAMQAAAB7SkI7g3/xAAXEAEBAQEAAAAAAAAAAAAAAAABEAIi/9oACAEBAAEFAroEOp//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAADAAAAAAAAAAAAAAAAAAAQICH/2gAIAQEABj8CSj//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAQITFh/9oACAEBAAE/IeQe00ENTQDQr//aAAwDAQACAAMAAAAQIO//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGhABAAMAAwAAAAAAAAAAAAAAAQARIRAxUf/aAAgBAQABPxBTshEi3AXNlR0NCh8uEE2DnH//2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;내부 문제를 가장 먼저 해결하는 팀, 이미지 출처: 미디어나비&quot; title=&quot;내부 문제를 가장 먼저 해결하는 팀, 이미지 출처: 미디어나비&quot; src=&quot;/static/087928f1bea2ba86e1e0ce777f5cd00f/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_05.jpg&quot; srcset=&quot;/static/087928f1bea2ba86e1e0ce777f5cd00f/ff44c/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_05.jpg 158w,
+/static/087928f1bea2ba86e1e0ce777f5cd00f/a6688/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_05.jpg 315w,
+/static/087928f1bea2ba86e1e0ce777f5cd00f/828fb/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_05.jpg 630w,
+/static/087928f1bea2ba86e1e0ce777f5cd00f/ec5dd/2025%EB%85%84%20%EB%AF%B8%EB%94%94%EC%96%B4%EB%82%98%EB%B9%84%20%ED%9A%8C%EA%B3%A0%EB%A1%9D_05.jpg 941w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;외부 프로젝트와 실험만큼 의미 있었던 것은&lt;br&gt;
+&lt;strong&gt;사내 미니 ERP 개발&lt;/strong&gt;이었습니다.&lt;/p&gt;
+&lt;p&gt;실제 업무에서 불편했던 것들을 하나씩 직접 만들며&lt;br&gt;
+공지사항, 업무관리, 휴가관리, 프로젝트 피드백, 아이디어 관리까지&lt;br&gt;
+우리에게 꼭 필요한 기능만 담았습니다.&lt;/p&gt;
+&lt;p&gt;이 경험은 분명히 말해줬습니다.&lt;br&gt;
+&lt;strong&gt;우리가 쓰기 불편한 도구는, 고객에게도 불편하다는 것&lt;/strong&gt;을 말입니다.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/50/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2qCgf//EABgQAAIDAAAAAAAAAAAAAAAAAAABEBES/9oACAEBAAEFAsISqP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABkQAAIDAQAAAAAAAAAAAAAAAAABESExkf/aAAgBAQABPyGV5xwIqkWf/9oADAMBAAIAAwAAABB7z//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxDVn//EABsQAQACAgMAAAAAAAAAAAAAAAEAIUFhkaGx/9oACAEBAAE/EG0ZWTwwQMHfMNJ//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(7) 미니 ERP UI 모음, 이미지 출처: 미디어나비&quot; title=&quot;(7) 미니 ERP UI 모음, 이미지 출처: 미디어나비&quot; src=&quot;/static/9ad3fb365e09caa7ce6680c4ee0fa4ca/828fb/%EB%AF%B8%EB%8B%88ERP_%EB%B3%91%ED%95%A9.jpg&quot; srcset=&quot;/static/9ad3fb365e09caa7ce6680c4ee0fa4ca/ff44c/%EB%AF%B8%EB%8B%88ERP_%EB%B3%91%ED%95%A9.jpg 158w,
+/static/9ad3fb365e09caa7ce6680c4ee0fa4ca/a6688/%EB%AF%B8%EB%8B%88ERP_%EB%B3%91%ED%95%A9.jpg 315w,
+/static/9ad3fb365e09caa7ce6680c4ee0fa4ca/828fb/%EB%AF%B8%EB%8B%88ERP_%EB%B3%91%ED%95%A9.jpg 630w,
+/static/9ad3fb365e09caa7ce6680c4ee0fa4ca/0ede0/%EB%AF%B8%EB%8B%88ERP_%EB%B3%91%ED%95%A9.jpg 945w,
+/static/9ad3fb365e09caa7ce6680c4ee0fa4ca/8b5c7/%EB%AF%B8%EB%8B%88ERP_%EB%B3%91%ED%95%A9.jpg 1038w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(7) 미니 ERP UI 모음, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;또한, 미디어나비 CTO 저스타가 활동하는 &lt;strong&gt;사회인 야구팀 관리 시스템을&lt;br&gt;
+디지털화&lt;/strong&gt; 하는 개발작업도 병행했습니다.&lt;br&gt;
+내가 직접 필요한 것을 만드는 것만큼&lt;br&gt;
+제대로, 잘 만들 수 있는 것도 없는 것 같습니다.&lt;/p&gt;
+&lt;p&gt;현재 수기로 입력 및 관리되고 있는 &lt;strong&gt;야구 경기 심판기록을 시스템 입력으로 전환하여&lt;br&gt;
+기록 데이터를 관리할 수 있도록 했으며,&lt;br&gt;
+리그, 구단, 구장 관리, 회원관리, 트레이드 기능&lt;/strong&gt; 등&lt;br&gt;
+꼭 필요한 기능들을 붙여 관리의 효율화를 높였습니다.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/50/&quot; target=&quot;_blank&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 46.835443037974684%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHZtiIoP//EABYQAAMAAAAAAAAAAAAAAAAAABAgIf/aAAgBAQABBQIVP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABMSAy/9oACAEBAAY/AuSIix//xAAYEAACAwAAAAAAAAAAAAAAAAAAAREgUf/aAAgBAQABPyEqcKj/2gAMAwEAAgADAAAAEJ8//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EEf/xAAfEAACAAUFAAAAAAAAAAAAAAAAARARITFhQVGRodH/2gAIAQEAAT8QWuWwsiliN1XRTblfg7sUP//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;(8) 사회인 야구팀 경기 심판기록 관리 시스템 &apos;분조야&apos; UI 모음, 이미지 출처: 미디어나비&quot; title=&quot;(8) 사회인 야구팀 경기 심판기록 관리 시스템 &apos;분조야&apos; UI 모음, 이미지 출처: 미디어나비&quot; src=&quot;/static/16c4165afd7745db89ca8e5e296bf473/828fb/%EB%B6%84%EC%A1%B0%EC%95%BC_UI_%EB%B3%91%ED%95%A9.jpg&quot; srcset=&quot;/static/16c4165afd7745db89ca8e5e296bf473/ff44c/%EB%B6%84%EC%A1%B0%EC%95%BC_UI_%EB%B3%91%ED%95%A9.jpg 158w,
+/static/16c4165afd7745db89ca8e5e296bf473/a6688/%EB%B6%84%EC%A1%B0%EC%95%BC_UI_%EB%B3%91%ED%95%A9.jpg 315w,
+/static/16c4165afd7745db89ca8e5e296bf473/828fb/%EB%B6%84%EC%A1%B0%EC%95%BC_UI_%EB%B3%91%ED%95%A9.jpg 630w,
+/static/16c4165afd7745db89ca8e5e296bf473/0ede0/%EB%B6%84%EC%A1%B0%EC%95%BC_UI_%EB%B3%91%ED%95%A9.jpg 945w,
+/static/16c4165afd7745db89ca8e5e296bf473/c1eae/%EB%B6%84%EC%A1%B0%EC%95%BC_UI_%EB%B3%91%ED%95%A9.jpg 949w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+    &lt;/span&gt;&lt;/a&gt;
+  &lt;figcaption&gt;(8) 사회인 야구팀 경기 심판기록 관리 시스템 &apos;분조야&apos; UI 모음, 이미지 출처: 미디어나비&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;*&lt;em&gt;상세 내용은 상단 이미지를 클릭하시거나 블로그 하단 프로젝트별 상세 링크를 클릭하시면 연결됩니다.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;2025년을 한 문장으로 정리한다면&lt;/h2&gt;
+&lt;p&gt;2025년은 미디어나비에게 &lt;strong&gt;‘도전의 해’&lt;/strong&gt; 였습니다.&lt;br&gt;
+하드웨어, 소프트웨어, 유통, 물류, 콘텐츠, AI 실험까지&lt;br&gt;
+고민하는 시간보다 &lt;strong&gt;직접 해보는 선택&lt;/strong&gt;을 더 많이 했던 한 해였습니다.&lt;/p&gt;
+&lt;p&gt;그래서 올해의 모토는 단순했습니다.&lt;br&gt;
+&lt;strong&gt;Just Do It.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2026년에도 미디어나비는&lt;br&gt;
+기술을 설명하는 회사가 아니라&lt;br&gt;
+&lt;strong&gt;기술을 실제로 써보고 증명하는 팀&lt;/strong&gt;으로 계속 움직이겠습니다.&lt;/p&gt;
+&lt;p&gt;각 프로젝트의 상세한 이야기들은&lt;br&gt;
+아래 링크를 통해 천천히 확인해 주세요.&lt;/p&gt;
+&lt;h2&gt;개별 프로젝트 상세보기&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;스마트 RPC 재고관리 시스템 개발 및 고도화 프로젝트&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://works.medianavi.kr/blog/47&quot;&gt;http://works.medianavi.kr/blog/47&lt;/a&gt;
+2. 유통·물류 현장에서 검증한 디지털 전환 프로젝트: 웹뷰어부터 컨테이너 적재 시뮬레이션까지&lt;br&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/48/&quot;&gt;http://works.medianavi.kr/blog/48/&lt;/a&gt;
+3. 생성형 AI로 확장한 콘텐츠·앱 서비스 PoC 프로젝트: 멀티미디어 제작부터 바이브 코딩 앱까지&lt;br&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/49/&quot;&gt;http://works.medianavi.kr/blog/49/&lt;/a&gt;
+4. 내부 효율화와 외부 협업을 동시에 진행한 개발 프로젝트 기록: 사내 미니 ERP 구축과 데이터 분석 협업 사례&lt;br&gt;
+&lt;a href=&quot;http://works.medianavi.kr/blog/50/&quot;&gt;http://works.medianavi.kr/blog/50/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AI 시대, 비개발자의 바이브 코딩 앱 개발기]]></title><description><![CDATA[1. 코딩 한 줄 몰라도 만든 5개의 앱 비개발자인 제가 약 6주간 바이브 코딩으로 5개의 앱 서비스를 만들고 배포까지 완료했습니다. 개발 기간: 약 6주 개발 비용: 무료(API, 호스팅 비용 포함) 사용 도구: Google AI Studio…]]></description><link>https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</link><guid isPermaLink="false">https://blog.medianavi.kr/2025-11-05-Vibe Coding-Review/</guid><pubDate>Wed, 05 Nov 2025 01:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;1. 코딩 한 줄 몰라도 만든 5개의 앱&lt;/h2&gt;
 &lt;p&gt;비개발자인 제가 약 6주간 바이브 코딩으로 5개의 앱 서비스를 만들고 배포까지 완료했습니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;개발 기간: 약 6주&lt;/li&gt;
