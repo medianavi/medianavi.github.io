@@ -114,8 +114,8 @@ postauthor: "Anna"
  
  <figure>
 <a href="http://works.medianavi.kr/blog/49/" target="_blank">
-  <img src="./SNS_게시현황_병합.jpg" alt="(5) 생성형 AI 활용 제작 콘텐츠 SNS 1일 1업로드 게시 현황 , 이미지 출처: 미디어나비"/></a>
-  <figcaption>(5) 생성형 AI 활용 제작 콘텐츠 SNS 1일 1업로드 게시 현황 , 이미지 출처: 미디어나비</figcaption>
+  <img src="./SNS_게시현황_병합.jpg" alt="(5) 생성형 AI 활용 제작 콘텐츠 SNS 업로드 현황 , 이미지 출처: 미디어나비"/></a>
+  <figcaption>(5) 생성형 AI 활용 제작 콘텐츠 SNS 업로드 현황 , 이미지 출처: 미디어나비</figcaption>
 </figure>
 
  **상세 내용은 상단 이미지를 클릭하시거나 블로그 하단 프로젝트별 상세 링크를 클릭하시면 연결됩니다.*
